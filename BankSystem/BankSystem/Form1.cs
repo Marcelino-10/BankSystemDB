@@ -29,6 +29,7 @@ namespace BankSystem
             if(id == "" || pass == "")
             {
                 MessageBox.Show("Please fill in the data fields!!");
+                return;
             }
 
             string _path = AppDomain.CurrentDomain.BaseDirectory;
@@ -45,7 +46,7 @@ namespace BankSystem
 
             if (reader.Read())
             {
-                MessageBox.Show("Matched id and pass");
+                MessageBox.Show("Matched id and pass for Admin");
                 con.Close();
                 return;
             }
@@ -53,7 +54,7 @@ namespace BankSystem
             command.CommandText = "select* from customer WHERE password = '" + pass + "' and id = '" + id + "'";
             if (reader.Read())
             {
-                MessageBox.Show("Matched id and pass");
+                MessageBox.Show("Matched id and pass for Customer");
                 con.Close();
                 return;
             }
@@ -61,7 +62,7 @@ namespace BankSystem
             command.CommandText = "select* from employee WHERE password = '" + pass + "' and id = '" + id + "'";
             if (reader.Read())
             {
-                MessageBox.Show("Matched id and pass");
+                MessageBox.Show("Matched id and pass for Employee");
                 con.Close();
                 return;
             }

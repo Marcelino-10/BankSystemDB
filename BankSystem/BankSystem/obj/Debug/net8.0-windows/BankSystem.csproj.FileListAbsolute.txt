@@ -134,3 +134,4 @@ C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\ne
 C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.pdb
 C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.genruntimeconfig.cache
 C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\ref\BankSystem.dll
+C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\System.ClientModel.dll
