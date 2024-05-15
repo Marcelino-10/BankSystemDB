@@ -32,8 +32,8 @@ namespace BankSystem
             }
 
             string _path = AppDomain.CurrentDomain.BaseDirectory;
-            string DBPath = Path.Combine(_path, "DatabaseLocal", "Banks.mdf");
-            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\DB\\LocalDB.mdf;Integrated Security = True";
+            string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=" + path + ";Integrated Security=True";
 
 
             SqlConnection con = new SqlConnection(connectionString);
