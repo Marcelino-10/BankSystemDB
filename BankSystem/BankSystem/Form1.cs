@@ -8,7 +8,9 @@ namespace BankSystem
     {
         public Form1()
         {
+
             InitializeComponent();
+            main = new mainPage();
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -35,30 +37,36 @@ namespace BankSystem
 
             if (reader.Read())
             {
-                MessageBox.Show("Matched id and pass for Admin");
                 con.Close();
+                main.Show();
+                Hide();
+                main.openAdmin(sender, e);
                 return;
             }
 
             command.CommandText = "select* from customer WHERE password = '" + pass + "' and id = '" + id + "'";
             if (reader.Read())
-            {
-                MessageBox.Show("Matched id and pass for Customer");
+            {               
                 con.Close();
+                main.Show();
+                Hide();
+                main.openCustomer(sender, e);
                 return;
             }
 
             command.CommandText = "select* from employee WHERE password = '" + pass + "' and id = '" + id + "'";
             if (reader.Read())
-            {
-                MessageBox.Show("Matched id and pass for Employee");
+            {                
                 con.Close();
+                main.Show();
+                Hide();
+                main.openEmployee(sender, e);
                 return;
             }
+
             MessageBox.Show("NO matched id or passs!!");
             con.Close();
             return;
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
