@@ -1,137 +1,25 @@
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.exe
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.deps.json
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.runtimeconfig.json
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.pdb
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.csproj.AssemblyReference.cache
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.Form1.resources
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.csproj.GenerateResource.cache
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.GeneratedMSBuildEditorConfig.editorconfig
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.AssemblyInfoInputs.cache
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.AssemblyInfo.cs
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.csproj.CoreCompileInputs.cache
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.sourcelink.json
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.csproj.Up2Date
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\refint\BankSystem.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.pdb
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.genruntimeconfig.cache
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\ref\BankSystem.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Azure.Core.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Azure.Identity.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\System.Memory.Data.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.exe
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.deps.json
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.runtimeconfig.json
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.pdb
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Azure.Core.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Azure.Identity.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\System.Memory.Data.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.csproj.AssemblyReference.cache
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.Form1.resources
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.csproj.GenerateResource.cache
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.AssemblyInfoInputs.cache
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.AssemblyInfo.cs
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.csproj.CoreCompileInputs.cache
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.sourcelink.json
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.csproj.Up2Date
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\refint\BankSystem.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.pdb
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.genruntimeconfig.cache
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\ref\BankSystem.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.Form1.resources
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.csproj.GenerateResource.cache
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.AssemblyInfoInputs.cache
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.AssemblyInfo.cs
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.sourcelink.json
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.exe
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.deps.json
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.runtimeconfig.json
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.dll
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\BankSystem.pdb
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.csproj.AssemblyReference.cache
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.csproj.Up2Date
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.dll
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\refint\BankSystem.dll
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.pdb
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.genruntimeconfig.cache
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\ref\BankSystem.dll

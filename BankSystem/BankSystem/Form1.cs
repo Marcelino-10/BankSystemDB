@@ -10,23 +10,12 @@ namespace BankSystem
         {
             InitializeComponent();
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             string id = textBox1.Text;
             string pass = textBox2.Text;
 
-            if(id == "" || pass == "")
+            if (id == "" || pass == "")
             {
                 MessageBox.Show("Please fill in the data fields!!");
                 return;
@@ -41,7 +30,7 @@ namespace BankSystem
             con.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = con;
-            command.CommandText = "select* from admin WHERE password = '"+pass+"' and id = '"+id+"'";
+            command.CommandText = "select* from admin WHERE password = '" + pass + "' and id = '" + id + "'";
             SqlDataReader reader = command.ExecuteReader();
 
             if (reader.Read())
@@ -66,10 +55,15 @@ namespace BankSystem
                 con.Close();
                 return;
             }
-
             MessageBox.Show("NO matched id or passs!!");
             con.Close();
             return;
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
