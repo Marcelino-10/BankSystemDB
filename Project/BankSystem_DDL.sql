@@ -1,3 +1,11 @@
+/*==============================================================*/
+/* DBMS name:      Microsoft SQL Server 2012                    */
+/* Created on:     5/15/2024 1:28:06 PM                         */
+/*==============================================================*/
+
+/*create database Banks
+use Banks*/
+
 if exists (select 1
    from sys.sysreferences r join sys.sysobjects o on (o.id = r.constid and o.type = 'F')
    where r.fkeyid = object_id('ACCOUNT') and o.name = 'FK_ACCOUNT_BELONGS_CUSTOMER')
@@ -31,20 +39,6 @@ if exists (select 1
    where r.fkeyid = object_id('BRANCH') and o.name = 'FK_BRANCH_OWNS_BANK')
 alter table BRANCH
    drop constraint FK_BRANCH_OWNS_BANK
-go
-
-if exists (select 1
-   from sys.sysreferences r join sys.sysobjects o on (o.id = r.constid and o.type = 'F')
-   where r.fkeyid = object_id('CREDITCARD') and o.name = 'FK_CREDITCA_POSSES2_CUSTOMER')
-alter table CREDITCARD
-   drop constraint FK_CREDITCA_POSSES2_CUSTOMER
-go
-
-if exists (select 1
-   from sys.sysreferences r join sys.sysobjects o on (o.id = r.constid and o.type = 'F')
-   where r.fkeyid = object_id('CUSTOMER') and o.name = 'FK_CUSTOMER_POSSES_CREDITCA')
-alter table CUSTOMER
-   drop constraint FK_CUSTOMER_POSSES_CREDITCA
 go
 
 if exists (select 1
@@ -163,31 +157,6 @@ if exists (select 1
 go
 
 if exists (select 1
-            from  sysindexes
-           where  id    = object_id('CREDITCARD')
-            and   name  = 'POSSES2_FK'
-            and   indid > 0
-            and   indid < 255)
-   drop index CREDITCARD.POSSES2_FK
-go
-
-if exists (select 1
-            from  sysobjects
-           where  id = object_id('CREDITCARD')
-            and   type = 'U')
-   drop table CREDITCARD
-go
-
-if exists (select 1
-            from  sysindexes
-           where  id    = object_id('CUSTOMER')
-            and   name  = 'POSSES_FK'
-            and   indid > 0
-            and   indid < 255)
-   drop index CUSTOMER.POSSES_FK
-go
-
-if exists (select 1
             from  sysobjects
            where  id = object_id('CUSTOMER')
             and   type = 'U')
@@ -301,17 +270,21 @@ go
 /*==============================================================*/
 /* Index: HAS_FK                                                */
 /*==============================================================*/
-create index HAS_FK on ACCOUNT (
-BRANCHNO ASC
-)
+
+
+
+
+create nonclustered index HAS_FK on ACCOUNT (BRANCHNO ASC)
 go
 
 /*==============================================================*/
 /* Index: BELONGS_FK                                            */
 /*==============================================================*/
-create index BELONGS_FK on ACCOUNT (
-SSN ASC
-)
+
+
+
+
+create nonclustered index BELONGS_FK on ACCOUNT (SSN ASC)
 go
 
 /*==============================================================*/
@@ -340,9 +313,11 @@ go
 /*==============================================================*/
 /* Index: CREATESBANK_FK                                        */
 /*==============================================================*/
-create index CREATESBANK_FK on BANK (
-ID ASC
-)
+
+
+
+
+create nonclustered index CREATESBANK_FK on BANK (ID ASC)
 go
 
 /*==============================================================*/
@@ -362,38 +337,21 @@ go
 /*==============================================================*/
 /* Index: OWNS_FK                                               */
 /*==============================================================*/
-create index OWNS_FK on BRANCH (
-CODE ASC
-)
+
+
+
+
+create nonclustered index OWNS_FK on BRANCH (CODE ASC)
 go
 
 /*==============================================================*/
 /* Index: CREATEBRANCH_FK                                       */
 /*==============================================================*/
-create index CREATEBRANCH_FK on BRANCH (
-ID ASC
-)
-go
 
-/*==============================================================*/
-/* Table: CREDITCARD                                            */
-/*==============================================================*/
-create table CREDITCARD (
-   CREDITCARDID         numeric(15)          not null,
-   SSN                  numeric(10)          not null,
-   ISSUEDATE            datetime             not null,
-   CREDITLIMIT          float                not null,
-   MINIMUMPAYMENT       float                not null,
-   constraint PK_CREDITCARD primary key nonclustered (CREDITCARDID)
-)
-go
 
-/*==============================================================*/
-/* Index: POSSES2_FK                                            */
-/*==============================================================*/
-create index POSSES2_FK on CREDITCARD (
-SSN ASC
-)
+
+
+create nonclustered index CREATEBRANCH_FK on BRANCH (ID ASC)
 go
 
 /*==============================================================*/
@@ -401,21 +359,12 @@ go
 /*==============================================================*/
 create table CUSTOMER (
    SSN                  numeric(10)          not null,
-   CREDITCARDID         numeric(15)          not null,
    NAME                 varchar(10)          not null,
    DATEBIRTH            datetime             null,
    EMAIL                varchar(15)          not null,
    ADDRESS              varchar(20)          not null,
    PASSWORD             numeric(5)           null,
    constraint PK_CUSTOMER primary key nonclustered (SSN)
-)
-go
-
-/*==============================================================*/
-/* Index: POSSES_FK                                             */
-/*==============================================================*/
-create index POSSES_FK on CUSTOMER (
-CREDITCARDID ASC
 )
 go
 
@@ -432,9 +381,11 @@ go
 /*==============================================================*/
 /* Index: HASNUM_FK                                             */
 /*==============================================================*/
-create index HASNUM_FK on CUSTOMERPHONE (
-SSN ASC
-)
+
+
+
+
+create nonclustered index HASNUM_FK on CUSTOMERPHONE (SSN ASC)
 go
 
 /*==============================================================*/
@@ -456,9 +407,11 @@ go
 /*==============================================================*/
 /* Index: WORKS_FK                                              */
 /*==============================================================*/
-create index WORKS_FK on EMPLOYEE (
-BRANCHNO ASC
-)
+
+
+
+
+create nonclustered index WORKS_FK on EMPLOYEE (BRANCHNO ASC)
 go
 
 /*==============================================================*/
@@ -478,9 +431,11 @@ go
 /*==============================================================*/
 /* Index: OFFERS_FK                                             */
 /*==============================================================*/
-create index OFFERS_FK on LOAN (
-BRANCHNO ASC
-)
+
+
+
+
+create nonclustered index OFFERS_FK on LOAN (BRANCHNO ASC)
 go
 
 /*==============================================================*/
@@ -497,17 +452,21 @@ go
 /*==============================================================*/
 /* Index: RELATIONSHIP_5_FK                                     */
 /*==============================================================*/
-create index RELATIONSHIP_5_FK on TAKELOAN (
-SSN ASC
-)
+
+
+
+
+create nonclustered index RELATIONSHIP_5_FK on TAKELOAN (SSN ASC)
 go
 
 /*==============================================================*/
 /* Index: RELATIONSHIP_6_FK                                     */
 /*==============================================================*/
-create index RELATIONSHIP_6_FK on TAKELOAN (
-LOANNO_ ASC
-)
+
+
+
+
+create nonclustered index RELATIONSHIP_6_FK on TAKELOAN (LOANNO_ ASC)
 go
 
 /*==============================================================*/
@@ -526,9 +485,11 @@ go
 /*==============================================================*/
 /* Index: MAKES_FK                                              */
 /*==============================================================*/
-create index MAKES_FK on "TRANSACTION" (
-ACCOUNTNO_ ASC
-)
+
+
+
+
+create nonclustered index MAKES_FK on "TRANSACTION" (ACCOUNTNO_ ASC)
 go
 
 alter table ACCOUNT
@@ -554,16 +515,6 @@ go
 alter table BRANCH
    add constraint FK_BRANCH_OWNS_BANK foreign key (CODE)
       references BANK (CODE)
-go
-
-alter table CREDITCARD
-   add constraint FK_CREDITCA_POSSES2_CUSTOMER foreign key (SSN)
-      references CUSTOMER (SSN)
-go
-
-alter table CUSTOMER
-   add constraint FK_CUSTOMER_POSSES_CREDITCA foreign key (CREDITCARDID)
-      references CREDITCARD (CREDITCARDID)
 go
 
 alter table CUSTOMERPHONE
@@ -595,3 +546,4 @@ alter table "TRANSACTION"
    add constraint FK_TRANSACT_MAKES_ACCOUNT foreign key (ACCOUNTNO_)
       references ACCOUNT (ACCOUNTNO_)
 go
+
