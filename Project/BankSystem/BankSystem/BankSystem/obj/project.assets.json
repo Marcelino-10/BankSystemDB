@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystem\\BankSystem\\BankSystem\\BankSystem.csproj",
+      "projectUniqueName": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\Project\\BankSystem\\BankSystem\\BankSystem\\BankSystem.csproj",
       "projectName": "BankSystem",
-      "projectPath": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystem\\BankSystem\\BankSystem\\BankSystem.csproj",
+      "projectPath": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\Project\\BankSystem\\BankSystem\\BankSystem\\BankSystem.csproj",
       "packagesPath": "C:\\Users\\Marcelino\\.nuget\\packages\\",
-      "outputPath": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystem\\BankSystem\\BankSystem\\obj\\",
+      "outputPath": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\Project\\BankSystem\\BankSystem\\BankSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marcelino\\AppData\\Roaming\\NuGet\\NuGet.Config",
