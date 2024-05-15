@@ -2,6 +2,8 @@ namespace BankSystem
 {
     public partial class Form1 : Form
     {
+
+        private bool isMainForm = true;
         public Form1()
         {
             InitializeComponent();
@@ -19,5 +21,7 @@ namespace BankSystem
             this.Hide();
             loginPage.Show();
         }
+
+
     }
 }

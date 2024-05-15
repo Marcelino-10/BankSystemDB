@@ -31,6 +31,8 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+Project/BankSystem/BankSystem/BankSystem/obj/
+Project/BankSystem/BankSystem/BankSystem/obj
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -397,6 +399,3 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-Porject/BankSystem/BankSystem/BankSystem/obj/Debug
-
-Porject/BankSystem/BankSystem/BankSystem/obj/Debug/
