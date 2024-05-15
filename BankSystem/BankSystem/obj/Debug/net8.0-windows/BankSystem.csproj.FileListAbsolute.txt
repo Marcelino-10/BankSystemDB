@@ -52,3 +52,4 @@ D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\Ban
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.customerControl.resources
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.employeeControl.resources
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.mainPage.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.Properties.Resources.resources

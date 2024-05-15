@@ -34,16 +34,19 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(412, 284);
+            label1.Font = new Font("Verdana", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.DarkSlateGray;
+            label1.Location = new Point(469, 265);
             label1.Name = "label1";
-            label1.Size = new Size(148, 20);
+            label1.Size = new Size(479, 36);
             label1.TabIndex = 0;
-            label1.Text = "hello from employee";
+            label1.Text = "Welcome in Employee Page";
             // 
             // employeeControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ControlLightLight;
             Controls.Add(label1);
             Name = "employeeControl";
             Size = new Size(1058, 669);
