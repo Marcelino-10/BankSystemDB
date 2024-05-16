@@ -12,13 +12,21 @@ namespace BankSystem
 {
     public partial class customerControl : UserControl
     {
+        
         public customerControl()
         {
             InitializeComponent();
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
 
         }
     }

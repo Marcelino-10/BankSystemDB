@@ -40,11 +40,11 @@ namespace BankSystem
             panel2.Visible = false;
             panel3.Visible = false;
             flowLayoutPanel1.Visible = false;
-        }
+        } 
 
         private void button1_Click(object sender, EventArgs e)
         {
-            displayMenu(panel2);
+             displayMenu(panel2);
         }
 
         private void button8_Click(object sender, EventArgs e)

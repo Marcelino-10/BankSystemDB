@@ -16,5 +16,15 @@ namespace BankSystem
         {
             InitializeComponent();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btn_payLoan_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
