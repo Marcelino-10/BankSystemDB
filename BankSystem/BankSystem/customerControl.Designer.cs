@@ -29,10 +29,12 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            panel1 = new Panel();
             button4 = new Button();
+            button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -47,67 +49,81 @@
             label1.Text = "Welcome in Customer Page";
             label1.Click += label1_Click;
             // 
-            // button1
+            // panel1
             // 
-            button1.BackColor = SystemColors.Desktop;
-            button1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(49, 150);
-            button1.Name = "button1";
-            button1.Size = new Size(234, 54);
-            button1.TabIndex = 1;
-            button1.Text = "Request Loan";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.BackColor = SystemColors.Desktop;
-            button2.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.ForeColor = SystemColors.ControlLightLight;
-            button2.Location = new Point(49, 219);
-            button2.Name = "button2";
-            button2.Size = new Size(234, 53);
-            button2.TabIndex = 2;
-            button2.Text = "Transaction";
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            button3.BackColor = SystemColors.Desktop;
-            button3.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.ForeColor = SystemColors.ControlLightLight;
-            button3.Location = new Point(49, 293);
-            button3.Name = "button3";
-            button3.Size = new Size(234, 56);
-            button3.TabIndex = 3;
-            button3.Text = "View Account";
-            button3.UseVisualStyleBackColor = false;
+            panel1.BackColor = Color.DarkSlateGray;
+            panel1.Controls.Add(button4);
+            panel1.Controls.Add(button3);
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button1);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(299, 669);
+            panel1.TabIndex = 5;
+            panel1.Paint += panel1_Paint;
             // 
             // button4
             // 
-            button4.BackColor = SystemColors.Desktop;
-            button4.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.ForeColor = SystemColors.ControlLightLight;
-            button4.Location = new Point(49, 368);
+            button4.BackColor = SystemColors.ControlLightLight;
+            button4.Font = new Font("Verdana", 10F, FontStyle.Bold);
+            button4.ForeColor = Color.DarkSlateGray;
+            button4.Location = new Point(25, 341);
             button4.Name = "button4";
-            button4.Size = new Size(234, 59);
-            button4.TabIndex = 4;
+            button4.Size = new Size(234, 54);
+            button4.TabIndex = 5;
             button4.Text = "View Loan";
             button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.ControlLightLight;
+            button3.Font = new Font("Verdana", 10F, FontStyle.Bold);
+            button3.ForeColor = Color.DarkSlateGray;
+            button3.Location = new Point(25, 240);
+            button3.Name = "button3";
+            button3.Size = new Size(234, 54);
+            button3.TabIndex = 4;
+            button3.Text = "View Account";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ControlLightLight;
+            button2.Font = new Font("Verdana", 10F, FontStyle.Bold);
+            button2.ForeColor = Color.DarkSlateGray;
+            button2.Location = new Point(25, 153);
+            button2.Name = "button2";
+            button2.Size = new Size(234, 54);
+            button2.TabIndex = 3;
+            button2.Text = "Transaction";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button1_Click_1;
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ControlLightLight;
+            button1.Font = new Font("Verdana", 10F, FontStyle.Bold);
+            button1.ForeColor = Color.DarkSlateGray;
+            button1.Location = new Point(25, 59);
+            button1.Name = "button1";
+            button1.Size = new Size(234, 54);
+            button1.TabIndex = 2;
+            button1.Text = "Request Loan";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click_2;
             // 
             // customerControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(panel1);
             Controls.Add(label1);
             Name = "customerControl";
             Size = new Size(1058, 669);
+            Load += customerControl_Load;
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -115,9 +131,10 @@
         #endregion
 
         private Label label1;
+        private Panel panel1;
         private Button button1;
         private Button button2;
-        private Button button3;
         private Button button4;
+        private Button button3;
     }
 }

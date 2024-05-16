@@ -17,7 +17,7 @@ namespace BankSystem
         adminControl adminControl = new adminControl();
         employeeControl employeeControl = new employeeControl();
         customerControl customerControl = new customerControl();
-        requestLoan requestLoan = new requestLoan();
+        
         public mainPage()
         {
             InitializeComponent();
@@ -45,12 +45,7 @@ namespace BankSystem
             mainPanel.Controls.Clear();
             mainPanel.Controls.Add(employeeControl);
         }
-        public void openRequestLoan(object sender, EventArgs e)
-        {
-            mainPanel.Controls.Clear();
-            mainPanel.Controls.Add(requestLoan);
-        }
-
+       
 
 
         private void mainPage_FormClosing(object sender, FormClosingEventArgs e)
