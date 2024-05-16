@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\BankSystem.csproj": {}
+    "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\BankSystem.csproj": {}
   },
   "projects": {
-    "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\BankSystem.csproj": {
+    "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\BankSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\BankSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\BankSystem.csproj",
         "projectName": "BankSystem",
-        "projectPath": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\BankSystem.csproj",
-        "packagesPath": "C:\\Users\\Marcelino\\.nuget\\packages\\",
-        "outputPath": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\BankSystem.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marcelino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

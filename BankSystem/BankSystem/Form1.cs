@@ -41,26 +41,34 @@ namespace BankSystem
                 main.Show();
                 Hide();
                 main.openAdmin(sender, e);
+                Program.isAdmin = true;
+                Program.adminID = id;
                 return;
             }
-
-            command.CommandText = "select* from customer WHERE password = '" + pass + "' and id = '" + id + "'";
+            reader.Close();
+            command.CommandText = "select* from customer WHERE password = '" + pass + "' and ssn = '" + id + "'";
+            reader = command.ExecuteReader();
             if (reader.Read())
             {               
                 con.Close();
                 main.Show();
                 Hide();
                 main.openCustomer(sender, e);
+                Program.isCustomer = true;
+                Program.customerID = id;
                 return;
             }
-
-            command.CommandText = "select* from employee WHERE password = '" + pass + "' and id = '" + id + "'";
+            reader.Close();
+            command.CommandText = "select* from employee WHERE password = '" + pass + "' and employeeID = '" + id + "'";
+            reader = command.ExecuteReader();
             if (reader.Read())
             {                
                 con.Close();
                 main.Show();
                 Hide();
                 main.openEmployee(sender, e);
+                Program.isEmployee = true;
+                Program.employeeID = id;
                 return;
             }
 

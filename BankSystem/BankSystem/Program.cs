@@ -2,9 +2,12 @@ namespace BankSystem
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
+        public static bool isAdmin = false;
+        public static bool isEmployee = false;
+        public static bool isCustomer = false;
+        public static string adminID;
+        public static string employeeID;
+        public static string customerID;
         [STAThread]
         static void Main()
         {

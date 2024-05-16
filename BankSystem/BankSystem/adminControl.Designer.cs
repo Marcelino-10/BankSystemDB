@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             button1 = new Button();
             button6 = new Button();
             button8 = new Button();
             panel2 = new Panel();
             button3 = new Button();
             button2 = new Button();
+            panel1 = new Panel();
+            label1 = new Label();
             panel3 = new Panel();
             button10 = new Button();
             button9 = new Button();
@@ -48,31 +49,28 @@
             button14 = new Button();
             button16 = new Button();
             button7 = new Button();
+            addBank = new AddBank();
+            addBranch = new AddBranch();
+            showAdmin = new ShowAdmin();
+            showCustomer = new ShowCustomer();
+            showBranch = new ShowBranch();
+            showEmployee = new ShowEmployee();
+            showBank = new ShowBank();
+            showLoan = new ShowLoan();
             panel2.SuspendLayout();
+            panel1.SuspendLayout();
             panel3.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Verdana", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.DarkSlateGray;
-            label1.Location = new Point(242, 417);
-            label1.Name = "label1";
-            label1.Size = new Size(574, 48);
-            label1.TabIndex = 6;
-            label1.Text = "Welcome In Admin Page";
-            label1.Click += label1_Click_1;
             // 
             // button1
             // 
             button1.BackColor = SystemColors.Desktop;
             button1.Font = new Font("Segoe UI Variable Display", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.Snow;
-            button1.Location = new Point(2, -1);
+            button1.Location = new Point(3, 5);
             button1.Name = "button1";
-            button1.Size = new Size(257, 67);
+            button1.Size = new Size(257, 65);
             button1.TabIndex = 0;
             button1.Text = "Add";
             button1.UseVisualStyleBackColor = false;
@@ -83,9 +81,9 @@
             button6.BackColor = SystemColors.Desktop;
             button6.Font = new Font("Segoe UI Variable Display", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button6.ForeColor = SystemColors.Menu;
-            button6.Location = new Point(559, 3);
+            button6.Location = new Point(529, 5);
             button6.Name = "button6";
-            button6.Size = new Size(257, 66);
+            button6.Size = new Size(257, 65);
             button6.TabIndex = 1;
             button6.Text = "Show";
             button6.UseVisualStyleBackColor = false;
@@ -96,7 +94,7 @@
             button8.BackColor = SystemColors.Desktop;
             button8.Font = new Font("Segoe UI Variable Display", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button8.ForeColor = SystemColors.ButtonHighlight;
-            button8.Location = new Point(276, 3);
+            button8.Location = new Point(266, 5);
             button8.Name = "button8";
             button8.Size = new Size(257, 65);
             button8.TabIndex = 3;
@@ -108,28 +106,51 @@
             // 
             panel2.Controls.Add(button3);
             panel2.Controls.Add(button2);
-            panel2.Location = new Point(4, 59);
+            panel2.Location = new Point(6, 70);
             panel2.Name = "panel2";
             panel2.Size = new Size(250, 81);
             panel2.TabIndex = 4;
             // 
             // button3
             // 
-            button3.Location = new Point(3, 43);
+            button3.Location = new Point(2, 42);
             button3.Name = "button3";
-            button3.Size = new Size(244, 38);
+            button3.Size = new Size(247, 29);
             button3.TabIndex = 1;
             button3.Text = "Branch";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(3, 4);
+            button2.Location = new Point(2, 4);
             button2.Name = "button2";
-            button2.Size = new Size(244, 38);
+            button2.Size = new Size(247, 29);
             button2.TabIndex = 0;
             button2.Text = "Bank";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ControlLightLight;
+            panel1.Controls.Add(label1);
+            panel1.ImeMode = ImeMode.NoControl;
+            panel1.Location = new Point(0, 69);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1058, 689);
+            panel1.TabIndex = 7;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Verdana", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.DarkSlateGray;
+            label1.Location = new Point(242, 265);
+            label1.Name = "label1";
+            label1.Size = new Size(566, 48);
+            label1.TabIndex = 7;
+            label1.Text = "Welcome in Admin Page";
             // 
             // panel3
             // 
@@ -137,14 +158,14 @@
             panel3.Controls.Add(button9);
             panel3.Controls.Add(button5);
             panel3.Controls.Add(button4);
-            panel3.Location = new Point(279, 68);
+            panel3.Location = new Point(268, 69);
             panel3.Name = "panel3";
-            panel3.Size = new Size(250, 114);
+            panel3.Size = new Size(250, 143);
             panel3.TabIndex = 5;
             // 
             // button10
             // 
-            button10.Location = new Point(1, 85);
+            button10.Location = new Point(2, 108);
             button10.Name = "button10";
             button10.Size = new Size(247, 29);
             button10.TabIndex = 9;
@@ -153,7 +174,7 @@
             // 
             // button9
             // 
-            button9.Location = new Point(1, 58);
+            button9.Location = new Point(2, 73);
             button9.Name = "button9";
             button9.Size = new Size(247, 29);
             button9.TabIndex = 8;
@@ -162,17 +183,16 @@
             // 
             // button5
             // 
-            button5.Location = new Point(2, 31);
+            button5.Location = new Point(2, 38);
             button5.Name = "button5";
             button5.Size = new Size(247, 29);
             button5.TabIndex = 7;
             button5.Text = "Update Admin";
             button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(1, 3);
+            button4.Location = new Point(2, 3);
             button4.Name = "button4";
             button4.Size = new Size(247, 29);
             button4.TabIndex = 6;
@@ -187,7 +207,7 @@
             flowLayoutPanel1.Controls.Add(button11);
             flowLayoutPanel1.Controls.Add(button14);
             flowLayoutPanel1.Controls.Add(button16);
-            flowLayoutPanel1.Location = new Point(564, 72);
+            flowLayoutPanel1.Location = new Point(532, 72);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(250, 208);
             flowLayoutPanel1.TabIndex = 6;
@@ -200,6 +220,7 @@
             button15.TabIndex = 4;
             button15.Text = "Customers";
             button15.UseVisualStyleBackColor = true;
+            button15.Click += button15_Click;
             // 
             // button13
             // 
@@ -209,6 +230,7 @@
             button13.TabIndex = 2;
             button13.Text = "Employees";
             button13.UseVisualStyleBackColor = true;
+            button13.Click += button13_Click;
             // 
             // button12
             // 
@@ -218,6 +240,7 @@
             button12.TabIndex = 1;
             button12.Text = "Branch";
             button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
             // 
             // button11
             // 
@@ -227,6 +250,7 @@
             button11.TabIndex = 0;
             button11.Text = "Banks";
             button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
             // 
             // button14
             // 
@@ -246,26 +270,76 @@
             button16.TabIndex = 5;
             button16.Text = "Admins";
             button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
             // 
             // button7
             // 
             button7.BackColor = SystemColors.Desktop;
             button7.Font = new Font("Segoe UI Variable Display", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button7.ForeColor = SystemColors.ControlLightLight;
-            button7.Location = new Point(822, 5);
+            button7.Location = new Point(792, 5);
             button7.Name = "button7";
-            button7.Size = new Size(226, 63);
+            button7.Size = new Size(257, 65);
             button7.TabIndex = 2;
             button7.Text = "Queries";
             button7.UseVisualStyleBackColor = false;
+            // 
+            // addBank
+            // 
+            addBank.Location = new Point(0, 0);
+            addBank.Name = "addBank";
+            addBank.Size = new Size(1058, 694);
+            addBank.TabIndex = 0;
+            // 
+            // addBranch
+            // 
+            addBranch.Location = new Point(0, 0);
+            addBranch.Name = "addBranch";
+            addBranch.Size = new Size(1058, 694);
+            addBranch.TabIndex = 0;
+            // 
+            // showAdmin
+            // 
+            showAdmin.Location = new Point(0, 0);
+            showAdmin.Name = "showAdmin";
+            showAdmin.Size = new Size(1058, 689);
+            showAdmin.TabIndex = 0;
+            // 
+            // showCustomer
+            // 
+            showCustomer.Location = new Point(0, 0);
+            showCustomer.Name = "showCustomer";
+            showCustomer.Size = new Size(1058, 689);
+            showCustomer.TabIndex = 0;
+            // 
+            // showBranch
+            // 
+            showBranch.Location = new Point(0, 0);
+            showBranch.Name = "showBranch";
+            showBranch.Size = new Size(1058, 689);
+            showBranch.TabIndex = 0;
+            // 
+            // showEmployee
+            // 
+            showEmployee.Location = new Point(0, 0);
+            showEmployee.Name = "showEmployee";
+            showEmployee.Size = new Size(1058, 689);
+            showEmployee.TabIndex = 0;
+            // 
+            // showBank
+            // 
+            showBank.Location = new Point(0, 0);
+            showBank.Name = "showBank";
+            showBank.Size = new Size(1058, 689);
+            showBank.TabIndex = 0;
             // 
             // adminControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
+            Controls.Add(panel1);
             Controls.Add(button7);
-            Controls.Add(label1);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(panel3);
             Controls.Add(button1);
@@ -274,16 +348,15 @@
             Controls.Add(button8);
             Name = "adminControl";
             Size = new Size(1058, 762);
-            Load += adminControl_Load;
             panel2.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             panel3.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-        private Label label1;
         private Button button1;
         private Button button6;
         private Button button8;
@@ -303,5 +376,15 @@
         private Button button14;
         private Button button16;
         private Button button7;
+        private Panel panel1;
+        private Label label1;
+        private AddBank addBank;
+        private AddBranch addBranch;
+        private ShowAdmin showAdmin;
+        private ShowCustomer showCustomer;
+        private ShowBranch showBranch;
+        private ShowEmployee showEmployee;
+        private ShowBank showBank;
+        private ShowLoan showLoan;
     }
 }

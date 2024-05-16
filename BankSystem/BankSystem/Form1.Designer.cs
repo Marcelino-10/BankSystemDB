@@ -39,63 +39,58 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(412, 496);
+            button1.Location = new Point(406, 496);
             button1.Name = "button1";
-            button1.Size = new Size(196, 74);
+            button1.Size = new Size(209, 74);
             button1.TabIndex = 11;
             button1.Text = "Login";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += this.button1_Click;
+            button1.Click += button1_Click;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(537, 370);
+            textBox2.Location = new Point(531, 370);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(243, 27);
             textBox2.TabIndex = 10;
             textBox2.UseSystemPasswordChar = true;
-
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(537, 275);
+            textBox1.Location = new Point(531, 275);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(243, 27);
             textBox1.TabIndex = 9;
-           
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Stencil", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(282, 362);
+            label3.Location = new Point(276, 362);
             label3.Name = "label3";
             label3.Size = new Size(179, 35);
             label3.TabIndex = 8;
             label3.Text = "Password";
-           
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Stencil", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(282, 267);
+            label2.Location = new Point(276, 267);
             label2.Name = "label2";
             label2.Size = new Size(48, 35);
             label2.TabIndex = 7;
             label2.Text = "ID";
-            
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Agency FB", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(378, 102);
+            label1.Location = new Point(406, 102);
             label1.Name = "label1";
             label1.Size = new Size(209, 72);
             label1.TabIndex = 6;
             label1.Text = "Welcome";
-         
             // 
             // Form1
             // 

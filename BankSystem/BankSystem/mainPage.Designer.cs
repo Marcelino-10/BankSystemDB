@@ -46,9 +46,9 @@
             ClientSize = new Size(1062, 673);
             Controls.Add(mainPanel);
             Name = "mainPage";
-            Text = "mainPage";
+            Text = "Main Page";
+            FormClosing += mainPage_FormClosing;
             ResumeLayout(false);
-            this.FormClosing += mainPage_FormClosing;
         }
 
         #endregion

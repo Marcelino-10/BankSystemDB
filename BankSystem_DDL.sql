@@ -256,12 +256,12 @@ go
 /* Table: ACCOUNT                                               */
 /*==============================================================*/
 create table ACCOUNT (
-   ACCOUNTNO_           numeric(10)          not null,
-   BRANCHNO             numeric(5)           not null,
-   SSN                  numeric(10)          not null,
-   BALANCE              int                  not null,
+   ACCOUNTNO_           int          not null,
+   BRANCHNO             int          not null,
+   SSN                  int         not null,
+   BALANCE              float                  not null,
    OPENDATE             datetime             not null,
-   TYPE                 varchar(1024)        not null,
+   TYPE                 varchar(50)        not null,
    INTERESTRATE         float                not null,
    constraint PK_ACCOUNT primary key nonclustered (ACCOUNTNO_)
 )
@@ -291,9 +291,9 @@ go
 /* Table: ADMIN                                                 */
 /*==============================================================*/
 create table ADMIN (
-   ID                   numeric(5)           not null,
-   NAME                 varchar(20)          not null,
-   PASSWORD             numeric(5)           not null,
+   ID                   int           not null,
+   NAME                 varchar(100)          not null,
+   PASSWORD             varchar(20)           not null,
    constraint PK_ADMIN primary key nonclustered (ID)
 )
 go
@@ -302,10 +302,10 @@ go
 /* Table: BANK                                                  */
 /*==============================================================*/
 create table BANK (
-   CODE                 numeric(10)          not null,
-   ID                   numeric(5)           not null,
-   NAME                 varchar(1024)        not null,
-   ADDRESS              varchar(1024)        null,
+   CODE                 int          not null,
+   ID                   int           not null,
+   NAME                 varchar(100)        not null,
+   ADDRESS              varchar(100)        null,
    constraint PK_BANK primary key nonclustered (CODE)
 )
 go
@@ -324,12 +324,12 @@ go
 /* Table: BRANCH                                                */
 /*==============================================================*/
 create table BRANCH (
-   BRANCHNO             numeric(5)           not null,
-   CODE                 numeric(10)          not null,
-   ID                   numeric(5)           not null,
-   ZIPCODE              numeric(10)          not null,
-   CITY                 varchar(10)          not null,
-   ADDRESS              varchar(30)          not null,
+   BRANCHNO             int           not null,
+   CODE                 int          not null,
+   ID                   int          not null,
+   ZIPCODE              int                      null,
+   CITY                 varchar(30)          not null,
+   ADDRESS              varchar(100)          not null,
    constraint PK_BRANCH primary key nonclustered (BRANCHNO)
 )
 go
@@ -358,12 +358,12 @@ go
 /* Table: CUSTOMER                                              */
 /*==============================================================*/
 create table CUSTOMER (
-   SSN                  numeric(10)          not null,
-   NAME                 varchar(10)          not null,
+   SSN                  int          not null,
+   NAME                 varchar(100)          not null,
    DATEBIRTH            datetime             null,
-   EMAIL                varchar(15)          not null,
-   ADDRESS              varchar(20)          not null,
-   PASSWORD             numeric(5)           null,
+   EMAIL                varchar(100)          not null,
+   ADDRESS              varchar(100)          null,
+   PASSWORD             varchar(20)           null,
    constraint PK_CUSTOMER primary key nonclustered (SSN)
 )
 go
@@ -372,8 +372,8 @@ go
 /* Table: CUSTOMERPHONE                                         */
 /*==============================================================*/
 create table CUSTOMERPHONE (
-   PHONENUM             numeric(15)          not null,
-   SSN                  numeric(10)          not null,
+   PHONENUM             varchar(11)          not null,
+   SSN                  int          not null,
    constraint PK_CUSTOMERPHONE primary key nonclustered (PHONENUM, SSN)
 )
 go
@@ -392,14 +392,14 @@ go
 /* Table: EMPLOYEE                                              */
 /*==============================================================*/
 create table EMPLOYEE (
-   EMPLOYEEID           numeric(5)           not null,
-   BRANCHNO             numeric(5)           not null,
-   NAME                 varchar(10)          not null,
-   ADDRESS              varchar(30)          not null,
-   PHONENUM             varchar(12)          not null,
-   TITLE                varchar(10)          not null,
-   EMAIL                varchar(20)          not null,
-   PASSWORD             numeric(5)           not null,
+   EMPLOYEEID           int           not null,
+   BRANCHNO             int           not null,
+   NAME                 varchar(100)          not null,
+   ADDRESS              varchar(100)          not null,
+   PHONENUM             varchar(11)          not null,
+   TITLE                varchar(20)          not null,
+   EMAIL                varchar(100)          not null,
+   PASSWORD             varchar(20)           not null,
    constraint PK_EMPLOYEE primary key nonclustered (EMPLOYEEID)
 )
 go
@@ -418,12 +418,12 @@ go
 /* Table: LOAN                                                  */
 /*==============================================================*/
 create table LOAN (
-   LOANNO_              numeric(8)           not null,
-   BRANCHNO             numeric(5)           not null,
-   AMOUNT               int                  not null,
+   LOANNO_              int           not null,
+   BRANCHNO             int           not null,
+   AMOUNT               float                  not null,
    INTERESTRATE         float                not null,
-   TYPE                 varchar(1024)        not null,
-   PAYMENTSCHEDULE      varchar(1024)        not null,
+   TYPE                 varchar(30)        not null,
+   PAYMENTSCHEDULE      varchar(200)        not null,
    constraint PK_LOAN primary key nonclustered (LOANNO_)
 )
 go
@@ -442,9 +442,9 @@ go
 /* Table: TAKELOAN                                              */
 /*==============================================================*/
 create table TAKELOAN (
-   LOANNO_              numeric(8)           not null,
-   SSN                  numeric(10)          not null,
-   DURATION             numeric(3)           not null,
+   LOANNO_              int           not null,
+   SSN                  int          not null,
+   DURATION             varchar(30)           not null,
    constraint PK_TAKELOAN primary key nonclustered (LOANNO_, SSN)
 )
 go
@@ -473,9 +473,9 @@ go
 /* Table: "TRANSACTION"                                         */
 /*==============================================================*/
 create table "TRANSACTION" (
-   TRANSACTIONID        numeric(10)          not null,
-   ACCOUNTNO_           numeric(10)          not null,
-   TRANSACTIONTYPE      varchar(10)          not null,
+   TRANSACTIONID        int          not null,
+   ACCOUNTNO_           int          not null,
+   TRANSACTIONTYPE      varchar(30)          not null,
    TRANSACTIONDATE      datetime             not null,
    AMOUNT               float                not null,
    constraint PK_TRANSACTION primary key nonclustered (TRANSACTIONID)
