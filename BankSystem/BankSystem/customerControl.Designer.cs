@@ -39,7 +39,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.DarkSlateGray;
+            panel1.BackColor = Color.FromArgb(0, 64, 64);
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
@@ -55,7 +55,7 @@
             // 
             button4.BackColor = SystemColors.ControlLightLight;
             button4.Font = new Font("Verdana", 10F, FontStyle.Bold);
-            button4.ForeColor = Color.DarkSlateGray;
+            button4.ForeColor = Color.FromArgb(0, 64, 64);
             button4.Location = new Point(25, 341);
             button4.Name = "button4";
             button4.Size = new Size(234, 54);
@@ -68,7 +68,7 @@
             // 
             button3.BackColor = SystemColors.ControlLightLight;
             button3.Font = new Font("Verdana", 10F, FontStyle.Bold);
-            button3.ForeColor = Color.DarkSlateGray;
+            button3.ForeColor = Color.FromArgb(0, 64, 64);
             button3.Location = new Point(25, 240);
             button3.Name = "button3";
             button3.Size = new Size(234, 54);
@@ -81,7 +81,7 @@
             // 
             button2.BackColor = SystemColors.ControlLightLight;
             button2.Font = new Font("Verdana", 10F, FontStyle.Bold);
-            button2.ForeColor = Color.DarkSlateGray;
+            button2.ForeColor = Color.FromArgb(0, 64, 64);
             button2.Location = new Point(25, 153);
             button2.Name = "button2";
             button2.Size = new Size(234, 54);
@@ -94,7 +94,7 @@
             // 
             button1.BackColor = SystemColors.ControlLightLight;
             button1.Font = new Font("Verdana", 10F, FontStyle.Bold);
-            button1.ForeColor = Color.DarkSlateGray;
+            button1.ForeColor = Color.FromArgb(0, 64, 64);
             button1.Location = new Point(25, 59);
             button1.Name = "button1";
             button1.Size = new Size(234, 54);
@@ -107,7 +107,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Verdana", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.DarkSlateGray;
+            label1.ForeColor = Color.FromArgb(0, 64, 64);
             label1.Location = new Point(363, 216);
             label1.Name = "label1";
             label1.Size = new Size(477, 36);
