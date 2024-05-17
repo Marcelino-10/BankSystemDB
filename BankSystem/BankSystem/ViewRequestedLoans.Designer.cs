@@ -47,6 +47,7 @@
             Controls.Add(label1);
             Name = "ViewRequestedLoans";
             Size = new Size(783, 717);
+            Load += ViewRequestedLoans_Load;
             ResumeLayout(false);
             PerformLayout();
         }

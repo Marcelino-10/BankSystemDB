@@ -159,7 +159,6 @@ C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\ne
 C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ViewRequestedLoans.resources
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.AddBank.resources
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.AddBranch.resources
-D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.addCustomer.resources
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.RequestLoan.resources
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ShowAdmin.resources
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ShowBank.resources
@@ -172,3 +171,8 @@ D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\Ban
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ViewRequestedLoans.resources
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.signEmployee.resources
 C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.signEmployee.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.signAdmin.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.signCustomer.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.UpdateCustomer.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.UpdateAdmin.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.UpdateEmployee.resources

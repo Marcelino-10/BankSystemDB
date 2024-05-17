@@ -16,5 +16,10 @@ namespace BankSystem
         {
             InitializeComponent();
         }
+
+        private void ViewRequestedLoans_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

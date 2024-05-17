@@ -36,10 +36,15 @@ namespace BankSystem
             con.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = con;
-            command.CommandText = "INSERT INTO Bank (adminid, name, address) VALUES('" + Program.adminID + "', '"+ name + "', '" + address + "');";
+            command.CommandText = "INSERT INTO Bank (adminid, name, address) VALUES('" + Program.adminID + "', '" + name + "', '" + address + "');";
             reader = command.ExecuteReader();
             MessageBox.Show("Bank Added Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();
+        }
+
+        private void AddBank_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

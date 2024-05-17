@@ -66,7 +66,7 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Noto Serif", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Font = new Font("Microsoft Sans Serif", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.Location = new Point(447, 356);
             button1.Name = "button1";
             button1.Size = new Size(129, 29);
@@ -104,6 +104,7 @@
             Controls.Add(label1);
             Name = "AddBank";
             Size = new Size(1058, 689);
+            Load += AddBank_Load;
             ResumeLayout(false);
             PerformLayout();
         }

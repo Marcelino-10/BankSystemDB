@@ -39,12 +39,12 @@
             button5 = new Button();
             button4 = new Button();
             flowLayoutPanel1 = new FlowLayoutPanel();
+            button16 = new Button();
+            button11 = new Button();
+            button12 = new Button();
             button15 = new Button();
             button13 = new Button();
-            button12 = new Button();
-            button11 = new Button();
             button14 = new Button();
-            button16 = new Button();
             addBank = new AddBank();
             addBranch = new AddBranch();
             showAdmin = new ShowAdmin();
@@ -53,6 +53,10 @@
             showEmployee = new ShowEmployee();
             showBank = new ShowBank();
             showLoan = new ShowLoan();
+            signemployee = new signEmployee();
+            signadmin = new signAdmin();
+            updateadmin = new UpdateAdmin();
+            updateemployee = new UpdateEmployee();
             panel4 = new Panel();
             button7 = new Button();
             button1 = new Button();
@@ -99,10 +103,11 @@
             panel1.BackColor = SystemColors.ControlLightLight;
             panel1.Controls.Add(label1);
             panel1.ImeMode = ImeMode.NoControl;
-            panel1.Location = new Point(0, 74);
+            panel1.Location = new Point(9, 73);
             panel1.Name = "panel1";
             panel1.Size = new Size(1058, 685);
             panel1.TabIndex = 7;
+            panel1.Paint += panel1_Paint;
             // 
             // label1
             // 
@@ -134,6 +139,7 @@
             button10.TabIndex = 9;
             button10.Text = "Update Employee";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
             // 
             // button9
             // 
@@ -143,6 +149,7 @@
             button9.TabIndex = 8;
             button9.Text = "Sign Employee";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // button5
             // 
@@ -152,6 +159,7 @@
             button5.TabIndex = 7;
             button5.Text = "Update Admin";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
@@ -161,6 +169,7 @@
             button4.TabIndex = 6;
             button4.Text = "Sign Admin";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // flowLayoutPanel1
             // 
@@ -174,6 +183,36 @@
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(250, 208);
             flowLayoutPanel1.TabIndex = 6;
+            // 
+            // button16
+            // 
+            button16.Location = new Point(3, 3);
+            button16.Name = "button16";
+            button16.Size = new Size(247, 29);
+            button16.TabIndex = 5;
+            button16.Text = "Admins";
+            button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
+            // 
+            // button11
+            // 
+            button11.Location = new Point(3, 38);
+            button11.Name = "button11";
+            button11.Size = new Size(247, 29);
+            button11.TabIndex = 0;
+            button11.Text = "Banks";
+            button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
+            // 
+            // button12
+            // 
+            button12.Location = new Point(3, 73);
+            button12.Name = "button12";
+            button12.Size = new Size(247, 29);
+            button12.TabIndex = 1;
+            button12.Text = "Branch";
+            button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
             // 
             // button15
             // 
@@ -195,26 +234,6 @@
             button13.UseVisualStyleBackColor = true;
             button13.Click += button13_Click;
             // 
-            // button12
-            // 
-            button12.Location = new Point(3, 73);
-            button12.Name = "button12";
-            button12.Size = new Size(247, 29);
-            button12.TabIndex = 1;
-            button12.Text = "Branch";
-            button12.UseVisualStyleBackColor = true;
-            button12.Click += button12_Click;
-            // 
-            // button11
-            // 
-            button11.Location = new Point(3, 38);
-            button11.Name = "button11";
-            button11.Size = new Size(247, 29);
-            button11.TabIndex = 0;
-            button11.Text = "Banks";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += button11_Click;
-            // 
             // button14
             // 
             button14.Location = new Point(3, 178);
@@ -224,16 +243,6 @@
             button14.Text = "Loans";
             button14.UseVisualStyleBackColor = true;
             button14.Click += button14_Click;
-            // 
-            // button16
-            // 
-            button16.Location = new Point(3, 3);
-            button16.Name = "button16";
-            button16.Size = new Size(247, 29);
-            button16.TabIndex = 5;
-            button16.Text = "Admins";
-            button16.UseVisualStyleBackColor = true;
-            button16.Click += button16_Click;
             // 
             // addBank
             // 
@@ -290,6 +299,20 @@
             showLoan.Name = "showLoan";
             showLoan.Size = new Size(1058, 689);
             showLoan.TabIndex = 0;
+            // 
+            // signemployee
+            // 
+            signemployee.Location = new Point(0, 0);
+            signemployee.Name = "signemployee";
+            signemployee.Size = new Size(1058, 685);
+            signemployee.TabIndex = 0;
+            // 
+            // signadmin
+            // 
+            signadmin.Location = new Point(0, 0);
+            signadmin.Name = "signadmin";
+            signadmin.Size = new Size(1058, 685);
+            signadmin.TabIndex = 0;
             // 
             // panel4
             // 
@@ -401,6 +424,10 @@
         private ShowEmployee showEmployee;
         private ShowBank showBank;
         private ShowLoan showLoan;
+        private signEmployee signemployee;
+        private UpdateAdmin updateadmin;
+        private UpdateEmployee updateemployee;
+        private signAdmin signadmin;
         private Panel panel4;
         private Button button7;
         private Button button1;

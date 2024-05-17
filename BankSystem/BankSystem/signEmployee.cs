@@ -5,7 +5,6 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
-using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -22,15 +21,16 @@ namespace BankSystem
         private void button1_Click(object sender, EventArgs e)
         {
             string id = textBox1.Text;
-            string name = textBox5.Text;
             string pass = textBox8.Text;
-            string email = textBox4.Text;
-            string address = textBox2.Text;
-            string phone = textBox3.Text;
-            string title = textBox7.Text;
-            string branchNo = textBox6.Text;
+            string name = textBox3.Text;
+            string title = textBox2.Text;
+            string email = textBox5.Text;
+            string phone = textBox6.Text;
+            string address = textBox7.Text;
+            string branch = textBox4.Text;
 
-            if(id == "" || name == "" || pass == "" || email == "" || address == "" || phone == "" || title == "" || branchNo  == "")
+
+            if (id == "" || pass == "" || name == "" || title == "" || email == "" || phone == "" || address == "" || branch == "")
             {
                 MessageBox.Show("Please Enter All fields", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -44,19 +44,20 @@ namespace BankSystem
             con.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = con;
-            command.CommandText = "select* from EMPLOYEE WHERE SSN = '" + id + "'";
+            command.CommandText = "select* from Employee WHERE EMPLOYEEID = '" + id + "'";
             SqlDataReader reader = command.ExecuteReader();
 
-            if(reader.Read())
+            if (reader.Read())
             {
                 MessageBox.Show("This Employee already Exists", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                con.Close(); 
+                con.Close();
                 return;
             }
 
             reader.Close();
-            command.CommandText = "insert into EMPLOYEE values("+id+", "+branchNo+", "+name+", "+name+", "+address+", "+phone+", "+title+", "+email+", "+pass+");";
-            reader = command.ExecuteReader();
+            command.CommandText = "insert into EMPLOYEE(EMPLOYEEID, PASSWORD, NAME, ADDRESS, PHONENUM, TITLE, EMAIL, BRANCHNO) values('" + id + "', '" + pass + "', '"+name+"', '"+address+"', '"+phone+"', '"+title+"', '"+email+"', '"+branch+"');";
+            SqlDataReader sqlDataReader = command.ExecuteReader();
+            reader = sqlDataReader;
             MessageBox.Show("Employee signed successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();
         }

@@ -30,10 +30,10 @@
         {
             label1 = new Label();
             panel1 = new Panel();
+            button2 = new Button();
             button1 = new Button();
             btn_payLoan = new Button();
             panel2 = new Panel();
-            button2 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -62,6 +62,19 @@
             panel1.TabIndex = 1;
             panel1.Paint += panel1_Paint;
             // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ControlLightLight;
+            button2.Font = new Font("Verdana", 10F, FontStyle.Bold);
+            button2.ForeColor = Color.DarkSlateGray;
+            button2.Location = new Point(31, 185);
+            button2.Name = "button2";
+            button2.Size = new Size(234, 53);
+            button2.TabIndex = 2;
+            button2.Text = "Sign UP Customer";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // button1
             // 
             button1.BackColor = SystemColors.ControlLightLight;
@@ -71,7 +84,7 @@
             button1.Name = "button1";
             button1.Size = new Size(234, 53);
             button1.TabIndex = 1;
-            button1.Text = "Add Customer";
+            button1.Text = "Update Customer";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
@@ -96,19 +109,7 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(754, 673);
             panel2.TabIndex = 2;
-            // 
-            // button2
-            // 
-            button2.BackColor = SystemColors.ControlLightLight;
-            button2.Font = new Font("Verdana", 10F, FontStyle.Bold);
-            button2.ForeColor = Color.DarkSlateGray;
-            button2.Location = new Point(31, 185);
-            button2.Name = "button2";
-            button2.Size = new Size(234, 53);
-            button2.TabIndex = 2;
-            button2.Text = "Sign UP Employee";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            panel2.Paint += panel2_Paint;
             // 
             // employeeControl
             // 

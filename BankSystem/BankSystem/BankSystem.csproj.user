@@ -7,7 +7,10 @@
     <Compile Update="AddBranch.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="addCustomer.cs">
+    <Compile Update="UpdateAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UpdateCustomer.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="adminControl.cs">
@@ -46,10 +49,19 @@
     <Compile Update="ShowLoan.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="signAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="signCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="signEmployee.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Transaction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UpdateEmployee.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="ViewAccount.cs">

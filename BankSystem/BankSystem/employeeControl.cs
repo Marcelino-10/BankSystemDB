@@ -32,7 +32,7 @@ namespace BankSystem
         private void button1_Click(object sender, EventArgs e)
         {
             panel2.Controls.Clear();
-            addCustomer addCusto = new addCustomer();
+            UpdateCustomer addCusto = new UpdateCustomer();
             panel2.Controls.Add(addCusto);
         }
         public void Hide()
@@ -44,8 +44,13 @@ namespace BankSystem
         private void button2_Click(object sender, EventArgs e)
         {
             panel2.Controls.Clear();
-            signEmployee signEmployee = new signEmployee();
-            panel2.Controls.Add(signEmployee);
+            signCustomer signCustomer = new signCustomer();
+            panel2.Controls.Add(signCustomer);
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
