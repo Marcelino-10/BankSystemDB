@@ -33,8 +33,10 @@
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
+            panel2 = new Panel();
             label1 = new Label();
             panel1.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -47,7 +49,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(299, 588);
+            panel1.Size = new Size(299, 720);
             panel1.TabIndex = 5;
             panel1.Paint += panel1_Paint;
             // 
@@ -103,15 +105,23 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // panel2
+            // 
+            panel2.Controls.Add(label1);
+            panel2.Location = new Point(327, 3);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(750, 626);
+            panel2.TabIndex = 6;
+            // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Verdana", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(0, 64, 64);
-            label1.Location = new Point(363, 216);
+            label1.Location = new Point(144, 240);
             label1.Name = "label1";
             label1.Size = new Size(477, 36);
-            label1.TabIndex = 7;
+            label1.TabIndex = 8;
             label1.Text = "Welcome in Customer Page";
             // 
             // customerControl
@@ -119,14 +129,15 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
-            Controls.Add(label1);
+            Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "customerControl";
-            Size = new Size(1058, 588);
+            Size = new Size(1080, 720);
             Load += customerControl_Load;
             panel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -139,6 +150,7 @@
         private Transaction transaction;
         private ViewAccount viewAccount;
         private ViewRequestedLoans viewRequestedLoans;
+        private Panel panel2;
         private Label label1;
     }
 }

@@ -151,3 +151,4 @@ C:\Users\DeLL\OneDrive\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\D
 C:\Users\DeLL\OneDrive\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.pdb
 C:\Users\DeLL\OneDrive\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.genruntimeconfig.cache
 C:\Users\DeLL\OneDrive\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\ref\BankSystem.dll
+C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.addCustomer.resources
