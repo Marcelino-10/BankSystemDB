@@ -20,12 +20,11 @@ namespace BankSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string branchNo = textBox1.Text;
             string bankCode = textBox2.Text;
             string zipCode = textBox3.Text;
             string city = textBox4.Text;
             string address = textBox5.Text;
-            if (branchNo == "" || bankCode == "" || city == "" || address == "")
+            if (bankCode == "" || city == "" || address == "")
             {
                 MessageBox.Show("Please fill all fileds!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -39,16 +38,7 @@ namespace BankSystem
             con.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = con;
-            command.CommandText = "select * from branch WHERE branchNo = '" + branchNo + "'";
-            SqlDataReader reader = command.ExecuteReader();
-
-            if (reader.Read())
-            {
-                MessageBox.Show("The Branch Number is already used!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                con.Close();
-                return;
-            }
-            reader.Close();
+            SqlDataReader reader;
             command.CommandText = "select * from bank WHERE code = '" + bankCode + "'";
             reader = command.ExecuteReader();
             if (!reader.Read())
@@ -58,7 +48,7 @@ namespace BankSystem
                 return;
             }
             reader.Close();
-            command.CommandText = "INSERT INTO branch VALUES('" + branchNo + "', '" + bankCode + "', '" + Program.adminID + "', '" + zipCode + "', '" + city + "', '" + address + "');";
+            command.CommandText = "INSERT INTO branch (bankcode, adminid, zipcode, city, address) VALUES('" + bankCode + "', '" + Program.adminID + "', '" + zipCode + "', '" + city + "', '" + address + "');";
             reader = command.ExecuteReader();
             MessageBox.Show("Branch Added Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();

@@ -171,3 +171,4 @@ D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\Ban
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ViewAccount.resources
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ViewRequestedLoans.resources
 D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.signEmployee.resources
+C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.signEmployee.resources

@@ -20,6 +20,9 @@ namespace BankSystem
         public void showTable(object sender, EventArgs e)
         {
 
+            List<int> customerSSN = new List<int>();
+            List<int> employeeId = new List<int>();
+
             string _path = AppDomain.CurrentDomain.BaseDirectory;
             string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
             string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=" + path + ";Integrated Security=True";
@@ -31,15 +34,53 @@ namespace BankSystem
             command.CommandText = "select* from loan";
             SqlDataReader reader = command.ExecuteReader();
 
+
             for (int j = 0; reader.Read(); j++)
             {
                 dataGridView1.Rows.Add();
-                for (int i = 0; i < 7; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    dataGridView1.Rows[j].Cells[i].Value = reader.GetValue(i).ToString();
+                    string temp = reader.GetValue(i).ToString();
+                    if (i == 1)
+                    {
+                        customerSSN.Add(int.Parse(temp));
+                    }
+                    else if (i == 2)
+                    {
+                        if (temp == "")
+                            employeeId.Add(0);
+                        else
+                            employeeId.Add(int.Parse(temp));
+                    }
+                    else
+                    {
+                        dataGridView1.Rows[j].Cells[i].Value = temp;
+                    }
                 }
+            }
+            reader.Close();
+            for (int j = 0; j < customerSSN.Count; j++)
+            {
+                SqlCommand command2 = new SqlCommand();
+                command2.Connection = con;
+                command2.CommandText = "select * from customer where ssn = '" + customerSSN[j] + "'";
+                SqlDataReader reader2 = command2.ExecuteReader();
+                if (reader2.Read())
+                {
+                    dataGridView1.Rows[j].Cells[1].Value = reader2.GetString(1);
+                }
+                reader2.Close();
+
+                command2.CommandText = "select * from employee where employeeid = '" + employeeId[j] + "'";
+                reader2 = command2.ExecuteReader();
+                if (reader2.Read())
+                {
+                    dataGridView1.Rows[j].Cells[2].Value = reader2.GetValue(0).ToString();
+                }
+                reader2.Close ();
             }
             con.Close();
         }
+
     }
 }

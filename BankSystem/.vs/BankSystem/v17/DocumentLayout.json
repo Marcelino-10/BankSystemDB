@@ -1,30 +1,51 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|c:\\users\\lenovo\\documents\\github\\banksystemdb\\banksystem\\banksystem\\addbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|c:\\users\\lenovo\\documents\\github\\banksystemdb\\banksystem\\banksystem\\addbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|c:\\users\\lenovo\\documents\\github\\banksystemdb\\banksystem\\banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\AppData\\Local\\Temp\\vdgbn0x5..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\signemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\signemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\signemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\signemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\signemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\signemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\signemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\AppData\\Local\\Temp\\vdgbn0x5..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\AppData\\Local\\Temp\\vdgbn0x5..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,19 +55,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddBranch.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBranch.cs",
+              "RelativeDocumentMoniker": "BankSystem\\AddBranch.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBranch.cs*",
+              "RelativeToolTip": "BankSystem\\AddBranch.cs*",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDIAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:08:24.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddBranch.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBranch.cs",
+              "RelativeDocumentMoniker": "BankSystem\\AddBranch.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBranch.cs [Design]*",
+              "RelativeToolTip": "BankSystem\\AddBranch.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:08:04.05Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\vdgbn0x5..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\vdgbn0x5..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-17T16:11:06.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "adminControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
+              "RelativeDocumentMoniker": "BankSystem\\adminControl.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs [Design]",
+              "RelativeToolTip": "BankSystem\\adminControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T15:39:34.877Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "addCustomer.cs",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\addCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\addCustomer.cs",
               "RelativeDocumentMoniker": "BankSystem\\addCustomer.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\addCustomer.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\addCustomer.cs",
               "RelativeToolTip": "BankSystem\\addCustomer.cs",
               "ViewState": "AQIAACMAAAAAAAAAAADwvzUAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,11 +120,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "signEmployee.cs",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\signEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\signEmployee.cs",
               "RelativeDocumentMoniker": "BankSystem\\signEmployee.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\signEmployee.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\signEmployee.cs",
               "RelativeToolTip": "BankSystem\\signEmployee.cs",
               "ViewState": "AQIAACsAAAAAAAAAAADwvz4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -68,11 +133,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "signEmployee.cs [Design]",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\signEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\signEmployee.cs",
               "RelativeDocumentMoniker": "BankSystem\\signEmployee.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\signEmployee.cs [Design]",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\signEmployee.cs [Design]",
               "RelativeToolTip": "BankSystem\\signEmployee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T13:07:24.975Z",
@@ -80,11 +145,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "addCustomer.cs [Design]",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\addCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\addCustomer.cs",
               "RelativeDocumentMoniker": "BankSystem\\addCustomer.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\addCustomer.cs [Design]",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\addCustomer.cs [Design]",
               "RelativeToolTip": "BankSystem\\addCustomer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T13:08:40.952Z",
@@ -92,24 +157,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "employeeControl.cs",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
               "RelativeDocumentMoniker": "BankSystem\\employeeControl.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
               "RelativeToolTip": "BankSystem\\employeeControl.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAiwC0AAAAkAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAA4wC0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T13:07:58.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "employeeControl.cs [Design]",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
               "RelativeDocumentMoniker": "BankSystem\\employeeControl.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs [Design]",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs [Design]",
               "RelativeToolTip": "BankSystem\\employeeControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T13:05:50.291Z",

@@ -84,6 +84,20 @@ alter table "TRANSACTION"
 go
 
 if exists (select 1
+   from sys.sysreferences r join sys.sysobjects o on (o.id = r.constid and o.type = 'F')
+   where r.fkeyid = object_id('CUSTOMER') and o.name = 'FK_CUSTOMER_REQUEST_LOAN')
+alter table LOAN
+   drop constraint FK_CUSTOMER_REQUEST_LOAN
+go
+
+if exists (select 1
+   from sys.sysreferences r join sys.sysobjects o on (o.id = r.constid and o.type = 'F')
+   where r.fkeyid = object_id('EMPLOYEE') and o.name = 'FK_EMPLOYEE_ACCEPT_LOAN')
+alter table LOAN
+   drop constraint FK_EMPLOYEE_ACCEPT_LOAN
+go
+
+if exists (select 1
             from  sysindexes
            where  id    = object_id('ACCOUNT')
             and   name  = 'BELONGS_FK'
@@ -256,12 +270,12 @@ go
 /* Table: ACCOUNT                                               */
 /*==============================================================*/
 create table ACCOUNT (
-   ACCOUNTNO_           int          not null,
-   BRANCHNO             int          not null,
-   SSN                  int         not null,
-   BALANCE              float                  not null,
+   ACCOUNTNO_           int                  not null,
+   BRANCHNO             int                  not null,
+   CUSTOMERSSN          int                  not null,
+   BALANCE              float                not null,
    OPENDATE             datetime             not null,
-   TYPE                 varchar(50)        not null,
+   TYPE                 varchar(50)          not null,
    INTERESTRATE         float                not null,
    constraint PK_ACCOUNT primary key nonclustered (ACCOUNTNO_)
 )
@@ -284,14 +298,14 @@ go
 
 
 
-create nonclustered index BELONGS_FK on ACCOUNT (SSN ASC)
+create nonclustered index BELONGS_FK on ACCOUNT (CUSTOMERSSN ASC)
 go
 
 /*==============================================================*/
 /* Table: ADMIN                                                 */
 /*==============================================================*/
 create table ADMIN (
-   ID                   int           not null,
+   ID                   int                   not null,
    NAME                 varchar(100)          not null,
    PASSWORD             varchar(20)           not null,
    constraint PK_ADMIN primary key nonclustered (ID)
@@ -302,10 +316,10 @@ go
 /* Table: BANK                                                  */
 /*==============================================================*/
 create table BANK (
-   CODE                 int          not null,
-   ID                   int           not null,
-   NAME                 varchar(100)        not null,
-   ADDRESS              varchar(100)        null,
+   CODE                 int    identity(100, 1)    not null,
+   ADMINID              int                        not null,
+   NAME                 varchar(100)               not null,
+   ADDRESS              varchar(100)                   null,
    constraint PK_BANK primary key nonclustered (CODE)
 )
 go
@@ -317,19 +331,19 @@ go
 
 
 
-create nonclustered index CREATESBANK_FK on BANK (ID ASC)
+create nonclustered index CREATESBANK_FK on BANK (ADMINID ASC)
 go
 
 /*==============================================================*/
 /* Table: BRANCH                                                */
 /*==============================================================*/
 create table BRANCH (
-   BRANCHNO             int           not null,
-   CODE                 int          not null,
-   ID                   int          not null,
-   ZIPCODE              int                      null,
-   CITY                 varchar(30)          not null,
-   ADDRESS              varchar(100)          not null,
+   BRANCHNO             int       identity(1500, 1)   not null,
+   BANKCODE             int                           not null,
+   ADMINID              int                           not null,
+   ZIPCODE              int                               null,
+   CITY                 varchar(30)                   not null,
+   ADDRESS              varchar(100)                  not null,
    constraint PK_BRANCH primary key nonclustered (BRANCHNO)
 )
 go
@@ -341,7 +355,7 @@ go
 
 
 
-create nonclustered index OWNS_FK on BRANCH (CODE ASC)
+create nonclustered index OWNS_FK on BRANCH (BANKCODE ASC)
 go
 
 /*==============================================================*/
@@ -351,19 +365,19 @@ go
 
 
 
-create nonclustered index CREATEBRANCH_FK on BRANCH (ID ASC)
+create nonclustered index CREATEBRANCH_FK on BRANCH (ADMINID ASC)
 go
 
 /*==============================================================*/
 /* Table: CUSTOMER                                              */
 /*==============================================================*/
 create table CUSTOMER (
-   SSN                  int          not null,
+   SSN                  int                   not null,
    NAME                 varchar(100)          not null,
-   DATEBIRTH            datetime             null,
+   DATEBIRTH            datetime                  null,
    EMAIL                varchar(100)          not null,
-   ADDRESS              varchar(100)          null,
-   PASSWORD             varchar(20)           null,
+   ADDRESS              varchar(100)              null,
+   PASSWORD             varchar(20)               null,
    constraint PK_CUSTOMER primary key nonclustered (SSN)
 )
 go
@@ -373,7 +387,7 @@ go
 /*==============================================================*/
 create table CUSTOMERPHONE (
    PHONENUM             varchar(11)          not null,
-   SSN                  int          not null,
+   SSN                  int                  not null,
    constraint PK_CUSTOMERPHONE primary key nonclustered (PHONENUM, SSN)
 )
 go
@@ -392,14 +406,14 @@ go
 /* Table: EMPLOYEE                                              */
 /*==============================================================*/
 create table EMPLOYEE (
-   EMPLOYEEID           int           not null,
-   BRANCHNO             int           not null,
+   EMPLOYEEID           int                   not null,
+   BRANCHNO             int                   not null,
    NAME                 varchar(100)          not null,
-   ADDRESS              varchar(100)          not null,
-   PHONENUM             varchar(11)          not null,
-   TITLE                varchar(20)          not null,
+   ADDRESS              varchar(100)              null,
+   PHONENUM             varchar(11)           not null,
+   TITLE                varchar(20)           not null,
    EMAIL                varchar(100)          not null,
-   PASSWORD             varchar(20)           not null,
+   PASSWORD             varchar(20)               null,
    constraint PK_EMPLOYEE primary key nonclustered (EMPLOYEEID)
 )
 go
@@ -418,66 +432,28 @@ go
 /* Table: LOAN                                                  */
 /*==============================================================*/
 create table LOAN (
-   LOANNO_              int           not null,
-   BRANCHNO             int           not null,
-   AMOUNT               float                  not null,
-   INTERESTRATE         float                not null,
-   TYPE                 varchar(30)        not null,
-   PAYMENTSCHEDULE      varchar(200)        not null,
+   LOANNO_              int    identity(512, 1)    not null,
+   CUSTOMERSSN          int                        not null,
+   EMPLOYEEID           int                            null,
+   AMOUNT               float                      not null,
+   INTERESTRATE         float                      not null,
+   TYPE                 varchar(30)                not null,
+   PAYMENTSCHEDULE      varchar(30)                not null,
+   STATUS               varchar(20)                    null,
    constraint PK_LOAN primary key nonclustered (LOANNO_)
 )
 go
 
-/*==============================================================*/
-/* Index: OFFERS_FK                                             */
-/*==============================================================*/
-
-
-
-
-create nonclustered index OFFERS_FK on LOAN (BRANCHNO ASC)
-go
-
-/*==============================================================*/
-/* Table: TAKELOAN                                              */
-/*==============================================================*/
-create table TAKELOAN (
-   LOANNO_              int           not null,
-   SSN                  int          not null,
-   DURATION             varchar(30)           not null,
-   constraint PK_TAKELOAN primary key nonclustered (LOANNO_, SSN)
-)
-go
-
-/*==============================================================*/
-/* Index: RELATIONSHIP_5_FK                                     */
-/*==============================================================*/
-
-
-
-
-create nonclustered index RELATIONSHIP_5_FK on TAKELOAN (SSN ASC)
-go
-
-/*==============================================================*/
-/* Index: RELATIONSHIP_6_FK                                     */
-/*==============================================================*/
-
-
-
-
-create nonclustered index RELATIONSHIP_6_FK on TAKELOAN (LOANNO_ ASC)
-go
 
 /*==============================================================*/
 /* Table: "TRANSACTION"                                         */
 /*==============================================================*/
 create table "TRANSACTION" (
-   TRANSACTIONID        int          not null,
-   ACCOUNTNO_           int          not null,
-   TRANSACTIONTYPE      varchar(30)          not null,
-   TRANSACTIONDATE      datetime             not null,
-   AMOUNT               float                not null,
+   TRANSACTIONID        int    identity(2000, 1)      not null,
+   ACCOUNTNO_           int                           not null,
+   TRANSACTIONTYPE      varchar(30)                   not null,
+   TRANSACTIONDATE      datetime                      not null,
+   AMOUNT               float                         not null,
    constraint PK_TRANSACTION primary key nonclustered (TRANSACTIONID)
 )
 go
@@ -493,7 +469,7 @@ create nonclustered index MAKES_FK on "TRANSACTION" (ACCOUNTNO_ ASC)
 go
 
 alter table ACCOUNT
-   add constraint FK_ACCOUNT_BELONGS_CUSTOMER foreign key (SSN)
+   add constraint FK_ACCOUNT_BELONGS_CUSTOMER foreign key (CUSTOMERSSN)
       references CUSTOMER (SSN)
 go
 
@@ -503,17 +479,17 @@ alter table ACCOUNT
 go
 
 alter table BANK
-   add constraint FK_BANK_CREATESBA_ADMIN foreign key (ID)
+   add constraint FK_BANK_CREATESBA_ADMIN foreign key (ADMINID)
       references ADMIN (ID)
 go
 
 alter table BRANCH
-   add constraint FK_BRANCH_CREATEBRA_ADMIN foreign key (ID)
+   add constraint FK_BRANCH_CREATEBRA_ADMIN foreign key (ADMINID)
       references ADMIN (ID)
 go
 
 alter table BRANCH
-   add constraint FK_BRANCH_OWNS_BANK foreign key (CODE)
+   add constraint FK_BRANCH_OWNS_BANK foreign key (BANKCODE)
       references BANK (CODE)
 go
 
@@ -528,18 +504,13 @@ alter table EMPLOYEE
 go
 
 alter table LOAN
-   add constraint FK_LOAN_OFFERS_BRANCH foreign key (BRANCHNO)
-      references BRANCH (BRANCHNO)
-go
-
-alter table TAKELOAN
-   add constraint FK_TAKELOAN_RELATIONS_CUSTOMER foreign key (SSN)
+   add constraint FK_CUSTOMER_REQUEST_LOAN foreign key (CUSTOMERSSN)
       references CUSTOMER (SSN)
 go
 
-alter table TAKELOAN
-   add constraint FK_TAKELOAN_RELATIONS_LOAN foreign key (LOANNO_)
-      references LOAN (LOANNO_)
+alter table LOAN
+   add constraint FK_EMPLOYEE_ACCEPT_LOAN foreign key (EMPLOYEEID)
+      references EMPLOYEE (EMPLOYEEID)
 go
 
 alter table "TRANSACTION"

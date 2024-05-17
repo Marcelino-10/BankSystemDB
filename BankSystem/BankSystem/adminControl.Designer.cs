@@ -164,12 +164,12 @@
             // 
             // flowLayoutPanel1
             // 
+            flowLayoutPanel1.Controls.Add(button16);
+            flowLayoutPanel1.Controls.Add(button11);
+            flowLayoutPanel1.Controls.Add(button12);
             flowLayoutPanel1.Controls.Add(button15);
             flowLayoutPanel1.Controls.Add(button13);
-            flowLayoutPanel1.Controls.Add(button12);
-            flowLayoutPanel1.Controls.Add(button11);
             flowLayoutPanel1.Controls.Add(button14);
-            flowLayoutPanel1.Controls.Add(button16);
             flowLayoutPanel1.Location = new Point(536, 71);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(250, 208);
@@ -177,7 +177,7 @@
             // 
             // button15
             // 
-            button15.Location = new Point(3, 3);
+            button15.Location = new Point(3, 108);
             button15.Name = "button15";
             button15.Size = new Size(247, 29);
             button15.TabIndex = 4;
@@ -187,7 +187,7 @@
             // 
             // button13
             // 
-            button13.Location = new Point(3, 38);
+            button13.Location = new Point(3, 143);
             button13.Name = "button13";
             button13.Size = new Size(247, 29);
             button13.TabIndex = 2;
@@ -207,7 +207,7 @@
             // 
             // button11
             // 
-            button11.Location = new Point(3, 108);
+            button11.Location = new Point(3, 38);
             button11.Name = "button11";
             button11.Size = new Size(247, 29);
             button11.TabIndex = 0;
@@ -217,7 +217,7 @@
             // 
             // button14
             // 
-            button14.Location = new Point(3, 143);
+            button14.Location = new Point(3, 178);
             button14.Name = "button14";
             button14.Size = new Size(247, 29);
             button14.TabIndex = 3;
@@ -227,7 +227,7 @@
             // 
             // button16
             // 
-            button16.Location = new Point(3, 178);
+            button16.Location = new Point(3, 3);
             button16.Name = "button16";
             button16.Size = new Size(247, 29);
             button16.TabIndex = 5;
