@@ -46,7 +46,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(label1);
             Name = "RequestLoan";
-            Size = new Size(750, 626);
+            Size = new Size(783, 717);
             Load += RequestLoan_Load;
             ResumeLayout(false);
             PerformLayout();

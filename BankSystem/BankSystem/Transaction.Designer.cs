@@ -46,7 +46,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(label1);
             Name = "Transaction";
-            Size = new Size(750, 626);
+            Size = new Size(783, 717);
             ResumeLayout(false);
             PerformLayout();
         }

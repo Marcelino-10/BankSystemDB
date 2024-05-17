@@ -60,11 +60,7 @@ namespace BankSystem
 
         private void addCustomer_Load(object sender, EventArgs e)
         {
-            employeeControl emp = new employeeControl();
-            emp.Hide();
-                emp.Dock = DockStyle.Top;
-            this.Controls.Add(emp);
-
+            
         }
     }
 }

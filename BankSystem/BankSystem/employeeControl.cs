@@ -30,9 +30,9 @@ namespace BankSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Controls.Clear();
+            panel2.Controls.Clear();
             addCustomer addCusto = new addCustomer();
-            this.Controls.Add(addCusto);
+            panel2.Controls.Add(addCusto);
         }
         public void Hide()
         {
