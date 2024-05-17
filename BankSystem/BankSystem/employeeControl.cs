@@ -13,6 +13,7 @@ namespace BankSystem
 {
     public partial class employeeControl : UserControl
     {
+
         public employeeControl()
         {
             InitializeComponent();
@@ -39,6 +40,12 @@ namespace BankSystem
             panel2.Visible = false;
 
         }
-        
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+            signEmployee signEmployee = new signEmployee();
+            panel2.Controls.Add(signEmployee);
+        }
     }
 }

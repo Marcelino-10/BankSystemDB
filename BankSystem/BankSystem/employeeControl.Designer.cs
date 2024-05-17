@@ -33,6 +33,7 @@
             button1 = new Button();
             btn_payLoan = new Button();
             panel2 = new Panel();
+            button2 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -51,6 +52,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(0, 64, 64);
+            panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(btn_payLoan);
             panel1.Dock = DockStyle.Left;
@@ -95,6 +97,19 @@
             panel2.Size = new Size(754, 673);
             panel2.TabIndex = 2;
             // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ControlLightLight;
+            button2.Font = new Font("Verdana", 10F, FontStyle.Bold);
+            button2.ForeColor = Color.DarkSlateGray;
+            button2.Location = new Point(31, 185);
+            button2.Name = "button2";
+            button2.Size = new Size(234, 53);
+            button2.TabIndex = 2;
+            button2.Text = "Sign UP Employee";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // employeeControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -118,5 +133,6 @@
         private Button btn_payLoan;
         private Button button1;
         private Panel panel2;
+        private Button button2;
     }
 }

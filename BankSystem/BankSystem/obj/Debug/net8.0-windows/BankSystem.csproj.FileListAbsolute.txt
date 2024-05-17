@@ -157,3 +157,17 @@ C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\ne
 C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.Transaction.resources
 C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ViewAccount.resources
 C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ViewRequestedLoans.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.AddBank.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.AddBranch.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.addCustomer.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.RequestLoan.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ShowAdmin.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ShowBank.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ShowBranch.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ShowCustomer.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ShowEmployee.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ShowLoan.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.Transaction.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ViewAccount.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ViewRequestedLoans.resources
+D:\FCAI\Secod Year\Second Semester\Data Base\Project\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.signEmployee.resources
