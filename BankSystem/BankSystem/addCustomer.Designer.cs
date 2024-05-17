@@ -185,7 +185,7 @@
             Controls.Add(label1);
             Margin = new Padding(3, 4, 3, 4);
             Name = "addCustomer";
-            Size = new Size(754, 665);
+            Size = new Size(754, 673);
             Load += addCustomer_Load;
             ResumeLayout(false);
             PerformLayout();

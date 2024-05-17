@@ -58,7 +58,7 @@
             button4.BackColor = SystemColors.ControlLightLight;
             button4.Font = new Font("Verdana", 10F, FontStyle.Bold);
             button4.ForeColor = Color.FromArgb(0, 64, 64);
-            button4.Location = new Point(25, 341);
+            button4.Location = new Point(29, 341);
             button4.Name = "button4";
             button4.Size = new Size(234, 54);
             button4.TabIndex = 5;
@@ -71,7 +71,7 @@
             button3.BackColor = SystemColors.ControlLightLight;
             button3.Font = new Font("Verdana", 10F, FontStyle.Bold);
             button3.ForeColor = Color.FromArgb(0, 64, 64);
-            button3.Location = new Point(25, 240);
+            button3.Location = new Point(29, 240);
             button3.Name = "button3";
             button3.Size = new Size(234, 54);
             button3.TabIndex = 4;
@@ -84,7 +84,7 @@
             button2.BackColor = SystemColors.ControlLightLight;
             button2.Font = new Font("Verdana", 10F, FontStyle.Bold);
             button2.ForeColor = Color.FromArgb(0, 64, 64);
-            button2.Location = new Point(25, 153);
+            button2.Location = new Point(29, 153);
             button2.Name = "button2";
             button2.Size = new Size(234, 54);
             button2.TabIndex = 3;
@@ -97,7 +97,7 @@
             button1.BackColor = SystemColors.ControlLightLight;
             button1.Font = new Font("Verdana", 10F, FontStyle.Bold);
             button1.ForeColor = Color.FromArgb(0, 64, 64);
-            button1.Location = new Point(25, 59);
+            button1.Location = new Point(29, 59);
             button1.Name = "button1";
             button1.Size = new Size(234, 54);
             button1.TabIndex = 2;
@@ -108,9 +108,9 @@
             // panel2
             // 
             panel2.Controls.Add(label1);
-            panel2.Location = new Point(294, 3);
+            panel2.Location = new Point(294, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(783, 717);
+            panel2.Size = new Size(786, 720);
             panel2.TabIndex = 6;
             // 
             // label1
