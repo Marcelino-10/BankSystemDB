@@ -24,29 +24,34 @@ namespace BankSystem
         private void button1_Click(object sender, EventArgs e)
         {
             
-            panel2.Controls.Clear();
-            panel2.Controls.Add(requestLoan);
+            this.Controls.Clear();
+            RequestLoan requestLoan = new RequestLoan();
+            
+            this.Controls.Add(requestLoan);
 
 
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            panel2.Controls.Clear();
-            panel2.Controls.Add(transaction);
+            this.Controls.Clear();
+            Transaction transaction = new Transaction();
+            this.Controls.Add(transaction);
 
 
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            panel2.Controls.Clear();
-            panel2.Controls.Add(viewAccount);
+            this.Controls.Clear();
+            ViewAccount viewAccount = new ViewAccount();
+            this.Controls.Add(viewAccount);
 
 
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            panel2.Controls.Clear();
-            panel2.Controls.Add(viewRequestedLoans);
+            this.Controls.Clear();
+            ViewRequestedLoans viewRequestedLoans = new ViewRequestedLoans();
+            this.Controls.Add(viewRequestedLoans);
 
 
         }

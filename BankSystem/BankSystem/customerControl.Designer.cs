@@ -33,11 +33,6 @@
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
-            requestLoan = new RequestLoan();
-            transaction = new Transaction();
-            viewAccount = new ViewAccount();
-            viewRequestedLoans = new ViewRequestedLoans();
-            panel2 = new Panel();
             label1 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -45,7 +40,6 @@
             // panel1
             // 
             panel1.BackColor = Color.DarkSlateGray;
-            panel1.Controls.Add(panel2);
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
@@ -69,7 +63,6 @@
             button4.Text = "View Loan";
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
-
             // 
             // button3
             // 
@@ -83,7 +76,6 @@
             button3.Text = "View Account";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
-
             // 
             // button2
             // 
@@ -97,9 +89,6 @@
             button2.Text = "Transaction";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
-
-
-
             // 
             // button1
             // 
@@ -114,50 +103,15 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
-            // requestLoan
-            // 
-            requestLoan.Location = new Point(0, 0);
-            requestLoan.Name = "requestLoan";
-            requestLoan.Size = new Size(1005, 385);
-            requestLoan.TabIndex = 0;
-            // 
-            // transaction
-            // 
-            transaction.Location = new Point(0, 0);
-            transaction.Name = "transaction";
-            transaction.Size = new Size(150, 150);
-            transaction.TabIndex = 0;
-            // 
-            // viewAccount
-            // 
-            viewAccount.Location = new Point(0, 0);
-            viewAccount.Name = "viewAccount";
-            viewAccount.Size = new Size(150, 150);
-            viewAccount.TabIndex = 0;
-            // 
-            // viewRequestedLoans
-            // 
-            viewRequestedLoans.Location = new Point(0, 0);
-            viewRequestedLoans.Name = "viewRequestedLoans";
-            viewRequestedLoans.Size = new Size(150, 150);
-            viewRequestedLoans.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            panel2.Location = new Point(292, 45);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(766, 543);
-            panel2.TabIndex = 6;
-            // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Verdana", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.DarkSlateGray;
-            label1.Location = new Point(391, 210);
+            label1.Location = new Point(363, 216);
             label1.Name = "label1";
             label1.Size = new Size(477, 36);
-            label1.TabIndex = 6;
+            label1.TabIndex = 7;
             label1.Text = "Welcome in Customer Page";
             // 
             // customerControl
@@ -185,7 +139,6 @@
         private Transaction transaction;
         private ViewAccount viewAccount;
         private ViewRequestedLoans viewRequestedLoans;
-        private Panel panel2;
         private Label label1;
     }
 }
