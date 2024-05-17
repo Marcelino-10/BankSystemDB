@@ -1,91 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|c:\\users\\steven\\documents\\github\\banksystemdb\\banksystem\\banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DELL_ONEDRIVE_DOCUMENTS_GITHUB_BANKSYSTEMDB_BANKSYSTEM_BANKSYSTEM_DB_LOCALDB.MDF/True/SqlTable/dbo.CUSTOMER.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|c:\\users\\steven\\documents\\github\\banksystemdb\\banksystem\\banksystem\\showadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\showadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\customercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\customercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|c:\\users\\dell\\onedrive\\documents\\github\\banksystemdb\\banksystem\\banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\requestloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\addbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\showadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\showadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\customercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\customercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\requestloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\requestloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\requestloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\requestloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\requestloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\viewaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\viewaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\viewaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\viewrequestedloans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\viewrequestedloans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\viewrequestedloans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\addbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\addbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Steven\\AppData\\Local\\Temp\\pn1fhhve..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Steven\\AppData\\Local\\Temp\\24af5s5b..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\showloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\showloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\showloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\showbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\showbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\showbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -96,47 +111,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ShowAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowAdmin.cs",
-              "RelativeDocumentMoniker": "BankSystem\\ShowAdmin.cs",
-              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowAdmin.cs [Design]",
-              "RelativeToolTip": "BankSystem\\ShowAdmin.cs [Design]",
+              "Title": "addCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\addCustomer.cs",
+              "RelativeDocumentMoniker": "BankSystem\\addCustomer.cs",
+              "ToolTip": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\addCustomer.cs",
+              "RelativeToolTip": "BankSystem\\addCustomer.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:13:28.425Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "WhenOpened": "2024-05-17T08:53:35.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "dbo.CUSTOMER [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DELL_ONEDRIVE_DOCUMENTS_GITHUB_BANKSYSTEMDB_BANKSYSTEM_BANKSYSTEM_DB_LOCALDB.MDF/True/SqlTable/dbo.CUSTOMER.sql",
+              "ToolTip": "dbo.CUSTOMER [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-17T08:52:12.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "customerControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs",
               "RelativeDocumentMoniker": "BankSystem\\customerControl.cs",
-              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs [Design]",
+              "ToolTip": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs [Design]",
               "RelativeToolTip": "BankSystem\\customerControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:21:26.603Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-16T19:21:26.603Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "employeeControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
+              "RelativeDocumentMoniker": "BankSystem\\employeeControl.cs",
+              "ToolTip": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs [Design]",
+              "RelativeToolTip": "BankSystem\\employeeControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T01:06:41.956Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddBranch.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBranch.cs",
+              "RelativeDocumentMoniker": "BankSystem\\AddBranch.cs",
+              "ToolTip": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBranch.cs [Design]",
+              "RelativeToolTip": "BankSystem\\AddBranch.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:53:38.549Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "addCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\addCustomer.cs",
+              "RelativeDocumentMoniker": "BankSystem\\addCustomer.cs",
+              "ToolTip": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\addCustomer.cs [Design]",
+              "RelativeToolTip": "BankSystem\\addCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:53:49.302Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShowAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowAdmin.cs",
+              "RelativeDocumentMoniker": "BankSystem\\ShowAdmin.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowAdmin.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T02:13:28.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "customerControl.cs",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs",
               "RelativeDocumentMoniker": "BankSystem\\customerControl.cs",
-              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs",
+              "ToolTip": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs",
               "RelativeToolTip": "BankSystem\\customerControl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -144,71 +208,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "customerControl.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.Designer.cs",
               "RelativeDocumentMoniker": "BankSystem\\customerControl.Designer.cs",
-              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.Designer.cs",
+              "ToolTip": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.Designer.cs",
               "RelativeToolTip": "BankSystem\\customerControl.Designer.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAtwCIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T23:58:07.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "adminControl.cs",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
-              "RelativeDocumentMoniker": "BankSystem\\adminControl.cs",
-              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
-              "RelativeToolTip": "BankSystem\\adminControl.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T11:26:25.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "adminControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
-              "RelativeDocumentMoniker": "BankSystem\\adminControl.cs",
-              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs [Design]",
-              "RelativeToolTip": "BankSystem\\adminControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T11:11:51.095Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "employeeControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
-              "RelativeDocumentMoniker": "BankSystem\\employeeControl.cs",
-              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs [Design]",
-              "RelativeToolTip": "BankSystem\\employeeControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T01:06:41.956Z"
+              "WhenOpened": "2024-05-16T23:58:07.461Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "adminControl.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
+              "RelativeDocumentMoniker": "BankSystem\\adminControl.cs",
+              "ToolTip": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
+              "RelativeToolTip": "BankSystem\\adminControl.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:26:25.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "adminControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
+              "RelativeDocumentMoniker": "BankSystem\\adminControl.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:11:51.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "RequestLoan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.cs",
               "RelativeDocumentMoniker": "BankSystem\\RequestLoan.cs",
               "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.cs [Design]",
-              "RelativeToolTip": "BankSystem\\RequestLoan.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T00:03:38.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "RequestLoan.cs",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.cs",
               "RelativeDocumentMoniker": "BankSystem\\RequestLoan.cs",
-              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.cs",
+              "ToolTip": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.cs",
               "RelativeToolTip": "BankSystem\\RequestLoan.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAADgvxUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -216,92 +266,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "ViewAccount.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ViewAccount.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ViewAccount.cs",
               "RelativeDocumentMoniker": "BankSystem\\ViewAccount.cs",
               "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ViewAccount.cs [Design]",
-              "RelativeToolTip": "BankSystem\\ViewAccount.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ViewAccount.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T00:06:51.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "ViewRequestedLoans.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ViewRequestedLoans.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ViewRequestedLoans.cs",
               "RelativeDocumentMoniker": "BankSystem\\ViewRequestedLoans.cs",
               "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ViewRequestedLoans.cs [Design]",
-              "RelativeToolTip": "BankSystem\\ViewRequestedLoans.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ViewRequestedLoans.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T00:07:54.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Transaction.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\Transaction.cs",
               "RelativeDocumentMoniker": "BankSystem\\Transaction.cs",
               "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\Transaction.cs [Design]",
-              "RelativeToolTip": "BankSystem\\Transaction.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\Transaction.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T00:05:12.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "mainPage.cs",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\mainPage.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\mainPage.cs",
               "RelativeDocumentMoniker": "BankSystem\\mainPage.cs",
-              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\mainPage.cs",
+              "ToolTip": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\mainPage.cs",
               "RelativeToolTip": "BankSystem\\mainPage.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAcwC8AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T20:32:46.731Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "AddBank.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBank.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBank.cs",
               "RelativeDocumentMoniker": "BankSystem\\AddBank.cs",
               "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBank.cs [Design]*",
-              "RelativeToolTip": "BankSystem\\AddBank.cs [Design]*",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBank.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T20:35:51.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "mainPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\mainPage.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\mainPage.cs",
               "RelativeDocumentMoniker": "BankSystem\\mainPage.cs",
               "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\mainPage.cs [Design]",
-              "RelativeToolTip": "BankSystem\\mainPage.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\mainPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T13:11:10.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "SQLQuery5.sql ",
               "DocumentMoniker": "C:\\Users\\Steven\\AppData\\Local\\Temp\\pn1fhhve..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\pn1fhhve..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Steven\\AppData\\Local\\Temp\\pn1fhhve..sql",
               "ToolTip": "SQLQuery5.sql *",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-05-16T21:14:28.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "employeeControl.cs",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
               "RelativeDocumentMoniker": "BankSystem\\employeeControl.cs",
-              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
+              "ToolTip": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
               "RelativeToolTip": "BankSystem\\employeeControl.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -309,11 +355,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\Program.cs",
               "RelativeDocumentMoniker": "BankSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\Program.cs",
               "RelativeToolTip": "BankSystem\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -321,44 +367,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "SQLQuery4.sql ",
               "DocumentMoniker": "C:\\Users\\Steven\\AppData\\Local\\Temp\\24af5s5b..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\24af5s5b..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Steven\\AppData\\Local\\Temp\\24af5s5b..sql",
               "ToolTip": "SQLQuery4.sql *",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-05-16T20:15:43.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "ShowLoan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowLoan.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowLoan.cs",
               "RelativeDocumentMoniker": "BankSystem\\ShowLoan.cs",
               "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowLoan.cs [Design]",
-              "RelativeToolTip": "BankSystem\\ShowLoan.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowLoan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T19:21:38.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "ShowBranch.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowBranch.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowBranch.cs",
               "RelativeDocumentMoniker": "BankSystem\\ShowBranch.cs",
               "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowBranch.cs [Design]",
-              "RelativeToolTip": "BankSystem\\ShowBranch.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\ShowBranch.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T13:07:18.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DeLL\\OneDrive\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\Form1.cs",
               "RelativeDocumentMoniker": "BankSystem\\Form1.cs",
               "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\Form1.cs [Design]",
-              "RelativeToolTip": "BankSystem\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T13:02:19.67Z"
             }

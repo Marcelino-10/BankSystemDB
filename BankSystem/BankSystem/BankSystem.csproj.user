@@ -7,6 +7,9 @@
     <Compile Update="AddBranch.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="addCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="adminControl.cs">
       <SubType>UserControl</SubType>
     </Compile>

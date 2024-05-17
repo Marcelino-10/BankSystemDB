@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -26,5 +27,18 @@ namespace BankSystem
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Controls.Clear();
+            addCustomer addCusto = new addCustomer();
+            this.Controls.Add(addCusto);
+        }
+        public void Hide()
+        {
+            panel2.Visible = false;
+
+        }
+        
     }
 }
