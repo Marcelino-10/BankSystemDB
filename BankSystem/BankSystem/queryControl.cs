@@ -11,14 +11,17 @@ using System.Windows.Forms;
 
 namespace BankSystem
 {
-    public partial class ShowEmployee : UserControl
+    public partial class queryControl : UserControl
     {
-        public ShowEmployee()
+        public queryControl()
         {
             InitializeComponent();
         }
-        public void showTable(object sender, EventArgs e)
+
+        private void button1_Click(object sender, EventArgs e)
         {
+
+            string selected = comboBox1.SelectedItem.ToString();
 
             string _path = AppDomain.CurrentDomain.BaseDirectory;
             string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
@@ -28,23 +31,34 @@ namespace BankSystem
             con.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = con;
-            command.CommandText = "select* from employee";
-            SqlDataReader reader = command.ExecuteReader();
 
-            for (int j = 0; reader.Read(); j++)
+
+            if (selected == "Customers with Loans")
             {
-                dataGridView1.Rows.Add();
-                for (int i = 0; i < 8; i++)
-                {
-                    if (i == 7)
-                        continue;
-                    dataGridView1.Rows[j].Cells[i].Value = reader.GetValue(i).ToString();
-                }
+
             }
-            con.Close();
+            else if (selected == "Employee in Every Branch")
+            {
+                command.CommandText = "select count(EMPLOYEE.EMPLOYEEID) AS 'NUM OF EMPLOYEES' , BRANCH.BRANCHNO\r\nFROM EMPLOYEE , BRANCH\r\nWHERE EMPLOYEE.BRANCHNO = BRANCH.BRANCHNO\r\nGROUP BY BRANCH.BRANCHNO";
+                SqlDataReader reader = command.ExecuteReader();
+
+                for (int j = 0; reader.Read(); j++)
+                {
+                    dataGridView1.Rows.Add();
+                    for (int i = 0; i < 2; i++)
+                    {
+                        dataGridView1.Rows[j].Cells[i].Value = reader.GetValue(i).ToString();
+                    }
+                }
+                con.Close();
+            }
+            else if (selected == "Accounts in Every Branch")
+            {
+
+            }
         }
 
-        private void ShowEmployee_Load(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

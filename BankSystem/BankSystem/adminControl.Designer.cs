@@ -57,6 +57,7 @@
             signadmin = new signAdmin();
             updateadmin = new UpdateAdmin();
             updateemployee = new UpdateEmployee();
+            queryControl = new queryControl();
             panel4 = new Panel();
             button7 = new Button();
             button1 = new Button();
@@ -309,10 +310,35 @@
             // 
             // signadmin
             // 
+            signadmin.BackColor = SystemColors.ControlLightLight;
             signadmin.Location = new Point(0, 0);
             signadmin.Name = "signadmin";
             signadmin.Size = new Size(1058, 685);
             signadmin.TabIndex = 0;
+            // 
+            // updateadmin
+            // 
+            updateadmin.BackColor = SystemColors.ControlLightLight;
+            updateadmin.Location = new Point(0, 0);
+            updateadmin.Name = "updateadmin";
+            updateadmin.Size = new Size(1058, 689);
+            updateadmin.TabIndex = 0;
+            // 
+            // updateemployee
+            // 
+            updateemployee.BackColor = SystemColors.ControlLightLight;
+            updateemployee.Location = new Point(0, 0);
+            updateemployee.Name = "updateemployee";
+            updateemployee.Size = new Size(1058, 689);
+            updateemployee.TabIndex = 0;
+            // 
+            // queryControl
+            // 
+            queryControl.BackColor = SystemColors.ControlLightLight;
+            queryControl.Location = new Point(0, 0);
+            queryControl.Name = "queryControl";
+            queryControl.Size = new Size(1058, 685);
+            queryControl.TabIndex = 0;
             // 
             // panel4
             // 
@@ -337,6 +363,7 @@
             button7.TabIndex = 10;
             button7.Text = "Queries";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // button1
             // 
@@ -428,6 +455,7 @@
         private UpdateAdmin updateadmin;
         private UpdateEmployee updateemployee;
         private signAdmin signadmin;
+        private queryControl queryControl;
         private Panel panel4;
         private Button button7;
         private Button button1;

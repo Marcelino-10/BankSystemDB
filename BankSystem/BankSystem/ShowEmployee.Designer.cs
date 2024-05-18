@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             dataGridView1 = new DataGridView();
-            label1 = new Label();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
@@ -37,6 +36,7 @@
             Column5 = new DataGridViewTextBoxColumn();
             Column6 = new DataGridViewTextBoxColumn();
             Column7 = new DataGridViewTextBoxColumn();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -53,17 +53,7 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(941, 407);
             dataGridView1.TabIndex = 62;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Verdana", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.DarkSlateGray;
-            label1.Location = new Point(378, 28);
-            label1.Name = "label1";
-            label1.Size = new Size(262, 48);
-            label1.TabIndex = 61;
-            label1.Text = "Employees";
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // Column1
             // 
@@ -121,6 +111,17 @@
             Column7.Name = "Column7";
             Column7.ReadOnly = true;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Verdana", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.DarkSlateGray;
+            label1.Location = new Point(378, 28);
+            label1.Name = "label1";
+            label1.Size = new Size(262, 48);
+            label1.TabIndex = 61;
+            label1.Text = "Employees";
+            // 
             // ShowEmployee
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -129,6 +130,7 @@
             Controls.Add(label1);
             Name = "ShowEmployee";
             Size = new Size(1058, 689);
+            Load += ShowEmployee_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

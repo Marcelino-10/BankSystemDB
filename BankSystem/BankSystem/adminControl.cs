@@ -152,5 +152,12 @@ namespace BankSystem
             panel1.Controls.Add(updateemployee);
             disableAllMenu();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add(queryControl);
+            disableAllMenu();
+        }
     }
 }
