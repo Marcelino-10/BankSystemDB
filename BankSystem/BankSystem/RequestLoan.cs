@@ -36,14 +36,14 @@ namespace BankSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string amount = textBox2.Text;
+            float amount = float.Parse(textBox2.Text);
             string customerSSN = Program.customerID;
             string type = comboBox1.SelectedItem.ToString();
-            string intrestRate = label7.Text;
-            string paymentSchedule = comboBox2.SelectedIndex.ToString();
+            float intrestRate = float.Parse(label7.Text.Remove(label7.Text.Length - 1));
+            string paymentSchedule = comboBox2.SelectedItem.ToString();
             string stat = "Pending";
 
-            if (amount == "" || type == "" || paymentSchedule == "")
+            if (amount == 0 || type == "" || paymentSchedule == "")
             {
                 MessageBox.Show("Please fill all fileds!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -58,7 +58,7 @@ namespace BankSystem
             command.Connection = con;
             SqlDataReader reader;
 
-            command.CommandText = "INSERT INTO LOAN (CUSTOMERSSN, EMPLOYEEID, AMOUNT, INSERTRATE, TYPE,PAYMENTSCHEDULE,STATUS) VALUES('" + customerSSN + "', '" + Program.customerID + "', null,'" + amount + "', '" + intrestRate + "', '" + type + "', '" + paymentSchedule + "', '" + stat + "');";
+            command.CommandText = "INSERT INTO LOAN (CUSTOMERSSN, EMPLOYEEID, AMOUNT, INTERESTRATE, TYPE,PAYMENTSCHEDULE,STATUS) VALUES('" + customerSSN + "', null,'" + amount + "', '" + intrestRate + "', '" + type + "', '" + paymentSchedule + "', '" + stat + "');";
             reader = command.ExecuteReader();
             MessageBox.Show("Loan Requested Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();

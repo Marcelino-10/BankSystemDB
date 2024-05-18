@@ -44,13 +44,13 @@ namespace BankSystem
 
             if (!reader.Read())
             {
-                MessageBox.Show("This Admin isn't exist!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("This Admin doesn't exist!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 con.Close();
                 return;
             }
 
             reader.Close();
-            command.CommandText = "UPDATE CUSTOMER SET NAME =  '" + name + "' where SSN = '" + ssn + "';";
+            command.CommandText = "UPDATE ADMIN SET NAME =  '" + name + "' where SSN = '" + ssn + "';";
             reader = command.ExecuteReader();
             MessageBox.Show("Admin Updated Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();

@@ -113,7 +113,6 @@ C:\Users\DeLL\OneDrive\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\D
 C:\Users\DeLL\OneDrive\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.pdb
 C:\Users\DeLL\OneDrive\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.genruntimeconfig.cache
 C:\Users\DeLL\OneDrive\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\ref\BankSystem.dll
-C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.addCustomer.resources
 C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.RequestLoan.resources
 C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.Transaction.resources
 C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.ViewAccount.resources
@@ -176,3 +175,8 @@ C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\ne
 C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.dll
 C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\refint\BankSystem.dll
 C:\Users\Steven\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.pdb
+C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.signAdmin.resources
+C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.signCustomer.resources
+C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.UpdateAdmin.resources
+C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.UpdateCustomer.resources
+C:\Users\Lenovo\Documents\GitHub\BankSystemDB\BankSystem\BankSystem\obj\Debug\net8.0-windows\BankSystem.UpdateEmployee.resources
