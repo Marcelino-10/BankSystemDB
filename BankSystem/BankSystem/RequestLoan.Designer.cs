@@ -82,6 +82,7 @@
             // 
             // comboBox1
             // 
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox1.Font = new Font("Segoe UI", 10F);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Commercial", "Industry", "Personal" });
@@ -95,7 +96,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 12F);
-            label7.Location = new Point(585, 306);
+            label7.Location = new Point(670, 309);
             label7.Name = "label7";
             label7.Size = new Size(44, 28);
             label7.TabIndex = 33;
@@ -108,9 +109,9 @@
             label6.ForeColor = Color.FromArgb(0, 64, 64);
             label6.Location = new Point(498, 312);
             label6.Name = "label6";
-            label6.Size = new Size(67, 23);
+            label6.Size = new Size(155, 23);
             label6.TabIndex = 34;
-            label6.Text = " Rate";
+            label6.Text = "Interest Rate";
             // 
             // label8
             // 
@@ -125,6 +126,7 @@
             // 
             // comboBox2
             // 
+            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox2.Font = new Font("Segoe UI", 10F);
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "6   months , Monthly", "12 months , Monthly", "18 months , Monthly", "3   years     , Monthly", "6   years     , Monthly", "9   years     , Monthly", "3   years     , Annual", "6   years     , Annual", "9   years     , Annual", "", "" });

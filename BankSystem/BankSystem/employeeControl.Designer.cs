@@ -95,7 +95,7 @@
             button1.BackColor = SystemColors.ControlLightLight;
             button1.Font = new Font("Verdana", 10F, FontStyle.Bold);
             button1.ForeColor = Color.DarkSlateGray;
-            button1.Location = new Point(32, 101);
+            button1.Location = new Point(32, 110);
             button1.Name = "button1";
             button1.Size = new Size(251, 56);
             button1.TabIndex = 1;
@@ -112,7 +112,7 @@
             button5.Name = "button5";
             button5.Size = new Size(253, 53);
             button5.TabIndex = 0;
-            button5.Text = "Pay Loan";
+            button5.Text = "Verify Loan";
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 

@@ -199,6 +199,7 @@
             Controls.Add(label1);
             Name = "PayLoan";
             Size = new Size(754, 673);
+            Load += PayLoan_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
