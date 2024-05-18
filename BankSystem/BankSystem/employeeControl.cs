@@ -23,11 +23,13 @@ namespace BankSystem
         {
 
         }
-
-        private void btn_payLoan_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-
+            panel2.Controls.Clear();
+            PayLoan payLoan = new PayLoan();
+            panel2.Controls.Add(payLoan);
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -40,7 +42,7 @@ namespace BankSystem
             panel2.Visible = false;
 
         }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
             panel2.Controls.Clear();
