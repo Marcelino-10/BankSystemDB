@@ -1,70 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\admincontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\admincontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\requestloan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\requestloan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|c:\\users\\steven\\documents\\github\\banksystemdb\\banksystem\\banksystem\\requestloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\requestloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\requestloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\requestloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\updateadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\updateadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\addbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\signadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\signadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\signcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\addbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\addbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\addbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\admincontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\admincontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\admincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\updateadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\updateadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\signadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\signadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\signcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\signcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\signcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\signcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\signcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\signcustomer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\banksystem\\signcustomer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\signcustomer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|d:\\fcai\\secod year\\second semester\\data base\\project\\banksystemdb\\banksystem\\banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3296599-C426-421E-A414-6D795FAD9C5D}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\customercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,211 +94,264 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateAdmin.cs",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\UpdateAdmin.cs",
-              "RelativeDocumentMoniker": "BankSystem\\UpdateAdmin.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\UpdateAdmin.cs",
-              "RelativeToolTip": "BankSystem\\UpdateAdmin.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAiwDYAAAAiAAAA",
+              "DocumentIndex": 2,
+              "Title": "RequestLoan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.cs",
+              "RelativeDocumentMoniker": "BankSystem\\RequestLoan.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.cs [Design]",
+              "RelativeToolTip": "BankSystem\\RequestLoan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T22:25:38.117Z",
+              "WhenOpened": "2024-05-17T23:50:55.443Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestLoan.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.cs",
+              "RelativeDocumentMoniker": "BankSystem\\RequestLoan.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.cs",
+              "RelativeToolTip": "BankSystem\\RequestLoan.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T22:57:40.933Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequestLoan.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.Designer.cs",
+              "RelativeDocumentMoniker": "BankSystem\\RequestLoan.Designer.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\RequestLoan.Designer.cs",
+              "RelativeToolTip": "BankSystem\\RequestLoan.Designer.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T22:56:20.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UpdateEmployee.cs",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\UpdateEmployee.cs",
-              "RelativeDocumentMoniker": "BankSystem\\UpdateEmployee.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\UpdateEmployee.cs",
-              "RelativeToolTip": "BankSystem\\UpdateEmployee.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEQAAAABAAAA",
+              "Title": "customerControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs",
+              "RelativeDocumentMoniker": "BankSystem\\customerControl.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs [Design]",
+              "RelativeToolTip": "BankSystem\\customerControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T22:16:09.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T18:21:10.342Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UpdateEmployee.cs [Design]",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\UpdateEmployee.cs",
-              "RelativeDocumentMoniker": "BankSystem\\UpdateEmployee.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\UpdateEmployee.cs [Design]",
-              "RelativeToolTip": "BankSystem\\UpdateEmployee.cs [Design]",
+              "Title": "customerControl.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs",
+              "RelativeDocumentMoniker": "BankSystem\\customerControl.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs",
+              "RelativeToolTip": "BankSystem\\customerControl.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwDgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T22:08:28.479Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-17T19:21:58.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "signAdmin.cs [Design]",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\signAdmin.cs",
-              "RelativeDocumentMoniker": "BankSystem\\signAdmin.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\signAdmin.cs [Design]",
-              "RelativeToolTip": "BankSystem\\signAdmin.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "AddBranch.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBranch.cs",
+              "RelativeDocumentMoniker": "BankSystem\\AddBranch.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBranch.cs",
+              "RelativeToolTip": "BankSystem\\AddBranch.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowDUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T22:16:53.409Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-17T23:15:58.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddBranch.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBranch.cs",
+              "RelativeDocumentMoniker": "BankSystem\\AddBranch.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBranch.cs [Design]",
+              "RelativeToolTip": "BankSystem\\AddBranch.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T23:15:55.607Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AddBank.cs [Design]",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\AddBank.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBank.cs",
               "RelativeDocumentMoniker": "BankSystem\\AddBank.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\AddBank.cs [Design]",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\AddBank.cs [Design]",
               "RelativeToolTip": "BankSystem\\AddBank.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T22:05:51.531Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "adminControl.Designer.cs",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.Designer.cs",
-              "RelativeDocumentMoniker": "BankSystem\\adminControl.Designer.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.Designer.cs",
-              "RelativeToolTip": "BankSystem\\adminControl.Designer.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAADoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T19:24:05.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "customerControl.cs",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs",
-              "RelativeDocumentMoniker": "BankSystem\\customerControl.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs",
-              "RelativeToolTip": "BankSystem\\customerControl.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAawDgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T19:21:58.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "adminControl.cs",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
-              "RelativeDocumentMoniker": "BankSystem\\adminControl.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
-              "RelativeToolTip": "BankSystem\\adminControl.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAIA3wBEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:53:54.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T22:05:51.531Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "signCustomer.cs [Design]",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\signCustomer.cs",
-              "RelativeDocumentMoniker": "BankSystem\\signCustomer.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\signCustomer.cs [Design]",
-              "RelativeToolTip": "BankSystem\\signCustomer.cs [Design]",
+              "Title": "UpdateEmployee.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\UpdateEmployee.cs",
+              "RelativeDocumentMoniker": "BankSystem\\UpdateEmployee.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\UpdateEmployee.cs [Design]",
+              "RelativeToolTip": "BankSystem\\UpdateEmployee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:30:42.312Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-17T22:08:28.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "signCustomer.Designer.cs",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\signCustomer.Designer.cs",
-              "RelativeDocumentMoniker": "BankSystem\\signCustomer.Designer.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\signCustomer.Designer.cs",
-              "RelativeToolTip": "BankSystem\\signCustomer.Designer.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAYwFsAAAAAAAAA",
+              "DocumentIndex": 16,
+              "Title": "signAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\signAdmin.cs",
+              "RelativeDocumentMoniker": "BankSystem\\signAdmin.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\signAdmin.cs [Design]",
+              "RelativeToolTip": "BankSystem\\signAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:29:58.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "signCustomer.cs",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\signCustomer.cs",
-              "RelativeDocumentMoniker": "BankSystem\\signCustomer.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\signCustomer.cs",
-              "RelativeToolTip": "BankSystem\\signCustomer.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAMwDsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:26:13.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "customerControl.cs [Design]",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs",
-              "RelativeDocumentMoniker": "BankSystem\\customerControl.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\customerControl.cs [Design]",
-              "RelativeToolTip": "BankSystem\\customerControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:21:10.342Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "adminControl.cs [Design]",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
-              "RelativeDocumentMoniker": "BankSystem\\adminControl.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs [Design]",
-              "RelativeToolTip": "BankSystem\\adminControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T15:39:34.877Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdateCustomer.cs",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\UpdateCustomer.cs",
-              "RelativeDocumentMoniker": "BankSystem\\UpdateCustomer.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\UpdateCustomer.cs",
-              "RelativeToolTip": "BankSystem\\UpdateCustomer.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA8wBgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T13:21:11.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T22:16:53.409Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UpdateCustomer.cs [Design]",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\UpdateCustomer.cs",
-              "RelativeDocumentMoniker": "BankSystem\\UpdateCustomer.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\UpdateCustomer.cs [Design]",
-              "RelativeToolTip": "BankSystem\\UpdateCustomer.cs [Design]",
+              "Title": "adminControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.Designer.cs",
+              "RelativeDocumentMoniker": "BankSystem\\adminControl.Designer.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.Designer.cs",
+              "RelativeToolTip": "BankSystem\\adminControl.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T13:08:40.952Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-17T19:24:05.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\UpdateEmployee.cs",
+              "RelativeDocumentMoniker": "BankSystem\\UpdateEmployee.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\UpdateEmployee.cs",
+              "RelativeToolTip": "BankSystem\\UpdateEmployee.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T22:16:09.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\UpdateAdmin.cs",
+              "RelativeDocumentMoniker": "BankSystem\\UpdateAdmin.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\UpdateAdmin.cs",
+              "RelativeToolTip": "BankSystem\\UpdateAdmin.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAiwDYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T22:25:38.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "adminControl.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
+              "RelativeDocumentMoniker": "BankSystem\\adminControl.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
+              "RelativeToolTip": "BankSystem\\adminControl.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIA3wBEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:53:54.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "signCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\signCustomer.cs",
+              "RelativeDocumentMoniker": "BankSystem\\signCustomer.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\signCustomer.cs [Design]",
+              "RelativeToolTip": "BankSystem\\signCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:30:42.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "signCustomer.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\signCustomer.Designer.cs",
+              "RelativeDocumentMoniker": "BankSystem\\signCustomer.Designer.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\signCustomer.Designer.cs",
+              "RelativeToolTip": "BankSystem\\signCustomer.Designer.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAYwFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:29:58.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "signCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\signCustomer.cs",
+              "RelativeDocumentMoniker": "BankSystem\\signCustomer.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\signCustomer.cs",
+              "RelativeToolTip": "BankSystem\\signCustomer.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAMwDsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:26:13.085Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "adminControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs",
+              "RelativeDocumentMoniker": "BankSystem\\adminControl.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\adminControl.cs [Design]",
+              "RelativeToolTip": "BankSystem\\adminControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T15:39:34.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\UpdateCustomer.cs",
+              "RelativeDocumentMoniker": "BankSystem\\UpdateCustomer.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\UpdateCustomer.cs",
+              "RelativeToolTip": "BankSystem\\UpdateCustomer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA8wBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:21:11.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\UpdateCustomer.cs",
+              "RelativeDocumentMoniker": "BankSystem\\UpdateCustomer.cs",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\UpdateCustomer.cs [Design]",
+              "RelativeToolTip": "BankSystem\\UpdateCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:08:40.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "employeeControl.cs [Design]",
-              "DocumentMoniker": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs",
               "RelativeDocumentMoniker": "BankSystem\\employeeControl.cs",
-              "ToolTip": "D:\\FCAI\\Secod Year\\Second Semester\\Data Base\\Project\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs [Design]",
+              "ToolTip": "C:\\Users\\Steven\\Documents\\GitHub\\BankSystemDB\\BankSystem\\BankSystem\\employeeControl.cs [Design]",
               "RelativeToolTip": "BankSystem\\employeeControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T13:05:50.291Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-17T13:05:50.291Z"
             }
           ]
         }
