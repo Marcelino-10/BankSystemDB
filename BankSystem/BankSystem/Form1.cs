@@ -10,7 +10,7 @@ namespace BankSystem
         public Form1()
         {
             InitializeComponent();
-           
+
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -37,11 +37,11 @@ namespace BankSystem
 
             if (reader.Read())
             {
-                main = new mainPage();
+                Program.main = new mainPage();
                 con.Close();
-                main.Show();
+                Program.main.Show();
                 Hide();
-                main.openAdmin(sender, e);
+                Program.main.openAdmin(sender, e);
                 Program.isAdmin = true;
                 Program.adminID = id;
                 return;
@@ -51,11 +51,11 @@ namespace BankSystem
             reader = command.ExecuteReader();
             if (reader.Read())
             {
-                main = new mainPage();
+                Program.main = new mainPage();
                 con.Close();
-                main.Show();
+                Program.main.Show();
                 Hide();
-                main.openCustomer(sender, e);
+                Program.main.openCustomer(sender, e);
                 Program.isCustomer = true;
                 Program.customerID = id;
                 return;
@@ -65,11 +65,11 @@ namespace BankSystem
             reader = command.ExecuteReader();
             if (reader.Read())
             {
-                main = new mainPage();
+                Program.main = new mainPage();
                 con.Close();
-                main.Show();
+                Program.main.Show();
                 Hide();
-                main.openEmployee(sender, e);
+                Program.main.openEmployee(sender, e);
                 Program.isEmployee = true;
                 Program.employeeID = id;
                 return;
@@ -118,5 +118,14 @@ namespace BankSystem
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Program.main = new mainPage();
+            Program.main.Show();
+            Hide();
+            Program.main.signCustomer(sender, e);
+        }
+
     }
 }

@@ -122,5 +122,10 @@ namespace BankSystem
         {
             showTable(sender, e);
         }
+
+        private void ShowLoan_Load(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Loans";
+        }
     }
 }

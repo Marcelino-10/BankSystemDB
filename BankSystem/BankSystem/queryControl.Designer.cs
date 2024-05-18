@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             dataGridView1 = new DataGridView();
-            button1 = new Button();
-            comboBox1 = new ComboBox();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
+            button1 = new Button();
+            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -46,6 +46,20 @@
             dataGridView1.Size = new Size(825, 410);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "Number of Employee";
+            Column1.MinimumWidth = 6;
+            Column1.Name = "Column1";
+            Column1.Width = 400;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Branch Code";
+            Column2.MinimumWidth = 6;
+            Column2.Name = "Column2";
+            Column2.Width = 400;
             // 
             // button1
             // 
@@ -68,20 +82,6 @@
             comboBox1.TabIndex = 2;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
-            // Column1
-            // 
-            Column1.HeaderText = "Number of Employee";
-            Column1.MinimumWidth = 6;
-            Column1.Name = "Column1";
-            Column1.Width = 400;
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Branch Code";
-            Column2.MinimumWidth = 6;
-            Column2.Name = "Column2";
-            Column2.Width = 400;
-            // 
             // queryControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -92,6 +92,7 @@
             Controls.Add(dataGridView1);
             Name = "queryControl";
             Size = new Size(1058, 685);
+            Load += queryControl_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }

@@ -45,19 +45,6 @@
             button15 = new Button();
             button13 = new Button();
             button14 = new Button();
-            addBank = new AddBank();
-            addBranch = new AddBranch();
-            showAdmin = new ShowAdmin();
-            showCustomer = new ShowCustomer();
-            showBranch = new ShowBranch();
-            showEmployee = new ShowEmployee();
-            showBank = new ShowBank();
-            showLoan = new ShowLoan();
-            signemployee = new signEmployee();
-            signadmin = new signAdmin();
-            updateadmin = new UpdateAdmin();
-            updateemployee = new UpdateEmployee();
-            queryControl = new queryControl();
             panel4 = new Panel();
             button7 = new Button();
             button1 = new Button();
@@ -104,11 +91,10 @@
             panel1.BackColor = SystemColors.ControlLightLight;
             panel1.Controls.Add(label1);
             panel1.ImeMode = ImeMode.NoControl;
-            panel1.Location = new Point(9, 73);
+            panel1.Location = new Point(0, 73);
             panel1.Name = "panel1";
             panel1.Size = new Size(1058, 685);
             panel1.TabIndex = 7;
-            panel1.Paint += panel1_Paint;
             // 
             // label1
             // 
@@ -245,101 +231,6 @@
             button14.UseVisualStyleBackColor = true;
             button14.Click += button14_Click;
             // 
-            // addBank
-            // 
-            addBank.Location = new Point(0, 0);
-            addBank.Name = "addBank";
-            addBank.Size = new Size(1058, 694);
-            addBank.TabIndex = 0;
-            // 
-            // addBranch
-            // 
-            addBranch.Location = new Point(0, 0);
-            addBranch.Name = "addBranch";
-            addBranch.Size = new Size(1058, 694);
-            addBranch.TabIndex = 0;
-            // 
-            // showAdmin
-            // 
-            showAdmin.Location = new Point(0, 0);
-            showAdmin.Name = "showAdmin";
-            showAdmin.Size = new Size(1058, 689);
-            showAdmin.TabIndex = 0;
-            // 
-            // showCustomer
-            // 
-            showCustomer.Location = new Point(0, 0);
-            showCustomer.Name = "showCustomer";
-            showCustomer.Size = new Size(1058, 689);
-            showCustomer.TabIndex = 0;
-            // 
-            // showBranch
-            // 
-            showBranch.Location = new Point(0, 0);
-            showBranch.Name = "showBranch";
-            showBranch.Size = new Size(1058, 689);
-            showBranch.TabIndex = 0;
-            // 
-            // showEmployee
-            // 
-            showEmployee.Location = new Point(0, 0);
-            showEmployee.Name = "showEmployee";
-            showEmployee.Size = new Size(1058, 689);
-            showEmployee.TabIndex = 0;
-            // 
-            // showBank
-            // 
-            showBank.Location = new Point(0, 0);
-            showBank.Name = "showBank";
-            showBank.Size = new Size(1058, 689);
-            showBank.TabIndex = 0;
-            // 
-            // showLoan
-            // 
-            showLoan.Location = new Point(0, 0);
-            showLoan.Name = "showLoan";
-            showLoan.Size = new Size(1058, 689);
-            showLoan.TabIndex = 0;
-            // 
-            // signemployee
-            // 
-            signemployee.Location = new Point(0, 0);
-            signemployee.Name = "signemployee";
-            signemployee.Size = new Size(1058, 685);
-            signemployee.TabIndex = 0;
-            // 
-            // signadmin
-            // 
-            signadmin.BackColor = SystemColors.ControlLightLight;
-            signadmin.Location = new Point(0, 0);
-            signadmin.Name = "signadmin";
-            signadmin.Size = new Size(1058, 685);
-            signadmin.TabIndex = 0;
-            // 
-            // updateadmin
-            // 
-            updateadmin.BackColor = SystemColors.ControlLightLight;
-            updateadmin.Location = new Point(0, 0);
-            updateadmin.Name = "updateadmin";
-            updateadmin.Size = new Size(1058, 689);
-            updateadmin.TabIndex = 0;
-            // 
-            // updateemployee
-            // 
-            updateemployee.BackColor = SystemColors.ControlLightLight;
-            updateemployee.Location = new Point(0, 0);
-            updateemployee.Name = "updateemployee";
-            updateemployee.Size = new Size(1058, 689);
-            updateemployee.TabIndex = 0;
-            // 
-            // queryControl
-            // 
-            queryControl.BackColor = SystemColors.ControlLightLight;
-            queryControl.Location = new Point(0, 0);
-            queryControl.Name = "queryControl";
-            queryControl.Size = new Size(1058, 685);
-            queryControl.TabIndex = 0;
-            // 
             // panel4
             // 
             panel4.BackColor = SystemColors.Control;
@@ -416,6 +307,7 @@
             Controls.Add(panel2);
             Name = "adminControl";
             Size = new Size(1058, 762);
+            Load += adminControl_Load;
             panel2.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

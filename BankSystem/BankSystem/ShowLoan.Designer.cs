@@ -170,6 +170,7 @@
             Controls.Add(label1);
             Name = "ShowLoan";
             Size = new Size(1058, 689);
+            Load += ShowLoan_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);

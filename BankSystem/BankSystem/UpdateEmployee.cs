@@ -23,6 +23,7 @@ namespace BankSystem
         }
         private void UpdateEmployee_Load(object sender, EventArgs e)
         {
+            Program.main.label1.Text = "Update Employee";
         }
 
         private void button1_Click(object sender, EventArgs e)

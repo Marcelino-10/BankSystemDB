@@ -11,6 +11,7 @@ namespace BankSystem
         public static string employeeID;
         public static string customerID;
         public static Form1 obj;
+        public static mainPage main;
         public static SqlConnection con;
         [STAThread]
         static void Main()

@@ -67,5 +67,10 @@ namespace BankSystem
         {
 
         }
+
+        private void queryControl_Load(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Quereis";
+        }
     }
 }

@@ -62,7 +62,7 @@ namespace BankSystem
 
         private void customerControl_Load(object sender, EventArgs e)
         {
-
+            Program.main.label1.Text = "Customer Page";
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

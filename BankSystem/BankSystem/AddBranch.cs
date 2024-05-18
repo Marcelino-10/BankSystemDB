@@ -53,5 +53,10 @@ namespace BankSystem
             MessageBox.Show("Branch Added Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();
         }
+
+        private void AddBranch_Load(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Add Branch";
+        }
     }
 }

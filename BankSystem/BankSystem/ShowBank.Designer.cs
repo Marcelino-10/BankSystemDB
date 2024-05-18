@@ -102,6 +102,7 @@
             Controls.Add(label1);
             Name = "ShowBank";
             Size = new Size(1058, 689);
+            Load += ShowBank_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

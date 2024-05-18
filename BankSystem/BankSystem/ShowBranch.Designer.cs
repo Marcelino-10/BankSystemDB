@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             dataGridView1 = new DataGridView();
-            label1 = new Label();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
             Column4 = new DataGridViewTextBoxColumn();
             Column5 = new DataGridViewTextBoxColumn();
             Column6 = new DataGridViewTextBoxColumn();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -52,17 +52,6 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(941, 407);
             dataGridView1.TabIndex = 60;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Verdana", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.DarkSlateGray;
-            label1.Location = new Point(421, 48);
-            label1.Name = "label1";
-            label1.Size = new Size(203, 48);
-            label1.TabIndex = 59;
-            label1.Text = "Branchs";
             // 
             // Column1
             // 
@@ -112,6 +101,17 @@
             Column6.Name = "Column6";
             Column6.ReadOnly = true;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Verdana", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.DarkSlateGray;
+            label1.Location = new Point(421, 48);
+            label1.Name = "label1";
+            label1.Size = new Size(203, 48);
+            label1.TabIndex = 59;
+            label1.Text = "Branchs";
+            // 
             // ShowBranch
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -120,6 +120,7 @@
             Controls.Add(label1);
             Name = "ShowBranch";
             Size = new Size(1058, 689);
+            Load += ShowBranch_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

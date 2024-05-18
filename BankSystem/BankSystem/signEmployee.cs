@@ -55,11 +55,16 @@ namespace BankSystem
             }
 
             reader.Close();
-            command.CommandText = "insert into EMPLOYEE(EMPLOYEEID, PASSWORD, NAME, ADDRESS, PHONENUM, TITLE, EMAIL, BRANCHNO) values('" + id + "', '" + pass + "', '"+name+"', '"+address+"', '"+phone+"', '"+title+"', '"+email+"', '"+branch+"');";
+            command.CommandText = "insert into EMPLOYEE(EMPLOYEEID, PASSWORD, NAME, ADDRESS, PHONENUM, TITLE, EMAIL, BRANCHNO) values('" + id + "', '" + pass + "', '" + name + "', '" + address + "', '" + phone + "', '" + title + "', '" + email + "', '" + branch + "');";
             SqlDataReader sqlDataReader = command.ExecuteReader();
             reader = sqlDataReader;
             MessageBox.Show("Employee signed successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();
+        }
+
+        private void signEmployee_Load(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Sign Employee";
         }
     }
 }

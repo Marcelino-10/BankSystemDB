@@ -44,7 +44,7 @@ namespace BankSystem
 
         private void AddBank_Load(object sender, EventArgs e)
         {
-
+            Program.main.label1.Text = "Add Bank";
         }
     }
 }

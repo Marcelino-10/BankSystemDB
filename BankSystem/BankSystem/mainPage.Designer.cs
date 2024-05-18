@@ -31,16 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainPage));
             mainPanel = new Panel();
             controlBar = new Panel();
+            pictureBox1 = new PictureBox();
+            label1 = new Label();
             buttonBox = new Panel();
             LogoutButton = new Button();
             MaxButton = new Button();
             MinButton = new Button();
             CloseButton = new Button();
-            label1 = new Label();
-            pictureBox1 = new PictureBox();
             controlBar.SuspendLayout();
-            buttonBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            buttonBox.SuspendLayout();
             SuspendLayout();
             // 
             // mainPanel
@@ -63,6 +63,27 @@
             controlBar.Size = new Size(1062, 38);
             controlBar.TabIndex = 0;
             controlBar.MouseDown += OnMouseDown;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = Properties.Resources._360_F_436565405_6ZImJ3BbFk9O6Gs1C66Z7ltNWSheqxJm;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox1.Location = new Point(5, 6);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(34, 27);
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Berlin Sans FB", 11F);
+            label1.ForeColor = SystemColors.Control;
+            label1.Location = new Point(43, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(97, 21);
+            label1.TabIndex = 1;
+            label1.Text = "Main Page";
             // 
             // buttonBox
             // 
@@ -130,27 +151,6 @@
             CloseButton.UseVisualStyleBackColor = true;
             CloseButton.Click += CloseButton_Click;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Berlin Sans FB", 11F);
-            label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(43, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(97, 21);
-            label1.TabIndex = 1;
-            label1.Text = "Main Page";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackgroundImage = Properties.Resources._360_F_436565405_6ZImJ3BbFk9O6Gs1C66Z7ltNWSheqxJm;
-            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Location = new Point(5, 6);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(34, 27);
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
-            // 
             // mainPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -165,8 +165,8 @@
             FormClosing += mainPage_FormClosing;
             controlBar.ResumeLayout(false);
             controlBar.PerformLayout();
-            buttonBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            buttonBox.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -175,11 +175,11 @@
         private Panel mainPanel;
         private Panel controlBar;
         private Panel buttonBox;
-        private Button LogoutButton;
         private Button MaxButton;
         private Button MinButton;
         private Button CloseButton;
         private PictureBox pictureBox1;
-        private Label label1;
+        public Button LogoutButton;
+        public Label label1;
     }
 }

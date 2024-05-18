@@ -19,7 +19,7 @@ namespace BankSystem
 
         private void ViewRequestedLoans_Load(object sender, EventArgs e)
         {
-
+            Program.main.label1.Text = "View Requested Loans";
         }
     }
 }

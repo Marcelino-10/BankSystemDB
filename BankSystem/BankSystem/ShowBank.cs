@@ -41,5 +41,10 @@ namespace BankSystem
             }
             con.Close();
         }
+
+        private void ShowBank_Load(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Banks";
+        }
     }
 }

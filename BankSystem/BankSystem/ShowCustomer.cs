@@ -43,5 +43,10 @@ namespace BankSystem
             }
             con.Close();
         }
+
+        private void ShowCustomer_Load(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Customers";
+        }
     }
 }

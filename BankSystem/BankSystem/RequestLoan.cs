@@ -20,7 +20,7 @@ namespace BankSystem
         {
             InitializeComponent();
         }
-        
+
 
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -68,6 +68,9 @@ namespace BankSystem
 
         }
 
-       
+        private void RequestLoan_Load(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Request Loan";
+        }
     }
 }

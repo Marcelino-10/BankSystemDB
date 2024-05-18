@@ -32,7 +32,6 @@
             panel1 = new Panel();
             button4 = new Button();
             button3 = new Button();
-            button2 = new Button();
             button1 = new Button();
             button5 = new Button();
             panel2 = new Panel();
@@ -56,7 +55,6 @@
             panel1.BackColor = Color.FromArgb(0, 64, 64);
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
-            panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(button5);
             panel1.Dock = DockStyle.Left;
@@ -71,7 +69,7 @@
             button4.BackColor = SystemColors.ControlLightLight;
             button4.Font = new Font("Verdana", 10F, FontStyle.Bold);
             button4.ForeColor = Color.DarkSlateGray;
-            button4.Location = new Point(32, 357);
+            button4.Location = new Point(32, 288);
             button4.Name = "button4";
             button4.Size = new Size(251, 53);
             button4.TabIndex = 4;
@@ -84,26 +82,13 @@
             button3.BackColor = SystemColors.ControlLightLight;
             button3.Font = new Font("Verdana", 10F, FontStyle.Bold);
             button3.ForeColor = Color.DarkSlateGray;
-            button3.Location = new Point(32, 275);
+            button3.Location = new Point(32, 206);
             button3.Name = "button3";
             button3.Size = new Size(251, 53);
             button3.TabIndex = 3;
             button3.Text = "Add Customer";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
-            // 
-            // button2
-            // 
-            button2.BackColor = SystemColors.ControlLightLight;
-            button2.Font = new Font("Verdana", 10F, FontStyle.Bold);
-            button2.ForeColor = Color.DarkSlateGray;
-            button2.Location = new Point(31, 185);
-            button2.Name = "button2";
-            button2.Size = new Size(253, 53);
-            button2.TabIndex = 2;
-            button2.Text = "Sign UP Customer";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -129,7 +114,8 @@
             button5.TabIndex = 0;
             button5.Text = "Pay Loan";
             button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;            // 
+            button5.Click += button5_Click;
+            // 
             // panel2
             // 
             panel2.Controls.Add(label1);
@@ -149,6 +135,7 @@
             Controls.Add(panel1);
             Name = "employeeControl";
             Size = new Size(1058, 673);
+            Load += employeeControl_Load;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
@@ -163,7 +150,6 @@
         private Button button5;
         private Button button1;
         private Panel panel2;
-        private Button button2;
         private Button button3;
         private Button button4;
     }

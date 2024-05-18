@@ -47,6 +47,7 @@
             Controls.Add(label1);
             Name = "ViewAccount";
             Size = new Size(783, 717);
+            Load += ViewAccount_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -84,6 +84,7 @@
             Controls.Add(label1);
             Name = "ShowAdmin";
             Size = new Size(1058, 689);
+            Load += ShowAdmin_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

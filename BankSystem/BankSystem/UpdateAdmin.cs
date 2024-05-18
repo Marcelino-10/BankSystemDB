@@ -55,5 +55,10 @@ namespace BankSystem
             MessageBox.Show("Admin Updated Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();
         }
+
+        private void UpdateAdmin_Load(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Update Admin";
+        }
     }
 }

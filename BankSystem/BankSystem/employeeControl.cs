@@ -42,7 +42,7 @@ namespace BankSystem
             panel2.Visible = false;
 
         }
-        
+
         private void button2_Click(object sender, EventArgs e)
         {
             panel2.Controls.Clear();
@@ -67,6 +67,11 @@ namespace BankSystem
             panel2.Controls.Clear();
             createAcc createacc = new createAcc();
             panel2.Controls.Add(createacc);
+        }
+
+        private void employeeControl_Load(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Employee Page";
         }
     }
 }

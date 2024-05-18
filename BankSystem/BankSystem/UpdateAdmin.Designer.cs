@@ -114,6 +114,7 @@
             Controls.Add(label1);
             Name = "UpdateAdmin";
             Size = new Size(1058, 689);
+            Load += UpdateAdmin_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -47,6 +47,12 @@ namespace BankSystem
             mainPanel.Controls.Add(employeeControl);
         }
 
+        public void signCustomer(object sender, EventArgs e)
+        {
+            signCustomer signCustomer = new signCustomer();
+            mainPanel.Controls.Clear();
+            mainPanel.Controls.Add(signCustomer);
+        }
 
 
         private void mainPage_FormClosing(object sender, FormClosingEventArgs e)

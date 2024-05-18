@@ -18,7 +18,7 @@ namespace BankSystem
             InitializeComponent();
         }
 
-        public void showTable(object sender,  EventArgs e)
+        public void showTable(object sender, EventArgs e)
         {
 
             string _path = AppDomain.CurrentDomain.BaseDirectory;
@@ -43,6 +43,11 @@ namespace BankSystem
                 }
             }
             con.Close();
+        }
+
+        private void ShowAdmin_Load(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Admins";
         }
     }
 }

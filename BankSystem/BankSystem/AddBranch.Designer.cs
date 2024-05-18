@@ -146,6 +146,7 @@
             Controls.Add(label1);
             Name = "AddBranch";
             Size = new Size(1058, 689);
+            Load += AddBranch_Load;
             ResumeLayout(false);
             PerformLayout();
         }

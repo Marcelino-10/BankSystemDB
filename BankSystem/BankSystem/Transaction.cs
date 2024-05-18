@@ -20,6 +20,7 @@ namespace BankSystem
 
         private void Transaction_Load(object sender, EventArgs e)
         {
+            Program.main.label1.Text = "Transaction";
             string _path = AppDomain.CurrentDomain.BaseDirectory;
             string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
             string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=" + path + ";Integrated Security=True";

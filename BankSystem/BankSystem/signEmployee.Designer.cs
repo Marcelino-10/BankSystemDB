@@ -261,6 +261,7 @@
             Controls.Add(label1);
             Name = "signEmployee";
             Size = new Size(1058, 685);
+            Load += signEmployee_Load;
             ResumeLayout(false);
             PerformLayout();
         }

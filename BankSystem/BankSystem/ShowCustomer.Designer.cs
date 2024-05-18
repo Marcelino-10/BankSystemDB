@@ -111,6 +111,7 @@
             Controls.Add(label1);
             Name = "ShowCustomer";
             Size = new Size(1058, 689);
+            Load += ShowCustomer_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

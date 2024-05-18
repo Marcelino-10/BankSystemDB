@@ -57,7 +57,6 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(255, 27);
             textBox2.TabIndex = 28;
-
             // 
             // label4
             // 
@@ -162,6 +161,7 @@
             Controls.Add(label1);
             Name = "RequestLoan";
             Size = new Size(786, 720);
+            Load += RequestLoan_Load;
             ResumeLayout(false);
             PerformLayout();
         }

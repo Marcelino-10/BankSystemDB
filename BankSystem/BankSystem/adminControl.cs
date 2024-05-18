@@ -60,6 +60,7 @@ namespace BankSystem
 
         private void button2_Click(object sender, EventArgs e)
         {
+            addBank = new AddBank();
             panel1.Controls.Clear();
             panel1.Controls.Add(addBank);
             disableAllMenu();
@@ -67,6 +68,7 @@ namespace BankSystem
 
         private void button3_Click(object sender, EventArgs e)
         {
+            addBranch = new AddBranch();
             panel1.Controls.Clear();
             panel1.Controls.Add(addBranch);
             disableAllMenu();
@@ -74,6 +76,7 @@ namespace BankSystem
 
         private void button16_Click(object sender, EventArgs e)
         {
+            showAdmin = new ShowAdmin();
             panel1.Controls.Clear();
             panel1.Controls.Add(showAdmin);
             disableAllMenu();
@@ -82,6 +85,7 @@ namespace BankSystem
 
         private void button15_Click(object sender, EventArgs e)
         {
+            showCustomer = new ShowCustomer();
             panel1.Controls.Clear();
             panel1.Controls.Add(showCustomer);
             disableAllMenu();
@@ -90,6 +94,7 @@ namespace BankSystem
 
         private void button12_Click(object sender, EventArgs e)
         {
+            showBranch = new ShowBranch();
             panel1.Controls.Clear();
             panel1.Controls.Add(showBranch);
             disableAllMenu();
@@ -98,6 +103,7 @@ namespace BankSystem
 
         private void button13_Click(object sender, EventArgs e)
         {
+            showEmployee = new ShowEmployee();
             panel1.Controls.Clear();
             panel1.Controls.Add(showEmployee);
             disableAllMenu();
@@ -106,6 +112,7 @@ namespace BankSystem
 
         private void button11_Click(object sender, EventArgs e)
         {
+            showBank = new ShowBank();
             panel1.Controls.Clear();
             panel1.Controls.Add(showBank);
             disableAllMenu();
@@ -114,6 +121,7 @@ namespace BankSystem
 
         private void button14_Click(object sender, EventArgs e)
         {
+            showLoan = new ShowLoan();
             panel1.Controls.Clear();
             panel1.Controls.Add(showLoan);
             disableAllMenu();
@@ -122,6 +130,7 @@ namespace BankSystem
 
         private void button9_Click(object sender, EventArgs e)
         {
+            signemployee = new signEmployee();
             panel1.Controls.Clear();
             panel1.Controls.Add(signemployee);
             disableAllMenu();
@@ -129,18 +138,15 @@ namespace BankSystem
 
         private void button4_Click(object sender, EventArgs e)
         {
+            signadmin = new signAdmin();
             panel1.Controls.Clear();
             panel1.Controls.Add(signadmin);
             disableAllMenu();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void button5_Click(object sender, EventArgs e)
         {
+            updateadmin = new UpdateAdmin();
             panel1.Controls.Clear();
             panel1.Controls.Add(updateadmin);
             disableAllMenu();
@@ -148,6 +154,7 @@ namespace BankSystem
 
         private void button10_Click(object sender, EventArgs e)
         {
+            updateemployee = new UpdateEmployee();
             panel1.Controls.Clear();
             panel1.Controls.Add(updateemployee);
             disableAllMenu();
@@ -155,9 +162,15 @@ namespace BankSystem
 
         private void button7_Click(object sender, EventArgs e)
         {
+            queryControl = new queryControl();
             panel1.Controls.Clear();
             panel1.Controls.Add(queryControl);
             disableAllMenu();
+        }
+
+        private void adminControl_Load(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Admin Page";
         }
     }
 }

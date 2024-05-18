@@ -58,7 +58,7 @@ namespace BankSystem
 
         private void signAdmin_Load(object sender, EventArgs e)
         {
-
+            Program.main.label1.Text = "Sign Admin";
         }
     }
 }

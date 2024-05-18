@@ -31,7 +31,7 @@ namespace BankSystem
             string name = textBox5.Text;
             string email = textBox4.Text;
             string address = textBox2.Text;
-            if (SSN == "" || name == "" || email == "" || address == "" )
+            if (SSN == "" || name == "" || email == "" || address == "")
             {
                 MessageBox.Show("Please fill all fileds!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -61,6 +61,11 @@ namespace BankSystem
             reader = command.ExecuteReader();
             MessageBox.Show("Customer Added Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();
+        }
+
+        private void addCustomer_Load_1(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Add Customer";
         }
     }
 }

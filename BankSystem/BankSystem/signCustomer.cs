@@ -22,13 +22,9 @@ namespace BankSystem
         private void button1_Click(object sender, EventArgs e)
         {
             string id = textBox1.Text;
-            string name = textBox8.Text;
-            string email = textBox2.Text;
-            string pass = textBox5.Text;
-            string birth = textBox4.Text;
-            string address = textBox3.Text; 
+            string pass = textBox2.Text;
 
-            if (id == "" || pass == "" || name == "" || email == "" || birth == "" || address == "")
+            if (id == "" || pass == "")
             {
                 MessageBox.Show("Please Enter All fields", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -45,28 +41,37 @@ namespace BankSystem
             command.CommandText = "select* from CUSTOMER WHERE SSN = '" + id + "'";
             SqlDataReader reader = command.ExecuteReader();
 
-            if (reader.Read())
+            if (!reader.Read())
             {
-                MessageBox.Show("This Customer already Exists", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("The entered SSN doesn't exist, you can make a new account by visiting the nearest branch!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 con.Close();
                 return;
             }
-
             reader.Close();
-            command.CommandText = "insert into CUSTOMER(SSN, PASSWORD, ADDRESS, DATEBIRTH, EMAIL, NAME) values('" + id + "', '" + pass + "', '"+address+"', '"+birth+"', '"+email+"', '"+name+"');";
+
+            command.CommandText = "select password from CUSTOMER WHERE SSN = '" + id + "' and password is not null";
             reader = command.ExecuteReader();
-            MessageBox.Show("Customer signed successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            if (reader.Read())
+            {
+                DialogResult result = MessageBox.Show("The entered SSN already have an account, you can login using the login page.", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                con.Close();
+                return;
+            }
+            reader.Close();
+
+            command.CommandText = "Update customer set password = '"+ pass +"' where ssn = '"+ id +"'";
+            reader = command.ExecuteReader();
+
+
+            MessageBox.Show("You have signed in successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();
         }
 
         private void signCustomer_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
+            Program.main.label1.Text = "Sign In";
+            Program.main.LogoutButton.Text = "Login";
         }
     }
 }

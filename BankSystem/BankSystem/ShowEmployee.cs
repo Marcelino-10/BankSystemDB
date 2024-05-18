@@ -46,7 +46,7 @@ namespace BankSystem
 
         private void ShowEmployee_Load(object sender, EventArgs e)
         {
-
+            Program.main.label1.Text = "Employees";
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
