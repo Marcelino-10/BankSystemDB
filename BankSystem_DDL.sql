@@ -270,7 +270,7 @@ go
 /* Table: ACCOUNT                                               */
 /*==============================================================*/
 create table ACCOUNT (
-   ACCOUNTNO_           int                  not null,
+   ACCOUNTNO_           int     identity(1111, 1)              not null,
    BRANCHNO             int                  not null,
    CUSTOMERSSN          int                  not null,
    BALANCE              float                not null,
@@ -517,4 +517,5 @@ alter table "TRANSACTION"
    add constraint FK_TRANSACT_MAKES_ACCOUNT foreign key (ACCOUNTNO_)
       references ACCOUNT (ACCOUNTNO_)
 go
-
+select * from LOAN 
+GROUP by type;

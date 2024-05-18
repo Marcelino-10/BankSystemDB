@@ -134,7 +134,7 @@
             label1.BackColor = SystemColors.Control;
             label1.Font = new Font("Franklin Gothic Heavy", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.DarkSlateGray;
-            label1.Location = new Point(227, 54);
+            label1.Location = new Point(147, 21);
             label1.Name = "label1";
             label1.Size = new Size(228, 37);
             label1.TabIndex = 12;

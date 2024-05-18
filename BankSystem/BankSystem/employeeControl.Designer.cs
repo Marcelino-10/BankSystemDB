@@ -30,11 +30,12 @@
         {
             label1 = new Label();
             panel1 = new Panel();
+            button4 = new Button();
+            button3 = new Button();
             button2 = new Button();
             button1 = new Button();
             btn_payLoan = new Button();
             panel2 = new Panel();
-            button3 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -53,6 +54,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(0, 64, 64);
+            panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
@@ -65,6 +67,34 @@
             panel1.TabIndex = 1;
             panel1.Paint += panel1_Paint;
             // 
+            // button4
+            // 
+            button4.BackColor = SystemColors.ControlLightLight;
+            button4.Font = new Font("Verdana", 10F, FontStyle.Bold);
+            button4.ForeColor = Color.DarkSlateGray;
+            button4.Location = new Point(28, 268);
+            button4.Margin = new Padding(3, 2, 3, 2);
+            button4.Name = "button4";
+            button4.Size = new Size(220, 40);
+            button4.TabIndex = 4;
+            button4.Text = "Create Account";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.ControlLightLight;
+            button3.Font = new Font("Verdana", 10F, FontStyle.Bold);
+            button3.ForeColor = Color.DarkSlateGray;
+            button3.Location = new Point(28, 206);
+            button3.Margin = new Padding(3, 2, 3, 2);
+            button3.Name = "button3";
+            button3.Size = new Size(220, 40);
+            button3.TabIndex = 3;
+            button3.Text = "Add Customer";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
             // button2
             // 
             button2.BackColor = SystemColors.ControlLightLight;
@@ -73,7 +103,7 @@
             button2.Location = new Point(27, 139);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(205, 40);
+            button2.Size = new Size(221, 40);
             button2.TabIndex = 2;
             button2.Text = "Sign UP Customer";
             button2.UseVisualStyleBackColor = false;
@@ -87,9 +117,9 @@
             button1.Location = new Point(28, 76);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(205, 40);
+            button1.Size = new Size(220, 42);
             button1.TabIndex = 1;
-            button1.Text = "Update Customer";
+            button1.Text = "Update Customer Details";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
@@ -101,7 +131,7 @@
             btn_payLoan.Location = new Point(27, 17);
             btn_payLoan.Margin = new Padding(3, 2, 3, 2);
             btn_payLoan.Name = "btn_payLoan";
-            btn_payLoan.Size = new Size(205, 40);
+            btn_payLoan.Size = new Size(221, 40);
             btn_payLoan.TabIndex = 0;
             btn_payLoan.Text = "Pay Loan";
             btn_payLoan.UseVisualStyleBackColor = false;
@@ -115,20 +145,6 @@
             panel2.Size = new Size(660, 505);
             panel2.TabIndex = 2;
             panel2.Paint += panel2_Paint;
-            // 
-            // button3
-            // 
-            button3.BackColor = SystemColors.ControlLightLight;
-            button3.Font = new Font("Verdana", 10F, FontStyle.Bold);
-            button3.ForeColor = Color.DarkSlateGray;
-            button3.Location = new Point(28, 206);
-            button3.Margin = new Padding(3, 2, 3, 2);
-            button3.Name = "button3";
-            button3.Size = new Size(205, 40);
-            button3.TabIndex = 3;
-            button3.Text = "Add Customer";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
             // 
             // employeeControl
             // 
@@ -156,5 +172,6 @@
         private Panel panel2;
         private Button button2;
         private Button button3;
+        private Button button4;
     }
 }

@@ -59,5 +59,12 @@ namespace BankSystem
             addCustomer add_Customer = new addCustomer();
             panel2.Controls.Add(add_Customer);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+            createAcc createacc = new createAcc();
+            panel2.Controls.Add(createacc);
+        }
     }
 }
