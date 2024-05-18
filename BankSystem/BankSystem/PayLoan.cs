@@ -72,6 +72,8 @@ namespace BankSystem
             MessageBox.Show("Loan Request Updated  Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             reader.Close();
             con.Close();
+            dataGridView1.Rows.Clear();
+            showTable(sender, e);
 
 
         }
@@ -89,9 +91,7 @@ namespace BankSystem
         {
 
         }
-
-        private void PayLoan_Load(object sender, EventArgs e)
-        {
+        public void showTable(object sender, EventArgs e) {
             Program.main.label1.Text = "Verify Loan";
             string _path = AppDomain.CurrentDomain.BaseDirectory;
             string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
@@ -101,19 +101,53 @@ namespace BankSystem
             con.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = con;
-            command.CommandText = "SELECT* FROM LOAN ;";
-            // "SELECT* FROM LOAN WHERE STATUS = 'Pending';";
+            command.CommandText = "SELECT* FROM LOAN WHERE STATUS = 'Pending';";
+
             SqlDataReader reader = command.ExecuteReader();
+            List<int> customerSSN = new List<int>();
             for (int j = 0; reader.Read(); j++)
             {
                 dataGridView1.Rows.Add();
+               
                 for (int i = 0; i < 8; i++)
                 {
-
-                    dataGridView1.Rows[j].Cells[i].Value = reader.GetValue(i).ToString();
+                    if (i == 0) { dataGridView1.Rows[j].Cells[i].Value = reader.GetValue(i).ToString(); }
+    
+                   else if (i == 1)
+                    {
+                        string temp = reader.GetValue(i).ToString();
+                        customerSSN.Add(int.Parse(temp));
+                    }
+          
+                    else if (i == 2)
+                        continue;
+                    else { dataGridView1.Rows[j].Cells[i-1].Value = reader.GetValue(i).ToString(); }
+                   
                 }
             }
+            reader.Close();
+            for (int j = 0; j < customerSSN.Count; j++)
+            {
+                SqlCommand command2 = new SqlCommand();
+                command2.Connection = con;
+                command2.CommandText = "select * from customer where ssn = '" + customerSSN[j] + "'";
+                SqlDataReader reader2 = command2.ExecuteReader();
+                if (reader2.Read())
+                {
+                    dataGridView1.Rows[j].Cells[1].Value = reader2.GetString(1);
+                }
+                reader2.Close();
+
+            }
             con.Close();
+
         }
+
+
+        private void PayLoan_Load(object sender, EventArgs e)
+        {
+            showTable(sender, e);
+        }
+           
     }
 }
