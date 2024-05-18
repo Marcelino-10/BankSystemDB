@@ -38,11 +38,11 @@
             Column5 = new DataGridViewTextBoxColumn();
             Column6 = new DataGridViewTextBoxColumn();
             Column7 = new DataGridViewTextBoxColumn();
-            label2 = new Label();
             textBox1 = new TextBox();
             radioButton1 = new RadioButton();
             radioButton2 = new RadioButton();
             button1 = new Button();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -127,18 +127,6 @@
             Column7.MinimumWidth = 6;
             Column7.Name = "Column7";
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.BackColor = SystemColors.Control;
-            label2.Font = new Font("Franklin Gothic Heavy", 14F);
-            label2.ForeColor = Color.DarkSlateGray;
-            label2.Location = new Point(183, 440);
-            label2.Name = "label2";
-            label2.Size = new Size(162, 30);
-            label2.TabIndex = 68;
-            label2.Text = "Loan Number";
-            // 
             // textBox1
             // 
             textBox1.Location = new Point(365, 443);
@@ -187,15 +175,26 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Franklin Gothic Heavy", 14F);
+            label3.ForeColor = Color.FromArgb(0, 64, 64);
+            label3.Location = new Point(198, 443);
+            label3.Name = "label3";
+            label3.Size = new Size(162, 30);
+            label3.TabIndex = 73;
+            label3.Text = "Loan Number";
+            // 
             // PayLoan
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(label3);
             Controls.Add(button1);
             Controls.Add(radioButton2);
             Controls.Add(radioButton1);
             Controls.Add(textBox1);
-            Controls.Add(label2);
             Controls.Add(dataGridView1);
             Controls.Add(label1);
             Name = "PayLoan";
@@ -217,10 +216,10 @@
         private DataGridViewTextBoxColumn Column5;
         private DataGridViewTextBoxColumn Column6;
         private DataGridViewTextBoxColumn Column7;
-        private Label label2;
         private TextBox textBox1;
         private RadioButton radioButton1;
         private RadioButton radioButton2;
         private Button button1;
+        private Label label3;
     }
 }
