@@ -11,24 +11,27 @@ using System.Windows.Forms;
 
 namespace BankSystem
 {
-    public partial class UpdateCustomer : UserControl
+    public partial class addCustomer : UserControl
     {
-       
-        
-        public UpdateCustomer()
+
+
+        public addCustomer()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void addCustomer_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
             string SSN = textBox1.Text;
             string name = textBox5.Text;
             string email = textBox4.Text;
             string address = textBox2.Text;
-            string phone = textBox3.Text;
-            
-            if (SSN == "" || name == "" || email == "" || address == "")
+            if (SSN == "" || name == "" || email == "" || address == "" )
             {
                 MessageBox.Show("Please fill all fileds!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -45,24 +48,19 @@ namespace BankSystem
             command.CommandText = "select* from CUSTOMER WHERE SSN = '" + SSN + "'";
             SqlDataReader reader = command.ExecuteReader();
 
-            if (!reader.Read())
+            if (reader.Read())
             {
-                MessageBox.Show("This customer isn't exist!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("This customer is already exist!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 con.Close();
                 return;
             }
 
             reader.Close();
-            command.CommandText = "UPDADTE CUSTOMER SET NAME =  '" + name + "', EMAIL = '" + email + "', ADDRESS = '" + address + "' where SSN = '"+SSN+"';";
-            command.CommandText = "insert into CUSTOMERPHONE values('" + phone + "','" + SSN + "' );";
-            reader = command.ExecuteReader();
-            MessageBox.Show("Customer Updated Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            con.Close();
-        }
+            command.CommandText = "insert into CUSTOMER values('" + SSN + "', '" + name + "',null, '" + email + "', '" + address + "',null);";
 
-        private void addCustomer_Load(object sender, EventArgs e)
-        {
-            
+            reader = command.ExecuteReader();
+            MessageBox.Show("Customer Added Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            con.Close();
         }
     }
 }

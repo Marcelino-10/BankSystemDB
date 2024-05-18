@@ -131,7 +131,7 @@
             checkBox1.BackColor = SystemColors.Control;
             checkBox1.Font = new Font("Segoe UI Emoji", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             checkBox1.ForeColor = Color.DarkSlateGray;
-            checkBox1.Location = new Point(127, 404);
+            checkBox1.Location = new Point(122, 388);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(168, 30);
             checkBox1.TabIndex = 67;
@@ -142,7 +142,7 @@
             // 
             button1.Font = new Font("Rockwell", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.DarkSlateGray;
-            button1.Location = new Point(710, 392);
+            button1.Location = new Point(705, 381);
             button1.Name = "button1";
             button1.Size = new Size(168, 42);
             button1.TabIndex = 68;
