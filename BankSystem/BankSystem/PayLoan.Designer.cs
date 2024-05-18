@@ -67,7 +67,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(748, 199);
+            dataGridView1.Size = new Size(748, 330);
             dataGridView1.TabIndex = 67;
             // 
             // Column1
