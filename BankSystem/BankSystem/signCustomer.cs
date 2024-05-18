@@ -53,7 +53,7 @@ namespace BankSystem
             }
 
             reader.Close();
-            command.CommandText = "insert into CUSTOMER(SSN, PASSWORD, ADDRESS, DATEBIRTH, EMAIL, NAME) values('" + id + "', '" + pass + "'. '"+address+"', '"+birth+"', '"+email+"', '"+name+"');";
+            command.CommandText = "insert into CUSTOMER(SSN, PASSWORD, ADDRESS, DATEBIRTH, EMAIL, NAME) values('" + id + "', '" + pass + "', '"+address+"', '"+birth+"', '"+email+"', '"+name+"');";
             reader = command.ExecuteReader();
             MessageBox.Show("Customer signed successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();

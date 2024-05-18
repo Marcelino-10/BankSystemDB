@@ -9,9 +9,8 @@ namespace BankSystem
     {
         public Form1()
         {
-
             InitializeComponent();
-            main = new mainPage();
+           
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -38,6 +37,7 @@ namespace BankSystem
 
             if (reader.Read())
             {
+                main = new mainPage();
                 con.Close();
                 main.Show();
                 Hide();
@@ -51,6 +51,7 @@ namespace BankSystem
             reader = command.ExecuteReader();
             if (reader.Read())
             {
+                main = new mainPage();
                 con.Close();
                 main.Show();
                 Hide();
@@ -64,6 +65,7 @@ namespace BankSystem
             reader = command.ExecuteReader();
             if (reader.Read())
             {
+                main = new mainPage();
                 con.Close();
                 main.Show();
                 Hide();

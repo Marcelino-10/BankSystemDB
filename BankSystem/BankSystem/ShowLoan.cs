@@ -115,12 +115,12 @@ namespace BankSystem
                 con.Close();
             }
 
-                
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            showTable(sender,e);
+            showTable(sender, e);
         }
     }
 }

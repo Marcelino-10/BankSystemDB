@@ -26,7 +26,7 @@ namespace BankSystem
         {
             string SSN = textBox1.Text;
             string acc_no = textBox6.Text;
-            string branchNO = textBox2.Text;
+            string branchNO = comboBox3.SelectedItem.ToString();
             string interestRate = textBox5.Text;
             string openDate = dateTimePicker1.Text;
             string balance = textBox4.Text;
@@ -34,7 +34,7 @@ namespace BankSystem
 
             DateTime d;
             DateTime.TryParse(openDate, out d);
-            if (SSN == "" || branchNO == "" || interestRate == "" || openDate == "" || type=="" ||balance=="" || acc_no=="")
+            if (SSN == "" || branchNO == "" || interestRate == "" || openDate == "" || type == "" || balance == "" || acc_no == "")
             {
                 MessageBox.Show("Please fill all fileds!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -48,10 +48,29 @@ namespace BankSystem
             con.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = con;
-            command.CommandText = "insert into ACCOUNT values('"+ acc_no +"','" + branchNO + "', '" + SSN + "','" + balance + "', '" + d + "', '" + type + "','" + interestRate + "');";
+            command.CommandText = "insert into ACCOUNT values('" + acc_no + "','" + branchNO + "', '" + SSN + "','" + balance + "', '" + d + "', '" + type + "','" + interestRate + "');";
             reader = command.ExecuteReader();
             MessageBox.Show("Account Added Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();
+        }
+
+        private void createAcc_Load(object sender, EventArgs e)
+        {
+            string _path = AppDomain.CurrentDomain.BaseDirectory;
+            string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=" + path + ";Integrated Security=True";
+            SqlDataReader reader;
+            SqlConnection con = new SqlConnection(connectionString);
+            con.Open();
+            SqlCommand command = new SqlCommand();
+            command.Connection = con;
+            command.CommandText = "select branchno from branch";
+            reader = command.ExecuteReader();
+
+            for (int i = 0; reader.Read(); i++)
+            {
+                comboBox3.Items.Add(reader.GetValue(i));
+            }
         }
     }
 }

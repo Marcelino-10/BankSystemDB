@@ -1,3 +1,5 @@
+using System.Data.SqlClient;
+
 namespace BankSystem
 {
     internal static class Program
@@ -9,6 +11,7 @@ namespace BankSystem
         public static string employeeID;
         public static string customerID;
         public static Form1 obj;
+        public static SqlConnection con;
         [STAThread]
         static void Main()
         {
@@ -17,6 +20,11 @@ namespace BankSystem
             ApplicationConfiguration.Initialize();
             obj = new Form1();
             Application.Run(obj);
+            string _path = AppDomain.CurrentDomain.BaseDirectory;
+            string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=" + path + ";Integrated Security=True";
+
+            con = new SqlConnection(connectionString);
         }
     }
 }

@@ -39,7 +39,6 @@
             Column7 = new DataGridViewTextBoxColumn();
             label1 = new Label();
             checkBox1 = new CheckBox();
-            button1 = new Button();
             dataGridView2 = new DataGridView();
             dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -51,11 +50,12 @@
             dataGridView1.BackgroundColor = Color.FromArgb(0, 64, 64);
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column8, Column3, Column4, Column5, Column6, Column7 });
-            dataGridView1.Location = new Point(41, 69);
+            dataGridView1.Location = new Point(47, 92);
+            dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(851, 305);
+            dataGridView1.Size = new Size(973, 407);
             dataGridView1.TabIndex = 66;
             // 
             // Column1
@@ -119,9 +119,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Verdana", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.DarkSlateGray;
-            label1.Location = new Point(396, 16);
+            label1.Location = new Point(453, 21);
             label1.Name = "label1";
-            label1.Size = new Size(122, 38);
+            label1.Size = new Size(152, 48);
             label1.TabIndex = 65;
             label1.Text = "Loans";
             // 
@@ -131,35 +131,26 @@
             checkBox1.BackColor = SystemColors.Control;
             checkBox1.Font = new Font("Segoe UI Emoji", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             checkBox1.ForeColor = Color.DarkSlateGray;
-            checkBox1.Location = new Point(122, 388);
+            checkBox1.Location = new Point(139, 517);
+            checkBox1.Margin = new Padding(3, 4, 3, 4);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(168, 30);
+            checkBox1.Size = new Size(212, 36);
             checkBox1.TabIndex = 67;
             checkBox1.Text = "list of loan types";
             checkBox1.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            button1.Font = new Font("Rockwell", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.DarkSlateGray;
-            button1.Location = new Point(705, 381);
-            button1.Name = "button1";
-            button1.Size = new Size(168, 42);
-            button1.TabIndex = 68;
-            button1.Text = "Refresh";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // dataGridView2
             // 
             dataGridView2.BackgroundColor = Color.FromArgb(0, 64, 64);
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView2.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumn1 });
-            dataGridView2.Location = new Point(280, 72);
+            dataGridView2.Location = new Point(320, 96);
+            dataGridView2.Margin = new Padding(3, 4, 3, 4);
             dataGridView2.Name = "dataGridView2";
             dataGridView2.RowHeadersVisible = false;
             dataGridView2.RowHeadersWidth = 51;
-            dataGridView2.Size = new Size(361, 302);
+            dataGridView2.Size = new Size(413, 403);
             dataGridView2.TabIndex = 69;
             // 
             // dataGridViewTextBoxColumn1
@@ -171,16 +162,14 @@
             // 
             // ShowLoan
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(dataGridView2);
-            Controls.Add(button1);
             Controls.Add(checkBox1);
             Controls.Add(dataGridView1);
             Controls.Add(label1);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "ShowLoan";
-            Size = new Size(926, 517);
+            Size = new Size(1058, 689);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
@@ -200,7 +189,6 @@
         private DataGridViewTextBoxColumn Column6;
         private DataGridViewTextBoxColumn Column7;
         private CheckBox checkBox1;
-        private Button button1;
         public DataGridView dataGridView2;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
     }
