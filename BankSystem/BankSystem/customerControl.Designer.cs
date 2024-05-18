@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            button5 = new Button();
             button4 = new Button();
             button3 = new Button();
             button2 = new Button();
@@ -42,6 +43,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(0, 64, 64);
+            panel1.Controls.Add(button5);
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
@@ -49,16 +51,28 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(299, 720);
+            panel1.Size = new Size(299, 685);
             panel1.TabIndex = 5;
-            panel1.Paint += panel1_Paint;
+            // 
+            // button5
+            // 
+            button5.BackColor = SystemColors.ControlLightLight;
+            button5.Font = new Font("Verdana", 10F, FontStyle.Bold);
+            button5.ForeColor = Color.FromArgb(0, 64, 64);
+            button5.Location = new Point(29, 423);
+            button5.Name = "button5";
+            button5.Size = new Size(234, 54);
+            button5.TabIndex = 9;
+            button5.Text = "Edit Your Account";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
             button4.BackColor = SystemColors.ControlLightLight;
             button4.Font = new Font("Verdana", 10F, FontStyle.Bold);
             button4.ForeColor = Color.FromArgb(0, 64, 64);
-            button4.Location = new Point(29, 341);
+            button4.Location = new Point(29, 329);
             button4.Name = "button4";
             button4.Size = new Size(234, 54);
             button4.TabIndex = 5;
@@ -75,7 +89,7 @@
             button3.Name = "button3";
             button3.Size = new Size(234, 54);
             button3.TabIndex = 4;
-            button3.Text = "View Account";
+            button3.Text = "View Accounts";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
@@ -132,7 +146,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "customerControl";
-            Size = new Size(1080, 720);
+            Size = new Size(1058, 685);
             Load += customerControl_Load;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
@@ -148,9 +162,10 @@
         private Button button3;
         private RequestLoan requestLoan;
         private Transaction transaction;
-        private ViewAccount viewAccount;
+        private EditAccount viewAccount;
         private ViewRequestedLoans viewRequestedLoans;
         private Panel panel2;
         private Label label1;
+        private Button button5;
     }
 }

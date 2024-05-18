@@ -13,9 +13,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace BankSystem
 {
-    public partial class ViewAccount : UserControl
+    public partial class EditAccount : UserControl
     {
-        public ViewAccount()
+        public EditAccount()
         {
             InitializeComponent();
         }

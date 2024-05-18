@@ -1,6 +1,6 @@
 ﻿namespace BankSystem
 {
-    partial class ViewAccount
+    partial class EditAccount
     {
         /// <summary> 
         /// Required designer variable.
@@ -140,11 +140,11 @@
             label2.ForeColor = Color.FromArgb(0, 64, 64);
             label2.Location = new Point(23, 43);
             label2.Name = "label2";
-            label2.Size = new Size(271, 41);
+            label2.Size = new Size(357, 41);
             label2.TabIndex = 27;
-            label2.Text = "Your Account";
+            label2.Text = "Edit Your Account";
             // 
-            // ViewAccount
+            // EditAccount
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -158,7 +158,7 @@
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
-            Name = "ViewAccount";
+            Name = "EditAccount";
             Size = new Size(783, 717);
             Load += ViewAccount_Load;
             ResumeLayout(false);
