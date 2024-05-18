@@ -38,7 +38,12 @@
             Column6 = new DataGridViewTextBoxColumn();
             Column7 = new DataGridViewTextBoxColumn();
             label1 = new Label();
+            checkBox1 = new CheckBox();
+            button1 = new Button();
+            dataGridView2 = new DataGridView();
+            dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
@@ -46,13 +51,11 @@
             dataGridView1.BackgroundColor = Color.FromArgb(0, 64, 64);
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column8, Column3, Column4, Column5, Column6, Column7 });
-            dataGridView1.Location = new Point(41, 105);
-            dataGridView1.Margin = new Padding(3, 4, 3, 4);
+            dataGridView1.Location = new Point(41, 69);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(973, 407);
+            dataGridView1.Size = new Size(851, 305);
             dataGridView1.TabIndex = 66;
             // 
             // Column1
@@ -61,7 +64,6 @@
             Column1.HeaderText = "Loan Number";
             Column1.MinimumWidth = 6;
             Column1.Name = "Column1";
-            Column1.ReadOnly = true;
             // 
             // Column2
             // 
@@ -69,14 +71,12 @@
             Column2.HeaderText = "Customer Name";
             Column2.MinimumWidth = 6;
             Column2.Name = "Column2";
-            Column2.ReadOnly = true;
             // 
             // Column8
             // 
             Column8.HeaderText = "Employee Name";
             Column8.MinimumWidth = 6;
             Column8.Name = "Column8";
-            Column8.ReadOnly = true;
             Column8.Width = 125;
             // 
             // Column3
@@ -85,7 +85,6 @@
             Column3.HeaderText = "Amount";
             Column3.MinimumWidth = 6;
             Column3.Name = "Column3";
-            Column3.ReadOnly = true;
             // 
             // Column4
             // 
@@ -93,7 +92,6 @@
             Column4.HeaderText = "Interest Rate";
             Column4.MinimumWidth = 6;
             Column4.Name = "Column4";
-            Column4.ReadOnly = true;
             // 
             // Column5
             // 
@@ -101,7 +99,6 @@
             Column5.HeaderText = "Type";
             Column5.MinimumWidth = 6;
             Column5.Name = "Column5";
-            Column5.ReadOnly = true;
             // 
             // Column6
             // 
@@ -109,7 +106,6 @@
             Column6.HeaderText = "Payment Shedule";
             Column6.MinimumWidth = 6;
             Column6.Name = "Column6";
-            Column6.ReadOnly = true;
             // 
             // Column7
             // 
@@ -117,28 +113,76 @@
             Column7.HeaderText = "Loan Status";
             Column7.MinimumWidth = 6;
             Column7.Name = "Column7";
-            Column7.ReadOnly = true;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Verdana", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.DarkSlateGray;
-            label1.Location = new Point(447, 34);
+            label1.Location = new Point(396, 16);
             label1.Name = "label1";
-            label1.Size = new Size(152, 48);
+            label1.Size = new Size(122, 38);
             label1.TabIndex = 65;
             label1.Text = "Loans";
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.BackColor = SystemColors.Control;
+            checkBox1.Font = new Font("Segoe UI Emoji", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            checkBox1.ForeColor = Color.DarkSlateGray;
+            checkBox1.Location = new Point(127, 404);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(168, 30);
+            checkBox1.TabIndex = 67;
+            checkBox1.Text = "list of loan types";
+            checkBox1.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.Font = new Font("Rockwell", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.DarkSlateGray;
+            button1.Location = new Point(710, 392);
+            button1.Name = "button1";
+            button1.Size = new Size(168, 42);
+            button1.TabIndex = 68;
+            button1.Text = "Refresh";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // dataGridView2
+            // 
+            dataGridView2.BackgroundColor = Color.FromArgb(0, 64, 64);
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumn1 });
+            dataGridView2.Location = new Point(280, 72);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.RowHeadersVisible = false;
+            dataGridView2.RowHeadersWidth = 51;
+            dataGridView2.Size = new Size(361, 302);
+            dataGridView2.TabIndex = 69;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            dataGridViewTextBoxColumn1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewTextBoxColumn1.HeaderText = "Loan Type";
+            dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
             // ShowLoan
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(dataGridView2);
+            Controls.Add(button1);
+            Controls.Add(checkBox1);
             Controls.Add(dataGridView1);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "ShowLoan";
-            Size = new Size(1058, 689);
+            Size = new Size(926, 517);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -155,5 +199,9 @@
         private DataGridViewTextBoxColumn Column5;
         private DataGridViewTextBoxColumn Column6;
         private DataGridViewTextBoxColumn Column7;
+        private CheckBox checkBox1;
+        private Button button1;
+        public DataGridView dataGridView2;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
     }
 }
