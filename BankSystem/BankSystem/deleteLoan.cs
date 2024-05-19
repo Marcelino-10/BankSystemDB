@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -22,7 +23,7 @@ namespace BankSystem
         private void button1_Click(object sender, EventArgs e)
         {
             string ln = textBox1.Text;
-            if (ln == "" )
+            if (ln == "")
             {
                 MessageBox.Show("Please fill the filed!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -31,15 +32,31 @@ namespace BankSystem
             string _path = AppDomain.CurrentDomain.BaseDirectory;
             string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
             string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=" + path + ";Integrated Security=True";
-            SqlDataReader reader;
             SqlConnection con = new SqlConnection(connectionString);
             con.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = con;
-            command.CommandText = " DELETE FROM LOAN\r\n WHERE LOANNO_='"+ln+"';";
+            command.CommandText = "select* from LOAN WHERE LOANNO_ = '" + ln + "'";
+            SqlDataReader reader = command.ExecuteReader();
+
+            if (!reader.Read())
+            {
+                MessageBox.Show("This Loan doesn't exiest!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                con.Close();
+                return;
+            }
+
+            reader.Close();
+
+            command.CommandText = " DELETE FROM LOAN\r\n WHERE LOANNO_='" + ln + "';";
             reader = command.ExecuteReader();
             MessageBox.Show("Loan Deleted Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -103,9 +103,9 @@
             label2.ForeColor = Color.DarkSlateGray;
             label2.Location = new Point(59, 141);
             label2.Name = "label2";
-            label2.Size = new Size(74, 38);
+            label2.Size = new Size(219, 38);
             label2.TabIndex = 25;
-            label2.Text = "SSN";
+            label2.Text = "Customer SSN";
             // 
             // label1
             // 

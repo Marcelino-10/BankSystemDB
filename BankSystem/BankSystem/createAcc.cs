@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -41,11 +41,24 @@ namespace BankSystem
             string _path = AppDomain.CurrentDomain.BaseDirectory;
             string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
             string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=" + path + ";Integrated Security=True";
-            SqlDataReader reader;
+         
             SqlConnection con = new SqlConnection(connectionString);
             con.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = con;
+
+            command.CommandText = "select* from CUSTOMER WHERE SSN = '" + SSN + "'";
+            SqlDataReader reader = command.ExecuteReader();
+
+            if (!reader.Read())
+            {
+                MessageBox.Show("This Customer doesn't exiest!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                con.Close();
+                return;
+            }
+
+           reader.Close();
+
             command.CommandText = "insert into ACCOUNT (branchno, customerssn, balance, opendate, type) values('" + branchNO + "', '" + SSN + "','" + balance + "', '" + d + "', '" + type + "');";
             reader = command.ExecuteReader();
             MessageBox.Show("Account Added Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);

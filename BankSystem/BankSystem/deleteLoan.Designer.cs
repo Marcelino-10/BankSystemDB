@@ -39,38 +39,41 @@
             label1.AutoSize = true;
             label1.Font = new Font("Verdana", 20F, FontStyle.Bold);
             label1.ForeColor = Color.FromArgb(0, 64, 64);
-            label1.Location = new Point(117, 92);
+            label1.Location = new Point(36, 46);
             label1.Name = "label1";
-            label1.Size = new Size(193, 32);
+            label1.Size = new Size(246, 41);
             label1.TabIndex = 39;
             label1.Text = "Delete Loan";
+            label1.Click += label1_Click;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(368, 250);
+            textBox1.Location = new Point(323, 261);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(243, 30);
+            textBox1.Size = new Size(242, 27);
             textBox1.TabIndex = 44;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Franklin Gothic Heavy", 18F);
+            label2.Font = new Font("Verdana", 12F, FontStyle.Bold);
             label2.ForeColor = Color.DarkSlateGray;
-            label2.Location = new Point(131, 250);
+            label2.Location = new Point(139, 263);
             label2.Name = "label2";
-            label2.Size = new Size(162, 30);
+            label2.Size = new Size(162, 25);
             label2.TabIndex = 43;
             label2.Text = "Loan Number";
             // 
             // button1
             // 
-            button1.Font = new Font("Franklin Gothic Heavy", 18F);
-            button1.ForeColor = Color.DarkSlateGray;
-            button1.Location = new Point(294, 338);
+            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            button1.ForeColor = Color.Red;
+            button1.Location = new Point(286, 349);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(161, 57);
+            button1.Size = new Size(112, 47);
             button1.TabIndex = 45;
             button1.Text = "Delete";
             button1.UseVisualStyleBackColor = true;
@@ -78,14 +81,15 @@
             // 
             // deleteLoan
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "deleteLoan";
-            Size = new Size(724, 531);
+            Size = new Size(754, 673);
             ResumeLayout(false);
             PerformLayout();
         }
