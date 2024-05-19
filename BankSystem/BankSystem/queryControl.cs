@@ -18,6 +18,23 @@ namespace BankSystem
             InitializeComponent();
         }
 
+        private void hideAll()
+        {
+            comboBox1.Visible = false;
+            dataGridView1.Hide();
+            dataGridView2.Hide();
+            dataGridView3.Hide();
+            dataGridView4.Hide();
+            dataGridView5.Hide();
+            label1.Hide();
+            label2.Hide();
+            label3.Hide();
+            label4.Hide();
+            label5.Hide();
+            button1.Hide();
+            button2.Hide();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (comboBox1.SelectedItem == null)
@@ -42,11 +59,11 @@ namespace BankSystem
 
                 if (selected == "Customers with Loans")
                 {
+                    hideAll();
+                    label4.Show();
                     dataGridView3.Show();
-                    dataGridView2.Hide();
-                    dataGridView1.Hide();
-                    dataGridView4.Hide();
-                    label1.Hide();
+                    button1.Show();
+                    comboBox1.Visible = true;
                     command.CommandText = "select CUSTOMER.NAME, CUSTOMER.EMAIL, CUSTOMER.ADDRESS, CUSTOMER.SSN\r\nFROM CUSTOMER , LOAN\r\nWHERE CUSTOMER.SSN = LOAN.CUSTOMERSSN";
                     SqlDataReader reader = command.ExecuteReader();
 
@@ -62,11 +79,11 @@ namespace BankSystem
                 }
                 else if (selected == "Employee in Every Branch")
                 {
+                    hideAll();
                     dataGridView1.Show();
-                    dataGridView2.Hide();
-                    dataGridView3.Hide();
-                    dataGridView4.Hide();
-                    label1.Hide();
+                    label3.Show();
+                    button1.Show();
+                    comboBox1.Visible = true;
                     command.CommandText = "select count(EMPLOYEE.EMPLOYEEID) AS 'NUM OF EMPLOYEES' , BRANCH.BRANCHNO\r\nFROM EMPLOYEE , BRANCH\r\nWHERE EMPLOYEE.BRANCHNO = BRANCH.BRANCHNO\r\nGROUP BY BRANCH.BRANCHNO";
                     SqlDataReader reader = command.ExecuteReader();
 
@@ -82,11 +99,11 @@ namespace BankSystem
                 }
                 else if (selected == "Accounts in Every Branch")
                 {
+                    hideAll();
                     dataGridView2.Show();
-                    dataGridView3.Hide();
-                    dataGridView1.Hide();
-                    dataGridView4.Hide();
-                    label1.Hide();
+                    label2.Show();
+                    button1.Show();
+                    comboBox1.Visible = true;
                     command.CommandText = "select count(ACCOUNT.ACCOUNTNO_) AS 'NUM OF ACCOUNTS' , BRANCH.BRANCHNO\r\nFROM ACCOUNT , BRANCH\r\nWHERE ACCOUNT.BRANCHNO = BRANCH.BRANCHNO\r\nGROUP BY BRANCH.BRANCHNO";
                     SqlDataReader reader = command.ExecuteReader();
 
@@ -105,29 +122,19 @@ namespace BankSystem
 
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void queryControl_Load(object sender, EventArgs e)
         {
             Program.main.label1.Text = "Quereis";
-            label1.Hide();
+            hideAll();
+            label5.Show();
+            dataGridView5.Show();
+            comboBox1.Visible = true;
+            button1.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            dataGridView4.Show();
-            dataGridView2.Hide();
-            dataGridView1.Hide();
-            dataGridView3.Hide(); 
-            label1.Show();
+            
 
             string _path = AppDomain.CurrentDomain.BaseDirectory;
             string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
@@ -150,6 +157,15 @@ namespace BankSystem
                 }
             }
             con.Close();
+        }
+
+
+        public void report()
+        {
+            hideAll();
+            label1.Show();
+            dataGridView4.Show();
+            button2.Show();
 
         }
     }

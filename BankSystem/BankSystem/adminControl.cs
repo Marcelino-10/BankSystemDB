@@ -30,6 +30,7 @@ namespace BankSystem
             {
                 panel2.Visible = false;
                 panel3.Visible = false;
+                panel5.Visible = false;
                 flowLayoutPanel1.Visible = false;
                 panel.Visible = true;
                 panel.BringToFront();
@@ -40,6 +41,7 @@ namespace BankSystem
         {
             panel2.Visible = false;
             panel3.Visible = false;
+            panel5.Visible=false;
             flowLayoutPanel1.Visible = false;
         }
 
@@ -162,15 +164,29 @@ namespace BankSystem
 
         private void button7_Click(object sender, EventArgs e)
         {
+            displayMenu(panel5);
+        }
+
+        private void adminControl_Load(object sender, EventArgs e)
+        {
+            Program.main.label1.Text = "Admin Page";
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
             queryControl = new queryControl();
             panel1.Controls.Clear();
             panel1.Controls.Add(queryControl);
             disableAllMenu();
         }
 
-        private void adminControl_Load(object sender, EventArgs e)
+        private void button17_Click(object sender, EventArgs e)
         {
-            Program.main.label1.Text = "Admin Page";
+            queryControl = new queryControl();
+            panel1.Controls.Clear();
+            panel1.Controls.Add(queryControl);
+            disableAllMenu();
+            queryControl.report();
         }
     }
 }

@@ -35,6 +35,7 @@ namespace BankSystem
             SqlDataReader reader = command.ExecuteReader();
             reader.Read();
             textBox5.Text = reader.GetValue(1).ToString();
+            dateTimePicker1.Text = reader.GetValue(2).ToString();
             textBox4.Text = reader.GetValue(3).ToString();
             textBox2.Text = reader.GetValue(4).ToString();
             textBox3.Text = reader.GetValue(5).ToString();
@@ -48,6 +49,10 @@ namespace BankSystem
             string name = textBox5.Text;
             string email = textBox4.Text;
             string address = textBox2.Text;
+            string birthDate = dateTimePicker1.Text;
+            
+            DateTime d;
+            DateTime.TryParse(birthDate, out d);
 
             if (name == "" || email == "")
             {

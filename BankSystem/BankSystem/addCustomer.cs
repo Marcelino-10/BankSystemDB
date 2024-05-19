@@ -27,10 +27,14 @@ namespace BankSystem
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            string SSN = textBox1.Text;
-            string name = textBox5.Text;
+            string SSN = textBox5.Text;
+            string name = textBox1.Text;
             string email = textBox4.Text;
             string address = textBox2.Text;
+            string birthDate = dateTimePicker1.Text;
+
+            DateTime d;
+            DateTime.TryParse(birthDate, out d);
             if (SSN == "" || name == "" || email == "" || address == "")
             {
                 MessageBox.Show("Please fill all fileds!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -56,7 +60,7 @@ namespace BankSystem
             }
 
             reader.Close();
-            command.CommandText = "insert into CUSTOMER values('" + SSN + "', '" + name + "',null, '" + email + "', '" + address + "',null);";
+            command.CommandText = "insert into CUSTOMER values('" + SSN + "', '" + name + "', '"+ d +"', '" + email + "', '" + address + "',null);";
 
             reader = command.ExecuteReader();
             MessageBox.Show("Customer Added Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);

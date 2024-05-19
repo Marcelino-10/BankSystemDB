@@ -50,11 +50,15 @@
             button1 = new Button();
             button6 = new Button();
             button8 = new Button();
+            panel5 = new Panel();
+            button17 = new Button();
+            button18 = new Button();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             panel4.SuspendLayout();
+            panel5.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
@@ -295,6 +299,35 @@
             button8.UseVisualStyleBackColor = false;
             button8.Click += button8_Click;
             // 
+            // panel5
+            // 
+            panel5.Controls.Add(button17);
+            panel5.Controls.Add(button18);
+            panel5.Location = new Point(799, 71);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(250, 81);
+            panel5.TabIndex = 9;
+            // 
+            // button17
+            // 
+            button17.Location = new Point(2, 42);
+            button17.Name = "button17";
+            button17.Size = new Size(247, 29);
+            button17.TabIndex = 1;
+            button17.Text = "Report";
+            button17.UseVisualStyleBackColor = true;
+            button17.Click += button17_Click;
+            // 
+            // button18
+            // 
+            button18.Location = new Point(2, 4);
+            button18.Name = "button18";
+            button18.Size = new Size(247, 29);
+            button18.TabIndex = 0;
+            button18.Text = "List Of Queries";
+            button18.UseVisualStyleBackColor = true;
+            button18.Click += button18_Click;
+            // 
             // adminControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -305,6 +338,7 @@
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel2);
+            Controls.Add(panel5);
             Name = "adminControl";
             Size = new Size(1058, 762);
             Load += adminControl_Load;
@@ -314,6 +348,7 @@
             panel3.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
             panel4.ResumeLayout(false);
+            panel5.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -353,5 +388,8 @@
         private Button button1;
         private Button button6;
         private Button button8;
+        private Panel panel5;
+        private Button button17;
+        private Button button18;
     }
 }
