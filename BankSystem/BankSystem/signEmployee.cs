@@ -36,6 +36,12 @@ namespace BankSystem
                 return;
             }
 
+            if (phone.Length > 11)
+            {
+                MessageBox.Show("Invalid Phone number!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             string _path = AppDomain.CurrentDomain.BaseDirectory;
             string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
             string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=" + path + ";Integrated Security=True";
@@ -51,6 +57,17 @@ namespace BankSystem
             {
                 MessageBox.Show("This Employee already Exists", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 con.Close();
+                return;
+            }
+
+            reader.Close();
+
+            command.CommandText = "select* from branch WHERE branchno = '" + branch + "'";
+            reader = command.ExecuteReader();
+
+            if (!reader.Read())
+            {
+                MessageBox.Show("Invalid Branch number!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 

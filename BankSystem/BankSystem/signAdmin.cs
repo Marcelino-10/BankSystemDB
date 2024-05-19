@@ -50,7 +50,7 @@ namespace BankSystem
             }
 
             reader.Close();
-            command.CommandText = "insert into ADMIN(ID, PASSWORD, NAME) values(" + id + ", " + pass + ", "+name+");";
+            command.CommandText = "insert into ADMIN values ('" + id + "', '" + name + "', '"+ pass +"');";
             reader = command.ExecuteReader();
             MessageBox.Show("Admin signed successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();

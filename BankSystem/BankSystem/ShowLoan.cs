@@ -25,8 +25,6 @@ namespace BankSystem
             {
                 dataGridView2.Visible = true;
                 dataGridView1.Visible = false;
-                List<int> customerSSN = new List<int>();
-                List<int> employeeId = new List<int>();
 
                 string _path = AppDomain.CurrentDomain.BaseDirectory;
                 string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
@@ -108,7 +106,7 @@ namespace BankSystem
                     reader2 = command2.ExecuteReader();
                     if (reader2.Read())
                     {
-                        dataGridView1.Rows[j].Cells[2].Value = reader2.GetValue(0).ToString();
+                        dataGridView1.Rows[j].Cells[2].Value = reader2["Name"].ToString();
                     }
                     reader2.Close();
                 }

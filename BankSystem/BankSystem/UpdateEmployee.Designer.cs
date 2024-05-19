@@ -44,11 +44,12 @@
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(212, 246);
+            textBox5.Location = new Point(201, 215);
             textBox5.Margin = new Padding(3, 4, 3, 4);
             textBox5.Multiline = true;
             textBox5.Name = "textBox5";
@@ -57,7 +58,7 @@
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(212, 326);
+            textBox4.Location = new Point(201, 295);
             textBox4.Margin = new Padding(3, 4, 3, 4);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
@@ -66,7 +67,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(212, 400);
+            textBox2.Location = new Point(201, 369);
             textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
@@ -75,18 +76,19 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(212, 179);
+            textBox1.Location = new Point(333, 120);
             textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(277, 55);
             textBox1.TabIndex = 18;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // button1
             // 
             button1.Font = new Font("Franklin Gothic Heavy", 18F);
             button1.ForeColor = Color.DarkSlateGray;
-            button1.Location = new Point(403, 519);
+            button1.Location = new Point(426, 470);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(184, 76);
@@ -100,7 +102,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Franklin Gothic Heavy", 18F);
             label5.ForeColor = Color.DarkSlateGray;
-            label5.Location = new Point(66, 400);
+            label5.Location = new Point(55, 369);
             label5.Name = "label5";
             label5.Size = new Size(133, 38);
             label5.TabIndex = 16;
@@ -111,7 +113,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Franklin Gothic Heavy", 18F);
             label4.ForeColor = Color.DarkSlateGray;
-            label4.Location = new Point(66, 326);
+            label4.Location = new Point(55, 295);
             label4.Name = "label4";
             label4.Size = new Size(96, 38);
             label4.TabIndex = 15;
@@ -122,7 +124,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Franklin Gothic Heavy", 18F);
             label3.ForeColor = Color.DarkSlateGray;
-            label3.Location = new Point(66, 246);
+            label3.Location = new Point(55, 215);
             label3.Name = "label3";
             label3.Size = new Size(100, 38);
             label3.TabIndex = 14;
@@ -133,7 +135,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Franklin Gothic Heavy", 18F);
             label2.ForeColor = Color.DarkSlateGray;
-            label2.Location = new Point(66, 179);
+            label2.Location = new Point(215, 130);
             label2.Name = "label2";
             label2.Size = new Size(74, 38);
             label2.TabIndex = 13;
@@ -142,10 +144,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = SystemColors.Control;
+            label1.BackColor = SystemColors.ControlLight;
             label1.Font = new Font("Franklin Gothic Heavy", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.DarkSlateGray;
-            label1.Location = new Point(403, 94);
+            label1.Location = new Point(338, 36);
             label1.Name = "label1";
             label1.Size = new Size(346, 47);
             label1.TabIndex = 12;
@@ -153,7 +155,7 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(748, 313);
+            textBox3.Location = new Point(734, 289);
             textBox3.Margin = new Padding(3, 4, 3, 4);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
@@ -162,7 +164,7 @@
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(748, 393);
+            textBox6.Location = new Point(734, 369);
             textBox6.Margin = new Padding(3, 4, 3, 4);
             textBox6.Multiline = true;
             textBox6.Name = "textBox6";
@@ -171,7 +173,7 @@
             // 
             // textBox8
             // 
-            textBox8.Location = new Point(748, 246);
+            textBox8.Location = new Point(734, 222);
             textBox8.Margin = new Padding(3, 4, 3, 4);
             textBox8.Multiline = true;
             textBox8.Name = "textBox8";
@@ -183,7 +185,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Franklin Gothic Heavy", 18F);
             label7.ForeColor = Color.DarkSlateGray;
-            label7.Location = new Point(563, 383);
+            label7.Location = new Point(549, 359);
             label7.Name = "label7";
             label7.Size = new Size(172, 38);
             label7.TabIndex = 24;
@@ -194,7 +196,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Franklin Gothic Heavy", 18F);
             label8.ForeColor = Color.DarkSlateGray;
-            label8.Location = new Point(563, 303);
+            label8.Location = new Point(549, 279);
             label8.Name = "label8";
             label8.Size = new Size(108, 38);
             label8.TabIndex = 23;
@@ -205,17 +207,31 @@
             label9.AutoSize = true;
             label9.Font = new Font("Franklin Gothic Heavy", 18F);
             label9.ForeColor = Color.DarkSlateGray;
-            label9.Location = new Point(563, 236);
+            label9.Location = new Point(549, 212);
             label9.Name = "label9";
             label9.Size = new Size(78, 38);
             label9.TabIndex = 22;
             label9.Text = "Title";
             // 
+            // button2
+            // 
+            button2.Font = new Font("Franklin Gothic Heavy", 14F);
+            button2.ForeColor = Color.DarkSlateGray;
+            button2.Location = new Point(665, 130);
+            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Name = "button2";
+            button2.Size = new Size(121, 45);
+            button2.TabIndex = 30;
+            button2.Text = "Show";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // UpdateEmployee
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlLightLight;
+            BackColor = SystemColors.ControlLight;
+            Controls.Add(button2);
             Controls.Add(textBox3);
             Controls.Add(textBox6);
             Controls.Add(textBox8);
@@ -257,5 +273,6 @@
         private Label label7;
         private Label label8;
         private Label label9;
+        private Button button2;
     }
 }

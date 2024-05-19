@@ -39,7 +39,7 @@ namespace BankSystem
             con.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = con;
-            command.CommandText = "select* from ADMIN WHERE SSN = '" + ssn + "'";
+            command.CommandText = "select* from ADMIN WHERE id = '" + ssn + "'";
             SqlDataReader reader = command.ExecuteReader();
 
             if (!reader.Read())
@@ -50,7 +50,7 @@ namespace BankSystem
             }
 
             reader.Close();
-            command.CommandText = "UPDATE ADMIN SET NAME =  '" + name + "' where SSN = '" + ssn + "';";
+            command.CommandText = "UPDATE ADMIN SET NAME =  '" + name + "' where id = '" + ssn + "';";
             reader = command.ExecuteReader();
             MessageBox.Show("Admin Updated Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();
