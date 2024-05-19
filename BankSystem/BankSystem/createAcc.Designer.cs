@@ -39,17 +39,13 @@
             comboBox2 = new ComboBox();
             label5 = new Label();
             label6 = new Label();
-            textBox5 = new TextBox();
-            label7 = new Label();
-            textBox6 = new TextBox();
-            label8 = new Label();
             dateTimePicker1 = new DateTimePicker();
             comboBox3 = new ComboBox();
             SuspendLayout();
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(350, 237);
+            textBox4.Location = new Point(350, 298);
             textBox4.Margin = new Padding(3, 4, 3, 4);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
@@ -58,7 +54,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(350, 128);
+            textBox1.Location = new Point(350, 141);
             textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
@@ -83,7 +79,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Franklin Gothic Heavy", 18F);
             label4.ForeColor = Color.DarkSlateGray;
-            label4.Location = new Point(59, 237);
+            label4.Location = new Point(59, 298);
             label4.Name = "label4";
             label4.Size = new Size(133, 38);
             label4.TabIndex = 27;
@@ -94,7 +90,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Franklin Gothic Heavy", 18F);
             label3.ForeColor = Color.DarkSlateGray;
-            label3.Location = new Point(59, 175);
+            label3.Location = new Point(59, 217);
             label3.Name = "label3";
             label3.Size = new Size(82, 38);
             label3.TabIndex = 26;
@@ -105,7 +101,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Franklin Gothic Heavy", 18F);
             label2.ForeColor = Color.DarkSlateGray;
-            label2.Location = new Point(59, 128);
+            label2.Location = new Point(59, 141);
             label2.Name = "label2";
             label2.Size = new Size(74, 38);
             label2.TabIndex = 25;
@@ -129,7 +125,7 @@
             comboBox1.Font = new Font("Segoe UI", 10F);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Salary Account", "Saving Account", "checking Account", "Certificate of deposit accounts" });
-            comboBox1.Location = new Point(350, 183);
+            comboBox1.Location = new Point(350, 225);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(277, 31);
             comboBox1.TabIndex = 35;
@@ -137,7 +133,7 @@
             // comboBox2
             // 
             comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(140, 261);
+            comboBox2.Location = new Point(140, 273);
             comboBox2.Margin = new Padding(3, 4, 3, 4);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(0, 28);
@@ -148,7 +144,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Franklin Gothic Heavy", 18F);
             label5.ForeColor = Color.DarkSlateGray;
-            label5.Location = new Point(59, 409);
+            label5.Location = new Point(59, 451);
             label5.Name = "label5";
             label5.Size = new Size(237, 38);
             label5.TabIndex = 37;
@@ -159,55 +155,15 @@
             label6.AutoSize = true;
             label6.Font = new Font("Franklin Gothic Heavy", 18F);
             label6.ForeColor = Color.DarkSlateGray;
-            label6.Location = new Point(59, 297);
+            label6.Location = new Point(59, 379);
             label6.Name = "label6";
             label6.Size = new Size(165, 38);
             label6.TabIndex = 39;
             label6.Text = "Open date";
             // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(350, 475);
-            textBox5.Margin = new Padding(3, 4, 3, 4);
-            textBox5.Multiline = true;
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(277, 39);
-            textBox5.TabIndex = 42;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Franklin Gothic Heavy", 18F);
-            label7.ForeColor = Color.DarkSlateGray;
-            label7.Location = new Point(59, 475);
-            label7.Name = "label7";
-            label7.Size = new Size(205, 38);
-            label7.TabIndex = 41;
-            label7.Text = "Interest Rate";
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(350, 348);
-            textBox6.Margin = new Padding(3, 4, 3, 4);
-            textBox6.Multiline = true;
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(277, 39);
-            textBox6.TabIndex = 44;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Franklin Gothic Heavy", 18F);
-            label8.ForeColor = Color.DarkSlateGray;
-            label8.Location = new Point(59, 348);
-            label8.Name = "label8";
-            label8.Size = new Size(253, 38);
-            label8.TabIndex = 43;
-            label8.Text = "Account Number";
-            // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(350, 297);
+            dateTimePicker1.Location = new Point(350, 379);
             dateTimePicker1.Margin = new Padding(3, 4, 3, 4);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(277, 27);
@@ -218,7 +174,7 @@
             comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox3.Font = new Font("Segoe UI", 10F);
             comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(350, 417);
+            comboBox3.Location = new Point(350, 459);
             comboBox3.Name = "comboBox3";
             comboBox3.Size = new Size(277, 31);
             comboBox3.TabIndex = 46;
@@ -229,10 +185,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(comboBox3);
             Controls.Add(dateTimePicker1);
-            Controls.Add(textBox6);
-            Controls.Add(label8);
-            Controls.Add(textBox5);
-            Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(comboBox2);
@@ -264,10 +216,6 @@
         private ComboBox comboBox2;
         private Label label5;
         private Label label6;
-        private TextBox textBox5;
-        private Label label7;
-        private TextBox textBox6;
-        private Label label8;
         private DateTimePicker dateTimePicker1;
         private ComboBox comboBox3;
     }

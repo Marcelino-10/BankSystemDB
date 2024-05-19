@@ -32,10 +32,12 @@ namespace BankSystem
             SqlDataReader reader;
             command.CommandText = "Select accountno_ from account where customerssn = '" + Program.customerID + "'";
             reader = command.ExecuteReader();
-
-            for (int i = 0; reader.Read(); i++)
+            if (reader.HasRows)
             {
-                comboBox1.Items.Add(reader.GetValue(i).ToString());
+                while (reader.Read())
+                {
+                    comboBox1.Items.Add(reader["accountno_"].ToString());
+                }
             }
             con.Close();
         }

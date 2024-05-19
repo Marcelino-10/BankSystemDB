@@ -129,7 +129,7 @@
             comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox2.Font = new Font("Segoe UI", 10F);
             comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "6   months , Monthly", "12 months , Monthly", "18 months , Monthly", "3   years     , Monthly", "6   years     , Monthly", "9   years     , Monthly", "3   years     , Annual", "6   years     , Annual", "9   years     , Annual", "", "" });
+            comboBox2.Items.AddRange(new object[] { "6   months , Monthly", "12 months , Monthly", "18 months , Monthly", "3   years     , Monthly", "6   years     , Monthly", "9   years     , Monthly", "3   years     , Annual", "6   years     , Annual", "9   years     , Annual" });
             comboBox2.Location = new Point(193, 374);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(255, 31);

@@ -25,16 +25,14 @@ namespace BankSystem
         private void button1_Click(object sender, EventArgs e)
         {
             string SSN = textBox1.Text;
-            string acc_no = textBox6.Text;
             string branchNO = comboBox3.SelectedItem.ToString();
-            string interestRate = textBox5.Text;
             string openDate = dateTimePicker1.Text;
             string balance = textBox4.Text;
             string type = comboBox1.Text;
 
             DateTime d;
             DateTime.TryParse(openDate, out d);
-            if (SSN == "" || branchNO == "" || interestRate == "" || openDate == "" || type == "" || balance == "" || acc_no == "")
+            if (SSN == "" || branchNO == "" || openDate == "" || type == "" || balance == "")
             {
                 MessageBox.Show("Please fill all fileds!", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -48,7 +46,7 @@ namespace BankSystem
             con.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = con;
-            command.CommandText = "insert into ACCOUNT values('" + acc_no + "','" + branchNO + "', '" + SSN + "','" + balance + "', '" + d + "', '" + type + "','" + interestRate + "');";
+            command.CommandText = "insert into ACCOUNT (branchno, customerssn, balance, opendate, type) values('" + branchNO + "', '" + SSN + "','" + balance + "', '" + d + "', '" + type + "');";
             reader = command.ExecuteReader();
             MessageBox.Show("Account Added Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();
@@ -65,13 +63,17 @@ namespace BankSystem
             con.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = con;
-            command.CommandText = "select branchno from branch";
+            command.CommandText = "select * from branch";
             reader = command.ExecuteReader();
 
-            for (int i = 0; reader.Read(); i++)
+            if (reader.HasRows)
             {
-                comboBox3.Items.Add(reader.GetValue(i));
+                while (reader.Read())
+                {
+                    comboBox3.Items.Add(reader["branchno"].ToString());
+                }
             }
+            con.Close();
         }
     }
 }

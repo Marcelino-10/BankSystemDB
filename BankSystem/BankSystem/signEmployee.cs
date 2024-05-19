@@ -30,7 +30,7 @@ namespace BankSystem
             string branch = textBox4.Text;
 
 
-            if (id == "" || pass == "" || name == "" || title == "" || email == "" || phone == "" || address == "" || branch == "")
+            if (id == "" || pass == "" || name == "" || title == "" || email == "" || phone == "" || branch == "")
             {
                 MessageBox.Show("Please Enter All fields", "Bank System", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
