@@ -41,19 +41,25 @@
             Column6 = new DataGridViewTextBoxColumn();
             Column7 = new DataGridViewTextBoxColumn();
             Column8 = new DataGridViewTextBoxColumn();
+            button2 = new Button();
+            dataGridView4 = new DataGridView();
+            Column9 = new DataGridViewTextBoxColumn();
+            Column10 = new DataGridViewTextBoxColumn();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView4).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2 });
-            dataGridView1.Location = new Point(110, 26);
+            dataGridView1.Location = new Point(104, 119);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(825, 410);
+            dataGridView1.Size = new Size(825, 300);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -74,7 +80,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(458, 532);
+            button1.Location = new Point(310, 526);
             button1.Name = "button1";
             button1.Size = new Size(152, 64);
             button1.TabIndex = 1;
@@ -96,10 +102,10 @@
             // 
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView2.Columns.AddRange(new DataGridViewColumn[] { Column3, Column4 });
-            dataGridView2.Location = new Point(110, 26);
+            dataGridView2.Location = new Point(104, 119);
             dataGridView2.Name = "dataGridView2";
             dataGridView2.RowHeadersWidth = 51;
-            dataGridView2.Size = new Size(825, 410);
+            dataGridView2.Size = new Size(825, 300);
             dataGridView2.TabIndex = 3;
             // 
             // Column3
@@ -120,10 +126,10 @@
             // 
             dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView3.Columns.AddRange(new DataGridViewColumn[] { Column5, Column6, Column7, Column8 });
-            dataGridView3.Location = new Point(110, 26);
+            dataGridView3.Location = new Point(104, 119);
             dataGridView3.Name = "dataGridView3";
             dataGridView3.RowHeadersWidth = 51;
-            dataGridView3.Size = new Size(825, 410);
+            dataGridView3.Size = new Size(825, 300);
             dataGridView3.TabIndex = 4;
             // 
             // Column5
@@ -154,11 +160,62 @@
             Column8.Name = "Column8";
             Column8.Width = 200;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.DarkSlateGray;
+            button2.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = SystemColors.ControlLightLight;
+            button2.Location = new Point(493, 526);
+            button2.Name = "button2";
+            button2.Size = new Size(278, 64);
+            button2.TabIndex = 5;
+            button2.Text = "Generate Report";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // dataGridView4
+            // 
+            dataGridView4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView4.Columns.AddRange(new DataGridViewColumn[] { Column9, Column10 });
+            dataGridView4.Location = new Point(104, 119);
+            dataGridView4.Name = "dataGridView4";
+            dataGridView4.RowHeadersWidth = 51;
+            dataGridView4.Size = new Size(825, 300);
+            dataGridView4.TabIndex = 6;
+            // 
+            // Column9
+            // 
+            Column9.HeaderText = "Account Number";
+            Column9.MinimumWidth = 6;
+            Column9.Name = "Column9";
+            Column9.Width = 400;
+            // 
+            // Column10
+            // 
+            Column10.HeaderText = "Total Transactions";
+            Column10.MinimumWidth = 6;
+            Column10.Name = "Column10";
+            Column10.Width = 400;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Verdana", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.DarkSlateGray;
+            label1.Location = new Point(104, 59);
+            label1.Name = "label1";
+            label1.Size = new Size(763, 36);
+            label1.TabIndex = 7;
+            label1.Text = "Customers with Transactions above 1000L.E";
+            // 
             // queryControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
+            Controls.Add(label1);
+            Controls.Add(dataGridView4);
+            Controls.Add(button2);
             Controls.Add(dataGridView3);
             Controls.Add(dataGridView2);
             Controls.Add(comboBox1);
@@ -170,7 +227,9 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView4).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -188,5 +247,10 @@
         private DataGridViewTextBoxColumn Column6;
         private DataGridViewTextBoxColumn Column7;
         private DataGridViewTextBoxColumn Column8;
+        private Button button2;
+        private DataGridView dataGridView4;
+        private DataGridViewTextBoxColumn Column9;
+        private DataGridViewTextBoxColumn Column10;
+        private Label label1;
     }
 }

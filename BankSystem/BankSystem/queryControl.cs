@@ -20,73 +20,89 @@ namespace BankSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-            string selected = comboBox1.SelectedItem.ToString();
-
-            string _path = AppDomain.CurrentDomain.BaseDirectory;
-            string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
-            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=" + path + ";Integrated Security=True";
-
-            SqlConnection con = new SqlConnection(connectionString);
-            con.Open();
-            SqlCommand command = new SqlCommand();
-            command.Connection = con;
-
-
-            if (selected == "Customers with Loans")
+            if (comboBox1.SelectedItem == null)
             {
-                dataGridView3.Show();
-                dataGridView2.Hide();
-                dataGridView1.Hide();
-                command.CommandText = "select CUSTOMER.NAME, CUSTOMER.EMAIL, CUSTOMER.ADDRESS, CUSTOMER.SSN\r\nFROM CUSTOMER , LOAN\r\nWHERE CUSTOMER.SSN = LOAN.CUSTOMERSSN";
-                SqlDataReader reader = command.ExecuteReader();
+                MessageBox.Show("Please select a query");
 
-                for (int j = 0; reader.Read(); j++)
-                {
-                    dataGridView3.Rows.Add();
-                    for (int i = 0; i < 4; i++)
-                    {
-                        dataGridView3.Rows[j].Cells[i].Value = reader.GetValue(i).ToString();
-                    }
-                }
-                con.Close();
             }
-            else if (selected == "Employee in Every Branch")
+            else
             {
-                dataGridView1.Show();
-                dataGridView2.Hide();
-                dataGridView3.Hide();
-                command.CommandText = "select count(EMPLOYEE.EMPLOYEEID) AS 'NUM OF EMPLOYEES' , BRANCH.BRANCHNO\r\nFROM EMPLOYEE , BRANCH\r\nWHERE EMPLOYEE.BRANCHNO = BRANCH.BRANCHNO\r\nGROUP BY BRANCH.BRANCHNO";
-                SqlDataReader reader = command.ExecuteReader();
 
-                for (int j = 0; reader.Read(); j++)
-                {
-                    dataGridView1.Rows.Add();
-                    for (int i = 0; i < 2; i++)
-                    {
-                        dataGridView1.Rows[j].Cells[i].Value = reader.GetValue(i).ToString();
-                    }
-                }
-                con.Close();
-            }
-            else if (selected == "Accounts in Every Branch")
-            {
-                dataGridView2.Show();
-                dataGridView3.Hide();
-                dataGridView1.Hide();
-                command.CommandText = "select count(ACCOUNT.ACCOUNTNO_) AS 'NUM OF ACCOUNTS' , BRANCH.BRANCHNO\r\nFROM ACCOUNT , BRANCH\r\nWHERE ACCOUNT.BRANCHNO = BRANCH.BRANCHNO\r\nGROUP BY BRANCH.BRANCHNO";
-                SqlDataReader reader = command.ExecuteReader();
+                string selected = comboBox1.SelectedItem.ToString();
 
-                for (int j = 0; reader.Read(); j++)
+                string _path = AppDomain.CurrentDomain.BaseDirectory;
+                string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
+                string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=" + path + ";Integrated Security=True";
+
+                SqlConnection con = new SqlConnection(connectionString);
+                con.Open();
+                SqlCommand command = new SqlCommand();
+                command.Connection = con;
+
+
+                if (selected == "Customers with Loans")
                 {
-                    dataGridView2.Rows.Add();
-                    for (int i = 0; i < 2; i++)
+                    dataGridView3.Show();
+                    dataGridView2.Hide();
+                    dataGridView1.Hide();
+                    dataGridView4.Hide();
+                    label1.Hide();
+                    command.CommandText = "select CUSTOMER.NAME, CUSTOMER.EMAIL, CUSTOMER.ADDRESS, CUSTOMER.SSN\r\nFROM CUSTOMER , LOAN\r\nWHERE CUSTOMER.SSN = LOAN.CUSTOMERSSN";
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    for (int j = 0; reader.Read(); j++)
                     {
-                        dataGridView2.Rows[j].Cells[i].Value = reader.GetValue(i).ToString();
+                        dataGridView3.Rows.Add();
+                        for (int i = 0; i < 4; i++)
+                        {
+                            dataGridView3.Rows[j].Cells[i].Value = reader.GetValue(i).ToString();
+                        }
                     }
+                    con.Close();
                 }
-                con.Close();
+                else if (selected == "Employee in Every Branch")
+                {
+                    dataGridView1.Show();
+                    dataGridView2.Hide();
+                    dataGridView3.Hide();
+                    dataGridView4.Hide();
+                    label1.Hide();
+                    command.CommandText = "select count(EMPLOYEE.EMPLOYEEID) AS 'NUM OF EMPLOYEES' , BRANCH.BRANCHNO\r\nFROM EMPLOYEE , BRANCH\r\nWHERE EMPLOYEE.BRANCHNO = BRANCH.BRANCHNO\r\nGROUP BY BRANCH.BRANCHNO";
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    for (int j = 0; reader.Read(); j++)
+                    {
+                        dataGridView1.Rows.Add();
+                        for (int i = 0; i < 2; i++)
+                        {
+                            dataGridView1.Rows[j].Cells[i].Value = reader.GetValue(i).ToString();
+                        }
+                    }
+                    con.Close();
+                }
+                else if (selected == "Accounts in Every Branch")
+                {
+                    dataGridView2.Show();
+                    dataGridView3.Hide();
+                    dataGridView1.Hide();
+                    dataGridView4.Hide();
+                    label1.Hide();
+                    command.CommandText = "select count(ACCOUNT.ACCOUNTNO_) AS 'NUM OF ACCOUNTS' , BRANCH.BRANCHNO\r\nFROM ACCOUNT , BRANCH\r\nWHERE ACCOUNT.BRANCHNO = BRANCH.BRANCHNO\r\nGROUP BY BRANCH.BRANCHNO";
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    for (int j = 0; reader.Read(); j++)
+                    {
+                        dataGridView2.Rows.Add();
+                        for (int i = 0; i < 2; i++)
+                        {
+                            dataGridView2.Rows[j].Cells[i].Value = reader.GetValue(i).ToString();
+                        }
+                    }
+                    con.Close();
+                }
             }
+
+
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -102,6 +118,39 @@ namespace BankSystem
         private void queryControl_Load(object sender, EventArgs e)
         {
             Program.main.label1.Text = "Quereis";
+            label1.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            dataGridView4.Show();
+            dataGridView2.Hide();
+            dataGridView1.Hide();
+            dataGridView3.Hide(); 
+            label1.Show();
+
+            string _path = AppDomain.CurrentDomain.BaseDirectory;
+            string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(_path).FullName).FullName).FullName).FullName + "\\DB\\LocalDB.mdf";
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=" + path + ";Integrated Security=True";
+
+            SqlConnection con = new SqlConnection(connectionString);
+            con.Open();
+            SqlCommand command = new SqlCommand();
+            command.Connection = con;
+
+            command.CommandText = "SELECT ACCOUNT.ACCOUNTNO_ , SUM([TRANSACTION].AMOUNT) AS 'AMOUNT'\r\nFROM [TRANSACTION], ACCOUNT\r\nWHERE [TRANSACTION].ACCOUNTNO_ = ACCOUNT.ACCOUNTNO_\r\nGROUP BY ACCOUNT.ACCOUNTNO_\r\nHAVING  SUM([TRANSACTION].AMOUNT) > 1000\r\nORDER BY SUM([TRANSACTION].AMOUNT) DESC";
+            SqlDataReader reader = command.ExecuteReader();
+
+            for (int j = 0; reader.Read(); j++)
+            {
+                dataGridView4.Rows.Add();
+                for (int i = 0; i < 2; i++)
+                {
+                    dataGridView4.Rows[j].Cells[i].Value = reader.GetValue(i).ToString();
+                }
+            }
+            con.Close();
+
         }
     }
 }
