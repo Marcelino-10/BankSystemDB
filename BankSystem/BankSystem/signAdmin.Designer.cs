@@ -40,11 +40,10 @@
             // 
             // textBox8
             // 
-            textBox8.Location = new Point(485, 331);
-            textBox8.Margin = new Padding(3, 4, 3, 4);
+            textBox8.Location = new Point(424, 248);
             textBox8.Multiline = true;
             textBox8.Name = "textBox8";
-            textBox8.Size = new Size(277, 38);
+            textBox8.Size = new Size(243, 30);
             textBox8.TabIndex = 35;
             textBox8.UseSystemPasswordChar = true;
             // 
@@ -53,29 +52,27 @@
             label9.AutoSize = true;
             label9.Font = new Font("Franklin Gothic Heavy", 18F);
             label9.ForeColor = Color.DarkSlateGray;
-            label9.Location = new Point(294, 321);
+            label9.Location = new Point(257, 241);
             label9.Name = "label9";
-            label9.Size = new Size(155, 38);
+            label9.Size = new Size(123, 30);
             label9.TabIndex = 34;
             label9.Text = "Password";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(485, 219);
-            textBox1.Margin = new Padding(3, 4, 3, 4);
+            textBox1.Location = new Point(424, 164);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(277, 38);
+            textBox1.Size = new Size(243, 30);
             textBox1.TabIndex = 33;
             // 
             // button1
             // 
             button1.Font = new Font("Franklin Gothic Heavy", 18F);
             button1.ForeColor = Color.DarkSlateGray;
-            button1.Location = new Point(381, 499);
-            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Location = new Point(333, 374);
             button1.Name = "button1";
-            button1.Size = new Size(234, 84);
+            button1.Size = new Size(205, 63);
             button1.TabIndex = 32;
             button1.Text = "SIGN";
             button1.UseVisualStyleBackColor = true;
@@ -86,11 +83,11 @@
             label2.AutoSize = true;
             label2.Font = new Font("Franklin Gothic Heavy", 18F);
             label2.ForeColor = Color.DarkSlateGray;
-            label2.Location = new Point(294, 209);
+            label2.Location = new Point(257, 157);
             label2.Name = "label2";
-            label2.Size = new Size(74, 38);
+            label2.Size = new Size(37, 30);
             label2.TabIndex = 31;
-            label2.Text = "SSN";
+            label2.Text = "ID";
             // 
             // label1
             // 
@@ -98,19 +95,18 @@
             label1.BackColor = SystemColors.Control;
             label1.Font = new Font("Franklin Gothic Heavy", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.DarkSlateGray;
-            label1.Location = new Point(364, 102);
+            label1.Location = new Point(318, 76);
             label1.Name = "label1";
-            label1.Size = new Size(233, 47);
+            label1.Size = new Size(186, 37);
             label1.TabIndex = 30;
             label1.Text = "Sign Admin";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(485, 433);
-            textBox2.Margin = new Padding(3, 4, 3, 4);
+            textBox2.Location = new Point(424, 325);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(277, 38);
+            textBox2.Size = new Size(243, 30);
             textBox2.TabIndex = 37;
             // 
             // label3
@@ -118,15 +114,15 @@
             label3.AutoSize = true;
             label3.Font = new Font("Franklin Gothic Heavy", 18F);
             label3.ForeColor = Color.DarkSlateGray;
-            label3.Location = new Point(294, 423);
+            label3.Location = new Point(257, 317);
             label3.Name = "label3";
-            label3.Size = new Size(100, 38);
+            label3.Size = new Size(78, 30);
             label3.TabIndex = 36;
             label3.Text = "Name";
             // 
             // signAdmin
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
             Controls.Add(textBox2);
@@ -137,8 +133,9 @@
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "signAdmin";
-            Size = new Size(1058, 685);
+            Size = new Size(926, 514);
             Load += signAdmin_Load;
             ResumeLayout(false);
             PerformLayout();
