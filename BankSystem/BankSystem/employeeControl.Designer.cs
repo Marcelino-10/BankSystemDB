@@ -35,6 +35,7 @@
             button1 = new Button();
             button5 = new Button();
             panel2 = new Panel();
+            button2 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -53,6 +54,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(0, 64, 64);
+            panel1.Controls.Add(button2);
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button1);
@@ -126,6 +128,19 @@
             panel2.TabIndex = 2;
             panel2.Paint += panel2_Paint;
             // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ControlLightLight;
+            button2.Font = new Font("Verdana", 10F, FontStyle.Bold);
+            button2.ForeColor = Color.DarkSlateGray;
+            button2.Location = new Point(33, 375);
+            button2.Name = "button2";
+            button2.Size = new Size(251, 53);
+            button2.TabIndex = 5;
+            button2.Text = "Delete Account";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click_1;
+            // 
             // employeeControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -152,5 +167,6 @@
         private Panel panel2;
         private Button button3;
         private Button button4;
+        private Button button2;
     }
 }

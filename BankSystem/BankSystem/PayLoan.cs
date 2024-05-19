@@ -67,6 +67,13 @@ namespace BankSystem
                 return;
             }
             reader.Close();
+            if (status == "Rejected")
+            {
+                command.CommandText = "delete from loan where loanno_ = '" + loanNum + "'";
+                reader = command.ExecuteReader();
+                MessageBox.Show("Loan Deleted Updated  Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
             command.CommandText = "UPDATE LOAN SET EMPLOYEEID =  '" + Program.employeeID + "', STATUS= '" + status + "'WHERE LOANNO_ = '" + loanNum + "';";
             reader = command.ExecuteReader();
             MessageBox.Show("Loan Request Updated  Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);

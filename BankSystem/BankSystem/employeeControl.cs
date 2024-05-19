@@ -73,5 +73,12 @@ namespace BankSystem
         {
             Program.main.label1.Text = "Employee Page";
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+            DeleteAccount deleteAccount = new DeleteAccount();
+            panel2.Controls.Add(deleteAccount);
+        }
     }
 }
