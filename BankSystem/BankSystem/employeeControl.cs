@@ -80,5 +80,12 @@ namespace BankSystem
             DeleteAccount deleteAccount = new DeleteAccount();
             panel2.Controls.Add(deleteAccount);
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+            deleteLoan deleteloan = new deleteLoan();
+            panel2.Controls.Add(deleteloan);
+        }
     }
 }
