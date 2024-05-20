@@ -74,7 +74,7 @@ namespace BankSystem
 
 
             reader.Close();
-            command.CommandText = "UPDATE CUSTOMER SET NAME =  '" + name + "', EMAIL = '" + email + "', ADDRESS = '" + address + "' where SSN = '" + Program.customerID + "';";
+            command.CommandText = "UPDATE CUSTOMER SET NAME =  '" + name + "', EMAIL = '" + email + "', ADDRESS = '" + address + "', datebirth = '"+ d +"'  where SSN = '" + Program.customerID + "';";
             reader = command.ExecuteReader();
             MessageBox.Show("Customer Updated Successfully!", "BankSystem", MessageBoxButtons.OK, MessageBoxIcon.Information);
             con.Close();
