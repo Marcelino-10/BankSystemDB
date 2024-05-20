@@ -209,9 +209,9 @@
             label1.ForeColor = Color.DarkSlateGray;
             label1.Location = new Point(125, 37);
             label1.Name = "label1";
-            label1.Size = new Size(763, 36);
+            label1.Size = new Size(736, 36);
             label1.TabIndex = 11;
-            label1.Text = "Customers with Transactions above 1000L.E";
+            label1.Text = "Accounts with Transactions above 1000L.E";
             // 
             // label2
             // 
